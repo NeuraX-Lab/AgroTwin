@@ -50,7 +50,10 @@ def test_dashboard_port_errors_and_corrupt_inference():
     with TestClient(app) as client:
         s = client.get('/api/v4/status').json()
         assert s['model_count'] == 6 and s['service'] == 'agrotwin-selected-v4'
-        assert s['evidence_sources']['verified_cards'] == s['evidence_sources']['total_cards']
+        expected = sum(app.state.engine.rag.source_valid(card) for card in app.state.engine.rag.cards)
+        assert s['evidence_sources']['total_cards'] == 17
+        assert s['evidence_sources']['verified_cards'] == expected
+        assert s['evidence_sources']['status'] == ('ready' if expected == 17 else 'partial')
         with patch.object(research, 'sha', return_value='0' * 64):
             loaded = client.get('/api/v4/status').json()
             assert loaded['implementation_sha256'] == s['implementation_sha256']
@@ -75,3 +78,14 @@ def test_selected_registry_hash_failure_is_not_silent(monkeypatch):
     monkeypatch.setattr(research, 'sha', lambda p: '0' * 64 if str(p).endswith('model.joblib') else original(p))
     with pytest.raises(ValueError, match='checksum'):
         SelectedEngine()
+
+
+def test_missing_publications_are_reported_and_cannot_support_answers():
+    with TestClient(app) as client:
+        with patch.object(app.state.engine.rag, 'paths', {}):
+            status = client.get('/api/v4/status').json()
+            assert status['evidence_sources'] == dict(status='partial', verified_cards=0, total_cards=17)
+            response = client.post('/api/v4/analyze', json={'farm': {}, 'question': 'T2M là gì?'}).json()
+            assert response['rag']['status'] == 'insufficient_evidence'
+            assert response['rag']['citations'] == []
+            assert response['rag']['source_bytes_verified'] is False
