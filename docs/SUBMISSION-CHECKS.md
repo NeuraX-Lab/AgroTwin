@@ -22,3 +22,15 @@ The five browser checks cover real frozen inference and a fresh run identity; un
 Full source-byte checks used the authorized local source cache. Publisher availability is a separate concern; offline bootstrap intentionally keeps unsupported publication answers unavailable. Research MAE/coverage and the small RAG question-set metrics are historical diagnostics, not new measurements established by these software tests.
 
 Deprecation warnings from matplotlib/pyparsing and FastAPI's legacy httpx test client remain. They did not fail the checks. No claim is made that every legacy E2E test file, every browser, or an internet outage has been retested in this packaging run.
+
+## Public deployment checks · 2026-11-15
+
+Deployed through **Vercel CLI 65.16.0** to the **Hobby** workspace `2uoc-vi3ts-projects`. Production: https://agrotwin-six.vercel.app/w/my-thanh/farmer .
+
+- The public adapter and existing backend tests passed **42 tests** locally.
+- All **5 selected-v4 browser tests passed against the live production alias**, including actual six-model inference, citations/refusal, save/reopen, error handling and mobile/English accessibility.
+- Anonymous HTTPS requests returned JSON health with `selected_system=v4`, `models=6`, `evidence_verified=17`, `evidence_total=17`; the dashboard navigation returned HTML successfully.
+- The cloud build restored and hash-verified every frozen resource and all external source files, then built the production frontend. Python runtime dependencies are explicit in `pyproject.toml`; offline plotting imports are deferred until training is explicitly invoked.
+- Public A1/H1 storage is temporary per request. There is no shared server run history; saved browser runs remain local to the browser. No physical board was tested during this deploy.
+
+The first deployment exposed a missing Python dependency declaration and failed invocation; the corrected production build was verified through the real API and browser before publishing its link. Deployment-specific URLs can require Vercel authentication; the production alias above was checked without authentication.

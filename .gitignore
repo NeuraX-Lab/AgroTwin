@@ -23,3 +23,6 @@ a1/runs/
 runs/
 .DS_Store
 Thumbs.db
+.vercel/
+.deploy/
+.deploy-*.json

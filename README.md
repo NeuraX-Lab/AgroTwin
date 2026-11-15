@@ -4,6 +4,8 @@
 
 AgroTwin helps farmers explore crop rotation questions using NASA climate data, local agricultural references and explicit farm constraints. The dashboard compares three reference rotations, shows monthly climate estimates and their uncertainty, and answers supported questions with traceable citations. When evidence is missing, it asks for more information or abstains.
 
+**[Open the live v4 demo](https://agrotwin-six.vercel.app/w/my-thanh/farmer)** · Hosted on Vercel Hobby. [Deployment notes](docs/DEPLOYMENT.md).
+
 ![AgroTwin dashboard](docs/images/dashboard.png)
 
 **Start here:** [7-slide presentation](presentation/ArgoTwin-Pitch.pdf) · [Editable HTML](presentation/slides/index.html) · [English pitch](presentation/07-FULL-PITCH-EN.md) · [Architecture](docs/ARCHITECTURE.md) · [Validation](docs/VALIDATION.md) · [Data sources](docs/DATA.md)
@@ -26,6 +28,8 @@ python scripts/dev.py
 ```
 
 On macOS/Linux use `python3 -m venv .venv` and `source .venv/bin/activate` for the environment, then use the same Python/npm commands. Open **http://127.0.0.1:5174/w/my-thanh/farmer**. Ctrl+C stops the processes started by this command.
+
+For a public demo on the free Vercel Hobby plan, see [CLI deployment](docs/DEPLOYMENT.md). The hosted adapter runs the same frozen v4 and uses temporary request storage for A1/H1.
 
 The offline bootstrap restores the exact small frozen resources included in the repository, including all six selected climatology artifacts. It does **not** train a model. External agricultural PDFs and web pages are excluded from Git. Without those files, their citations fail verification and the corresponding questions receive an insufficient-evidence response. NASA context questions remain available. To obtain the full source set:
 

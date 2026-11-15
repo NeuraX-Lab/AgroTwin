@@ -13,9 +13,6 @@ from sklearn.preprocessing import StandardScaler
 from threadpoolctl import threadpool_limits
 from joblib import dump,load
 import sklearn
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
 from v2_data import DATA,OUT,PROTOCOL,make_features
 from fetch_satellite_context import save,sha,now
@@ -92,6 +89,10 @@ def reproduce_v1():
     if not matches:raise ValueError('v1 reproduction mismatch')
 
 def train():
+    # Plotting belongs to offline experiments, not the inference cold start.
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
     m=pd.read_csv(DATA/'monthly.csv',index_col='period_start',parse_dates=True);OUT.mkdir(parents=True,exist_ok=True)
     if not json.loads((OUT/'data-qa.json').read_text())['critical_pass']:raise ValueError('DATA gate failed')
     reproduce_v1();allresults=[];runtime=[]

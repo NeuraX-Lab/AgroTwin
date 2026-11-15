@@ -62,15 +62,20 @@ test("real NASA → fresh V4 → intervals → gated RAG → rotations → save/
   });
   const map = await page.evaluate(() => {
     const m = (window as any).__agrotwinMap;
+    if (!m) return null; // Production deliberately omits the dev-only map handle.
     return {
       sources: m.getStyle().sources,
       pitch: m.getPitch(),
       terrain: m.getTerrain(),
     };
   });
-  expect(JSON.stringify(map.sources)).toContain("World_Imagery");
-  expect(map.pitch).toBe(0);
-  expect(map.terrain).toBeNull();
+  if (map) {
+    expect(JSON.stringify(map.sources)).toContain("World_Imagery");
+    expect(map.pitch).toBe(0);
+    expect(map.terrain).toBeNull();
+  }
+  await expect(page.locator("canvas.maplibregl-canvas")).toBeVisible();
+  await expect(page.locator(".maplibregl-ctrl-attrib")).toContainText("Esri");
   await page.screenshot({
     path: `${out}/after-desktop-observe.png`,
     fullPage: true,
