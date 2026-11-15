@@ -1,0 +1,2008 @@
+{
+  "files": [
+    {
+      "path": "config/data-block-v1.json",
+      "bytes": 2004,
+      "sha256": "2c31c5a4afa93d2ca5500cddc4ed3b3b9de5d582b1a839c26e52add2fef4b7c4"
+    },
+    {
+      "path": "config/rag-cards.json",
+      "bytes": 7984,
+      "sha256": "162a232a58c09c473de8c440f2fadf5eeece7103c3815e55c4efa3a455132a8b"
+    },
+    {
+      "path": "config/v2-protocol.json",
+      "bytes": 1922,
+      "sha256": "fa45b800e70314807db343bfcd113f4977c53fda986fe561d12e0d700f5fc15b"
+    },
+    {
+      "path": "config/v2-rag.json",
+      "bytes": 2759,
+      "sha256": "12d5e5ecd24a824e58a1ff1b0cb82eb13c3d0148286f9ff6ef5e1e77e1cdf7ff"
+    },
+    {
+      "path": "config/v3-protocol.json",
+      "bytes": 3203,
+      "sha256": "b0357d58c025bf7ade9d480b11ef21497d743fd73e93ea0cc54d651a3af9de81"
+    },
+    {
+      "path": "data/processed/data-block-v1/context/modis-composites.csv",
+      "bytes": 22446,
+      "sha256": "43abdeac8a10ea073c0518df7c8311fab1226bd92ed39ae009493d79a588b27c"
+    },
+    {
+      "path": "data/processed/data-block-v1/context/sentinel2-scenes.csv",
+      "bytes": 2384,
+      "sha256": "b666cf3773dc7018fe070c79602cfab3b69d7e60ef0bf083d7a2e2e428f6c9a8"
+    },
+    {
+      "path": "data/processed/data-block-v1/dictionary.csv",
+      "bytes": 3081,
+      "sha256": "87f3f7615be14566a2366c57b10cd405d583e55924fef183ca19e84a45e4167c"
+    },
+    {
+      "path": "data/processed/data-block-v1/farm-input/management.csv",
+      "bytes": 141,
+      "sha256": "0327437107be5f9fe6bd23f49e3150b6b922ace048333410793f18420079f37f"
+    },
+    {
+      "path": "data/processed/data-block-v1/farm-input/observations.csv",
+      "bytes": 128,
+      "sha256": "d6fa62e1a66b2c71e2b9b1133889dcbda0f89321201a924db5cc707afabe5609"
+    },
+    {
+      "path": "data/processed/data-block-v1/farm-input/schema-status.json",
+      "bytes": 227,
+      "sha256": "18be3299094b684743c78acac1e1d97f541bdf3cb5e964e72d9e1d4b1466d3b6"
+    },
+    {
+      "path": "data/processed/data-block-v1/features/core-a.csv",
+      "bytes": 28798,
+      "sha256": "005b37a590191679382d7496aa4d0afd6ec143f48a72762d6826124311b62c05"
+    },
+    {
+      "path": "data/processed/data-block-v1/features/extension-b.csv",
+      "bytes": 33467,
+      "sha256": "d81a6ca86afc28193b775a423df9319cabe53b8c943a4cc9851a83add53f543d"
+    },
+    {
+      "path": "data/processed/data-block-v1/features/latest-origin-candidate.csv",
+      "bytes": 550,
+      "sha256": "3b5365d552dfb1e1d5ba54f695fd1f4829b4e3afa77538184d0f79276d13d1f1"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/agronomic-rule-candidates.csv",
+      "bytes": 1429,
+      "sha256": "33165580207cb32997651c1eb029ee6e94f392a494e51bf7d382b66ec7985746"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/cantho-daily-qa.csv",
+      "bytes": 205502,
+      "sha256": "29002c5f2c5ef6847eb159fe5a0d06100094947a3fa5093bfabcb8a075b4e7c8"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/cantho-monthly-coverage-and-values.csv",
+      "bytes": 8769,
+      "sha256": "a429e8ba7b637f72a75ff961c98091ad798275394a13e8075061cf167e2cec7a"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/crop-calendar-candidates.csv",
+      "bytes": 1125,
+      "sha256": "37256d9083beda5c376ed28727b2de6987587c44ac94df212ba69419b38964ae"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/dongthap-published-soil-areas.csv",
+      "bytes": 1497,
+      "sha256": "2814f4ffecd9913427ed97b3c048ac22b64f77c2e7a5e6aeafe17aa3ffaacdd3"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/gap-ledger.csv",
+      "bytes": 3092,
+      "sha256": "a1a5b236e17d72bce98d7e61c54daba2e59b0ab4f443640d3340a4d5ebc4955d"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/mytho-annual-rain-crosscheck.csv",
+      "bytes": 989,
+      "sha256": "0dd5d9e6ebf71f50c885f12d7da8bcbaaba42da2f13e2176d2998e3b6a53c0c1"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/mytho-monthly-rain-reference.csv",
+      "bytes": 15163,
+      "sha256": "dfb5b70c1534c685aaf89e85a038ca93901533f723fab36dc6fc6cc37f3b882f"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/new-agronomic-rule-candidates.csv",
+      "bytes": 2240,
+      "sha256": "33e264675aa8a53240abde6e17b96d4d43d97556a9b54a9368a7a829172fb365"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/published-rotation-reference-cases.csv",
+      "bytes": 2293,
+      "sha256": "d4a2e35fb9e070af057b9e4a9b45325c2ef871a48ad0dbbfd889bbcab36d2470"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/regional-soil-ranges.csv",
+      "bytes": 2239,
+      "sha256": "1ad7e42e21cceff51fc6c4a27d51c0435a6fba4940be3578f8434df3beb09a86"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/siwrp-station-rain-2026-11-05-11.csv",
+      "bytes": 6564,
+      "sha256": "23745fa09a941a85f1e0ed517633bcac1c5505b92bd9849faaee0a7d8d13bdcb"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/siwrp-water-level-context.csv",
+      "bytes": 2306,
+      "sha256": "c6ef69e2a6ce583676ba6927875cb2b1097814ffc34755ecc18b56f03a890209"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/siwrr-salinity-forecast-bounds-2025.csv",
+      "bytes": 3658,
+      "sha256": "ae7fa0998b9a3d7ce23784c92a62ccff09e024ffdea42e34e82b37ba71bddc26"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/soilgrids-ph-texture.csv",
+      "bytes": 2057,
+      "sha256": "1cdd76b28721d2ae0c815f69284c1de4ebb2f24d5c79e2aab5b5493375496784"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/soilgrids-soc-n-cec-physical.csv",
+      "bytes": 3169,
+      "sha256": "9b8c4a73fe039a704ca9a921c6cc5368d9c4a11c7f1e898bb4e308c6db9b458b"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/source-audit-enriched.csv",
+      "bytes": 4586,
+      "sha256": "4f291c8d9803c68ffd9677f7805571fc0dcbaf913c39f05e0bc1694eb8535cd7"
+    },
+    {
+      "path": "data/processed/data-block-v1/local/vinhlong-study-soil-profile.csv",
+      "bytes": 11621,
+      "sha256": "77267f91153239bbe5ed177df1fafd772787f0871de57286d44e91ed90cd5819"
+    },
+    {
+      "path": "data/processed/data-block-v1/manifest.json",
+      "bytes": 7496,
+      "sha256": "250ae1bfb433ef13fd2734f24016852d825d617917f1b74534f219d08a56f25d"
+    },
+    {
+      "path": "data/processed/data-block-v1/monthly/environment.csv",
+      "bytes": 70496,
+      "sha256": "7862389744afa1a060502c674b020e8375f0a4cb81771de10ae1152e611832b6"
+    },
+    {
+      "path": "data/processed/data-block-v1/qa/local-rain-vs-power-context.csv",
+      "bytes": 22073,
+      "sha256": "17cfac7e91bea6423e96787f71f9c656a4e197f1c65417da02d1003b75944a12"
+    },
+    {
+      "path": "data/processed/data-block-v1/qa/validation.json",
+      "bytes": 1579,
+      "sha256": "2b12ee42e86e848b913bcde1c1eb694512c2fa083b0970fb24b745178cae33e3"
+    },
+    {
+      "path": "data/processed/data-block-v1/README.md",
+      "bytes": 1268,
+      "sha256": "2163e5ba2e0750ef9b2cc9daba639b8494f1dbbe223c4e3ec1adcb4a10262f65"
+    },
+    {
+      "path": "data/processed/v2/coverage.csv",
+      "bytes": 16499,
+      "sha256": "1d13befad4e8cbeeffc23ee2bc74636f44884ce75b48ab4001080c57424396c0"
+    },
+    {
+      "path": "data/processed/v2/daily.csv",
+      "bytes": 632229,
+      "sha256": "ec5c0baa54f9ad19da3ce50a989c5ea3414406a32b1aaf6293a946276035e2e0"
+    },
+    {
+      "path": "data/processed/v2/manifest.json",
+      "bytes": 3873,
+      "sha256": "f970de73d2214276c99afd3243687e3c92a959fb8fdc2a6fb3b3f5249ddc5b74"
+    },
+    {
+      "path": "data/processed/v2/monthly.csv",
+      "bytes": 51181,
+      "sha256": "db9223b74a14fdef76fc50a0e580d92f72b45c8e9e091f53f42084b4ca10eef2"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/_requests.json",
+      "bytes": 9595,
+      "sha256": "9f1344969e1624d1f89e9c7b34cc7f09e8984e4d1bf6b7d0eca6155700c08291"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/0c113ad96105d68e1722e7dc1aebc4c01abd41e6ec57867cab29b225290895a2",
+      "bytes": 32886,
+      "sha256": "be0705a639ed81a9be2d2674c1b0bc218582f52b8f4207eedd66ca9c7c98ffd9"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/152e9e9a4debda37201d1dd7f22c2031cbfd09799c95794f4f3370daa56f0a6a",
+      "bytes": 622922,
+      "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/1815f4b93132355fc813e9428864dd336384f3448561469aafec495b226e9782",
+      "bytes": 1983120,
+      "sha256": "69f3a97b03b3fc232b120ed73c4c7fa574d349d7266f80434d66b275ef8b3e46"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/3f7d6bac74a52cc224c762c548f77eb8349526b0f73471bcbfc06ecbea61b477",
+      "bytes": 13068860,
+      "sha256": "c6c2d8fa61d736c47a98eae2d4f23cae9b7310a600984fe242b1e5629c75eeb3"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/5a1729886525bdd23d148866f771420a511fbc4adda749cb466bfdb1bcd9c751",
+      "bytes": 88992,
+      "sha256": "fc20ae49beed26fc7bd4e8b221045872477f2fcc8d8faed683d23e56e170ca31"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/620f5e8c8e335e0c2d7c41d741c31909b4e771b4aabe0c1f1e9eeab319779aee",
+      "bytes": 893876,
+      "sha256": "b09f5239386a3812d36349c18110f4808b2077282512b97c682f06bcaf0e6194"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/70780112085a7fadf5988e46c23aed729f816b4019c0aabb12f337bbf3b5bf51",
+      "bytes": 81650,
+      "sha256": "95d2f46dd596f8eaf1461db52b1bfe208d5b70cb53661d86db27fae352afacad"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/8111321bf9542013b3f70cf924d56a43dbac4dac9ae5305fb245e822c2c877d8",
+      "bytes": 2088349,
+      "sha256": "aed1db5e0884ac97fae9effb8d1cf180249736397739fbb0d15bd61244ffa5b5"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/ac0ee1c3285efb4ac184068622723c93a6512b83cfb20251f307b01077e8d198",
+      "bytes": 2650924,
+      "sha256": "86078737ba103cf37e77d50e2eac07f55a9d632f51701b5b74ea8357ad8fb635"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/b750576d29e9f47dec8f041cfad8f65a6c67bd785e65ffc2b0ddbc303a6a5244",
+      "bytes": 2577408,
+      "sha256": "51491d8dc0f477f4f5edd6603380404eeceddabcf327c8e09ea77bd68f2f514a"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/ba8793fa3aac43642251d0397c4c336f5b461e498bf37ddba40742436f697eb2",
+      "bytes": 51518387,
+      "sha256": "1af9016ce14dec0f4356d81289f80cfabe209798d505b0d982ae6da7679c25bb"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/e92857e78b61516b8ac7435da060e19eb86b95ca9f877099270436ca958a338d",
+      "bytes": 62015,
+      "sha256": "b3263104e3aaa25de3d2263edce6b8e585d88bd0ceba3778db6634d2948df234"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_source.json",
+      "bytes": 838,
+      "sha256": "27e5f712e36e30e3d439e0e3e458280ba64d2bb5f7fae2cdcd66ed9450ccb2fd"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/aoi/study-block.geojson",
+      "bytes": 1894,
+      "sha256": "8d8d0f7b5963b197f7dddb2d86d5a99eae812e617e477f135b540f6038ac7950"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/copy-origins.json",
+      "bytes": 10656,
+      "sha256": "7ee2fb32b06c8c20d99de070321900d47a5d1db6693ab0252e64c472a17a3c65"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/manifest.json",
+      "bytes": 17194,
+      "sha256": "3e39093f2920f3babb98888cc45c097f7abb4d703aa9da1b005dd91e9652b0cf"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/new-source-register.json",
+      "bytes": 885,
+      "sha256": "e87bbee53856eff64d625b0a296c0f73bcfde1092f5051fed4c1d04841f1f537"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/previous-bilingual-source-register.csv",
+      "bytes": 6046,
+      "sha256": "665c06280c9cb8e5e41cfb8fa56f59350f917f264f6e2cff594cb6b8f12cd0e3"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/README.md",
+      "bytes": 1842,
+      "sha256": "a8d60548788e139da083bd320e853b0f80662aca3f0096e89f179cf8e0f988fc"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/receipts/local-evidence-2026-11-14-_requests.json",
+      "bytes": 12033,
+      "sha256": "7dfd6856fdbcd699674ae1aeaaeda329965cebdb912894ce98f429b488f03a9f"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/receipts/soilgrids-aoi-manifest.json",
+      "bytes": 1677,
+      "sha256": "6d80b4439f404521a303688bf16327e50bf32cc2c9af902be8512bf7648fd701"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/receipts/soilgrids-extra-_requests.json",
+      "bytes": 887,
+      "sha256": "58aaf18565e3ce4acd3c95f044a58bd03c3aacb6d754f19d6faeef7fbeaf54f5"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/receipts/soilgrids-study-block-manifest.json",
+      "bytes": 1961,
+      "sha256": "5673108d1e3cb489cef2a2c9faa9176715c07f9706d3c245086e669c1940cfa9"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/salinity-source-register.json",
+      "bytes": 826,
+      "sha256": "3e4bd93752dcfe08c0c027f2c2e4286dfac056a4d57260489f9789e86aa5b195"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/source-register.csv",
+      "bytes": 7354,
+      "sha256": "e7599dcae0dd8d61b1b2f2d268c5867efc8d1467b011d853e3f02413a449c20a"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/source-register.json",
+      "bytes": 11971,
+      "sha256": "cdbba036c0a47687e229c6805e9d76a8f38515ceec71dfa9dd99747298f96e6b"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/ias-mungbean-mekong-protocol-2014.pages.json",
+      "bytes": 31864,
+      "sha256": "0164765fe6c5cf94a46ae6cb65a5837f537d88b4d6e12d904e7292b881d0c6ea"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/ias-mungbean-mekong-protocol-2014.pdf",
+      "bytes": 622922,
+      "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/ias-mungbean-mekong-protocol-2014.txt",
+      "bytes": 31535,
+      "sha256": "3e8eb432745e6e94f3893463878195f9896052073c7db271c9d82632fdf094bf"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/mekong-rice-calendar-2026-2027.html",
+      "bytes": 88992,
+      "sha256": "fc20ae49beed26fc7bd4e8b221045872477f2fcc8d8faed683d23e56e170ca31"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/mekong-rice-calendar-2026-2027.links.json",
+      "bytes": 23001,
+      "sha256": "1f2fd356b7a1de4b8179ae0087e57846738b8fd05aa8bb616ec5546da624e1c8"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/mekong-rice-calendar-2026-2027.txt",
+      "bytes": 12903,
+      "sha256": "91453ed63d58d5a68567b77c56b74659c9e9b34bd0e1d511759476e6dfe2abc1"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/mungbean-208-producer.html",
+      "bytes": 32886,
+      "sha256": "be0705a639ed81a9be2d2674c1b0bc218582f52b8f4207eedd66ca9c7c98ffd9"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/mungbean-208-producer.links.json",
+      "bytes": 2520,
+      "sha256": "b641895c94c3189852e922ae2426730e418a7305962b1eef1958c805e058482f"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/mungbean-208-producer.txt",
+      "bytes": 2834,
+      "sha256": "8439a89e5666e438f1ad787d52054d70050dc28698fb8c345406c24979efce54"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/vnuf-crop-practical-guide.pages.json",
+      "bytes": 156273,
+      "sha256": "8b3bd28e1721e11d34ac91e40ec76382c87a9b6bd97709642d51efb7e23da629"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/vnuf-crop-practical-guide.pdf",
+      "bytes": 1983120,
+      "sha256": "69f3a97b03b3fc232b120ed73c4c7fa574d349d7266f80434d66b275ef8b3e46"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/agronomy/vnuf-crop-practical-guide.txt",
+      "bytes": 153985,
+      "sha256": "8fa647151aa0068ab8aeecabcc81da5cf4888891f129addc336e4c7c3a8dad69"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/bich/bich-final-source-workbook.xlsx",
+      "bytes": 19063,
+      "sha256": "844af355cd4068231815af6527a061eb5f8da389e46a0f52301ecca3369edb37"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2015.csv",
+      "bytes": 82483,
+      "sha256": "22311b3bc6b42ef9ea12a9d74156e0f08368491c503fe1b510be97fbb7219752"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2016.csv",
+      "bytes": 83391,
+      "sha256": "165fb64db7019120de051743151215e7e3718e00307b4b1f530145458a411ffe"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2017.csv",
+      "bytes": 83164,
+      "sha256": "0ca033eafd298a6af9cb3b8901f51a5ac21e3fb74e876a673598f22136bf8895"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2018.csv",
+      "bytes": 83164,
+      "sha256": "4e1617366def192cc1dcb002d1c67a9dcc49fffe2b046c582505e4e4741e9e33"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2019.csv",
+      "bytes": 83164,
+      "sha256": "9523aad9e65891c07d41121e154cb104dbb214e351a61267c71ef552a5c34187"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2020.csv",
+      "bytes": 65685,
+      "sha256": "a2ed6924a92fb6e33bc6aa641148a0ad2880eb9c42414ccb4ba59e1a796c5781"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2021.csv",
+      "bytes": 82483,
+      "sha256": "c54c7fa051c1273f049752102a588af55b08a43f63dbca706f6cd55353ea69ab"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2022.csv",
+      "bytes": 83164,
+      "sha256": "e47d2409bcdce73c1cb68c10f0b184e6b9e8253b313852ef779a36d9e7ce0328"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2023.csv",
+      "bytes": 83164,
+      "sha256": "c42310ddb5f06b0f752f54e67ee0cf555d031eae4ce88306989e6a1cf1800b84"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2024.csv",
+      "bytes": 80894,
+      "sha256": "f3289071fe2415ef91b67e430783b568cd394d25f601b88331809352abe35418"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/2025.csv",
+      "bytes": 53881,
+      "sha256": "d69b8dd0c3fdbfdcdd85efd2fa3364b20aa08dc0f990c309773bc308bc0a7964"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/noaa-cantho/gsod-readme.txt",
+      "bytes": 11288,
+      "sha256": "25a784a4cba0eab5f070137c57c4b4bd113982e054c77812b2d22e96c5818bc1"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/acid-soils-2017.pdf",
+      "bytes": 15767810,
+      "sha256": "243717769127ab860d0c106daf9219c9c3d6edcf71f82915bb6e450663245a6a"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/dongthap-soils-2025.pdf",
+      "bytes": 527693,
+      "sha256": "9ed96a12d6a433323e17ac8f2c1310258364453c1b4a66291a4cd07fef514361"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/fao-crop-water-needs.html",
+      "bytes": 127577,
+      "sha256": "86cecd0b1707e18116e6d68e986715e2d5f34d9b67c802fff029394b17cebc62"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/fao-crop-water.html",
+      "bytes": 36717,
+      "sha256": "2fd4400aa432d1341032a602f2bcf2bb5eff068bac99a5cb9cc09c29875f057a"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/fao-species-diversification.html",
+      "bytes": 24026,
+      "sha256": "927d4c7b0059a6a1b401d0fcb5dac577b6d297ec3a87afb3dee9f0e63b978fb3"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/fao-sustainable-rotations.html",
+      "bytes": 106684,
+      "sha256": "54ab77d60bd09e5680a0c098fcf368effd9e8db0960ad4b38881effebd811276"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/fao-vietnam-diversification.html",
+      "bytes": 37844,
+      "sha256": "a7e5ba34065c923f704d8105295cae43a8920212fabede0d8f40e919979a74f9"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/mungbean-drainage-vietnam.html",
+      "bytes": 88018,
+      "sha256": "c8db42b1875072535af529e5a5912c2dd383d44ace5712479eca1d3e7d6e3e62"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/rotation-2017-2020-published2024.pdf",
+      "bytes": 1742973,
+      "sha256": "29b883cb53ab099658f6792f9917d7bc446eb3aca00f9442747bf7802f12a401"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/rotation-carbon-n-2009.pdf",
+      "bytes": 406859,
+      "sha256": "316c7b190c8db3959b2b54096ce9434fe38d21aa0f8373a31a29157d69995155"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/rotation-physical-2009.pdf",
+      "bytes": 354215,
+      "sha256": "ecc93a21a7b965dbc62a1d5722c001d9f2058edb0555708ba85108bb0eee1ccf"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/tiengiang-statistical-yearbook-2023-summary.pdf",
+      "bytes": 1105183,
+      "sha256": "ed893c7117747b90a1eb9ae0b5ce9e75bfa6e9d8037606ac8e3fd5df0b696ec4"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/soilgrids/pack-model-extraction.json",
+      "bytes": 5991,
+      "sha256": "a209dcd87ee5c4438dcae0c5e7dfc2e70cacee1711af666c9bd7017ac47be637"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/soilgrids/point-properties.json",
+      "bytes": 1652,
+      "sha256": "adad30ecee91f017acd42c46ed1d65579a8f4dc4877bc76b940225c0de9ca407"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrp-water-bulletin-2026-11-12.pages.json",
+      "bytes": 35932,
+      "sha256": "9070d7172bf524687fb5168cf46e4a4e46e05ae8e7ae07aa3d8d53a6abb5d6b5"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrp-water-bulletin-2026-11-12.pdf",
+      "bytes": 2088349,
+      "sha256": "aed1db5e0884ac97fae9effb8d1cf180249736397739fbb0d15bd61244ffa5b5"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrp-water-bulletin-2026-11-12.txt",
+      "bytes": 35442,
+      "sha256": "6d073d106860d7a81afd80855407041771c1c3ebaf599d2db74b83a02288255e"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrp-water-quality-catalog.html",
+      "bytes": 893876,
+      "sha256": "b09f5239386a3812d36349c18110f4808b2077282512b97c682f06bcaf0e6194"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrp-water-quality-catalog.links.json",
+      "bytes": 206124,
+      "sha256": "775c257c58f5d32ce76e2ae006c2f2ec825079fd69afbf7300aa64bae9494869"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrp-water-quality-catalog.txt",
+      "bytes": 57705,
+      "sha256": "9081a2d9286716fd36740b461c40d27a306b81080e70cf01452d1b0dfb01f2a6"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrr-dry-season-2025-05-22.pages.json",
+      "bytes": 426,
+      "sha256": "834586bedea934a8e1570cc7530320e29595b2c8675d425faacee151c9c8ec3f"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrr-dry-season-2025-05-22.pdf",
+      "bytes": 2650924,
+      "sha256": "86078737ba103cf37e77d50e2eac07f55a9d632f51701b5b74ea8357ad8fb635"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/water/siwrr-dry-season-2025-05-22.txt",
+      "bytes": 212,
+      "sha256": "2a9112c5f9edaaa1fcffed600af7e2721067fda49e1cba1aaa05d42080e8a6f6"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/mytho-rain-mae-eia-2025.pages.json",
+      "bytes": 625405,
+      "sha256": "4b1d14ea24de35149873c73967c8cb01eca38b4b97f0d40dc2e69a020854f72c"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/mytho-rain-mae-eia-2025.pdf",
+      "bytes": 51518387,
+      "sha256": "1af9016ce14dec0f4356d81289f80cfabe209798d505b0d982ae6da7679c25bb"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/mytho-rain-mae-eia-2025.txt",
+      "bytes": 618050,
+      "sha256": "9af395af2b66ba298b65ab3d9a18bf9262cb4ee9415476e8b2ea4afbb0ed0947"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/tiengiang-yearbook-2024.doc",
+      "bytes": 2577408,
+      "sha256": "51491d8dc0f477f4f5edd6603380404eeceddabcf327c8e09ea77bd68f2f514a"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/tiengiang-yearbook-2024.main-story.txt",
+      "bytes": 61692,
+      "sha256": "b8e723805a6db8e2aa5fcef94e588b108100d8496cfbee3934bf853f0f6bdf20"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/tiengiang-yearbook-catalog.html",
+      "bytes": 81650,
+      "sha256": "95d2f46dd596f8eaf1461db52b1bfe208d5b70cb53661d86db27fae352afacad"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/tiengiang-yearbook-catalog.links.json",
+      "bytes": 16546,
+      "sha256": "55777890e3e716bd5fc6ca426bdca540c02cd8d4c6de5bced57f9443506cff80"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/tiengiang-yearbook-catalog.txt",
+      "bytes": 4329,
+      "sha256": "9b8998700367a38f875af7b3e00aacdc5f7574be1928cb47a96fbdc43119a01a"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/vietnam-statistical-yearbook-2024.pages.json",
+      "bytes": 164091,
+      "sha256": "866e4822c33556768dde8b38c780b8804236cfbf8d43c09f4d7a99d96ab52786"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/vietnam-statistical-yearbook-2024.pdf",
+      "bytes": 13068860,
+      "sha256": "c6c2d8fa61d736c47a98eae2d4f23cae9b7310a600984fe242b1e5629c75eeb3"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/weather/vietnam-statistical-yearbook-2024.txt",
+      "bytes": 162014,
+      "sha256": "02864abc7d10af86238f87b193804a5df98e5e4f07e74e1e57cff818daf5c70e"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/supplemental-source-register.json",
+      "bytes": 1629,
+      "sha256": "4d4fe0239e7fabcc9a2cf767e9e7480a8509676bb00bac97e6090af250916e22"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/agronomic-rule-candidates.csv",
+      "bytes": 1429,
+      "sha256": "33165580207cb32997651c1eb029ee6e94f392a494e51bf7d382b66ec7985746"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/cantho-daily-qa.csv",
+      "bytes": 205502,
+      "sha256": "29002c5f2c5ef6847eb159fe5a0d06100094947a3fa5093bfabcb8a075b4e7c8"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/cantho-monthly-coverage-and-values.csv",
+      "bytes": 8769,
+      "sha256": "a429e8ba7b637f72a75ff961c98091ad798275394a13e8075061cf167e2cec7a"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/crop-calendar-candidates.csv",
+      "bytes": 1125,
+      "sha256": "37256d9083beda5c376ed28727b2de6987587c44ac94df212ba69419b38964ae"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/dongthap-published-soil-areas.csv",
+      "bytes": 1497,
+      "sha256": "2814f4ffecd9913427ed97b3c048ac22b64f77c2e7a5e6aeafe17aa3ffaacdd3"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/gap-ledger.csv",
+      "bytes": 3092,
+      "sha256": "a1a5b236e17d72bce98d7e61c54daba2e59b0ab4f443640d3340a4d5ebc4955d"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/mytho-annual-rain-crosscheck.csv",
+      "bytes": 989,
+      "sha256": "0dd5d9e6ebf71f50c885f12d7da8bcbaaba42da2f13e2176d2998e3b6a53c0c1"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/mytho-monthly-rain-reference.csv",
+      "bytes": 15163,
+      "sha256": "dfb5b70c1534c685aaf89e85a038ca93901533f723fab36dc6fc6cc37f3b882f"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/new-agronomic-rule-candidates.csv",
+      "bytes": 2240,
+      "sha256": "33e264675aa8a53240abde6e17b96d4d43d97556a9b54a9368a7a829172fb365"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/published-rotation-reference-cases.csv",
+      "bytes": 2293,
+      "sha256": "d4a2e35fb9e070af057b9e4a9b45325c2ef871a48ad0dbbfd889bbcab36d2470"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/regional-soil-ranges.csv",
+      "bytes": 2239,
+      "sha256": "1ad7e42e21cceff51fc6c4a27d51c0435a6fba4940be3578f8434df3beb09a86"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/siwrp-station-rain-2026-11-05-11.csv",
+      "bytes": 6564,
+      "sha256": "23745fa09a941a85f1e0ed517633bcac1c5505b92bd9849faaee0a7d8d13bdcb"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/siwrp-water-level-context.csv",
+      "bytes": 2306,
+      "sha256": "c6ef69e2a6ce583676ba6927875cb2b1097814ffc34755ecc18b56f03a890209"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/siwrr-salinity-forecast-bounds-2025.csv",
+      "bytes": 3658,
+      "sha256": "ae7fa0998b9a3d7ce23784c92a62ccff09e024ffdea42e34e82b37ba71bddc26"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/soilgrids-ph-texture.csv",
+      "bytes": 2057,
+      "sha256": "1cdd76b28721d2ae0c815f69284c1de4ebb2f24d5c79e2aab5b5493375496784"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/soilgrids-soc-n-cec-physical.csv",
+      "bytes": 3169,
+      "sha256": "9b8c4a73fe039a704ca9a921c6cc5368d9c4a11c7f1e898bb4e308c6db9b458b"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/source-audit-enriched.csv",
+      "bytes": 4586,
+      "sha256": "4f291c8d9803c68ffd9677f7805571fc0dcbaf913c39f05e0bc1694eb8535cd7"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/vinhlong-study-soil-profile.csv",
+      "bytes": 11621,
+      "sha256": "77267f91153239bbe5ed177df1fafd772787f0871de57286d44e91ed90cd5819"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/yearbook-source-register.json",
+      "bytes": 748,
+      "sha256": "7e73fd413e90d02ca602ad865b6c74ecb21847471ba421448969338bfbf7afe5"
+    },
+    {
+      "path": "data/raw/resource-eda/power-dashboard-20261114/_requests.json",
+      "bytes": 1024,
+      "sha256": "b86af92ad2342468aa4029ab1e85ad80943f1eee1b6c29cee3c425896178c9f2"
+    },
+    {
+      "path": "data/raw/resource-eda/power-dashboard-20261114/_source.json",
+      "bytes": 1709,
+      "sha256": "6994b535a639a746dce008508ae69a0730ab9681412d938c3d685ad3fd82035d"
+    },
+    {
+      "path": "data/raw/resource-eda/power-dashboard-20261114/daily.json",
+      "bytes": 361624,
+      "sha256": "5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/_source.json",
+      "bytes": 1280,
+      "sha256": "69ccda3aa147d2e982d6923d01ef2e4f23ad8a74093880cd99101642497bf3bf"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/aoi.json",
+      "bytes": 897,
+      "sha256": "55e8cd103ab25e583b306dbfea0cf9bd8456dc9ee6eb3144e03505845b41c106"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/_requests.json",
+      "bytes": 13478,
+      "sha256": "7d1860cae59a38f5f6b9d84fc26013c23d36a721ad22e04d67edeb383397331e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/bands.json",
+      "bytes": 3066,
+      "sha256": "a4c18d679d6b3f93d8b5789f274e4d7ad82a6b6d1376143a90a9f93e2039b321"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/corner-geolocation-audit.json",
+      "bytes": 248,
+      "sha256": "0e0f977c334d580ad148784fa947fcf6fab38f7adb1822c52194eaab8aa85618"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/dates.json",
+      "bytes": 52212,
+      "sha256": "d126c55b7a0565ef8054bbbc80a0ea8e9fd65cb5af6ff35c0b667a585ecc065e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/01be8889695233351e0482732ecfc898837c30cec08145f8042d484036476458",
+      "bytes": 103278,
+      "sha256": "517453c90fd11c49fe2e57db54b2f1c5fe3b56bf9c002715d3227b5b4067840a"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/098b7db0eb8e226880567762f536fb321d5833bc888c66352e50cbc63bea98cc",
+      "bytes": 103610,
+      "sha256": "c06a63f335ba64edb03839ef9271d9f64fc2dbfd812e934adcc85402d3fa489a"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/0fb324f1ea0e52ae265603f9b7a263b51c4ee60a7b25600c50f97c1feefd88a4",
+      "bytes": 105711,
+      "sha256": "0680fe3b8dffd71084bef099cca0f74ddc98468ecf7ecf1760b38160fabd13a6"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/126d5ef2b6715cc5e9c4172640e454c534e82b823b567f71e2367a0507c1a6f7",
+      "bytes": 36238,
+      "sha256": "f373f0968cc81004e2879ac14a266516a51d333daa31e369d70ed1775523f5f9"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/219b8d1b92e126cd82f1e009a355f10b450322f4e4dca5ce40489e90563f7bee",
+      "bytes": 103736,
+      "sha256": "899d53f4fa659697a2ef63b92365b872345b922cb1363802733789b0e4faa271"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/39e888ea7f295d7cfd6f85c1931d0ec23d92af3567423af77cb6b1682bc6a7c5",
+      "bytes": 105010,
+      "sha256": "cfeff45b66148dbe3a70a525935ac8187dba974466b267972811ff8b18000fc2"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/3aa431711efe754edd126ab24228e51ef9c6a423c2212843af753833354d7566",
+      "bytes": 2366,
+      "sha256": "d41dc06bed934ea5f032e0eb88b047c1c3c65df1c46db58aa6420be791475303"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/4d5e4ef800c222899e58e9dd4acb18543ce49fdb2ebb44c07cfecaa3b7426b37",
+      "bytes": 106039,
+      "sha256": "76746b3072b95b855ddd1e331bae7dc71f1963d2264a251b6b0274cc36d0e0b3"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/5ef3afedc5573fdbcccb7e5e7f6c00c3c21af7d40c546d0c3c77e0ac98a7ce8f",
+      "bytes": 83929,
+      "sha256": "3af82f6b9eb0d9942d328c69d3b9628ef1dc949643007464c4e6b6a6685c867d"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/77b93e7328a512e7cd1ad8274f6e3a418d27d693a3da8fb7d05291d606d6a875",
+      "bytes": 2332,
+      "sha256": "2b822525b9f9d7d2c703430ba8d76d8a127c2eefcf9041fb5c1535b6614aa709"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/8e5ff8404c8ed145d7557b39b4bc8343bd9423b47ff607b4315bf2ba05592de9",
+      "bytes": 104985,
+      "sha256": "2080583283669bf41ca88f4f994f563d03b79ea1ab56d480fba9bdbf378562d5"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/9a2229b7306b7baf3f1d1ffc6741d336a4f6f6e649c1c31df60aa0ea5cdf99ff",
+      "bytes": 105064,
+      "sha256": "87ac3d3531fd637686ab326c76b73830ed145533e5e2a52fe305e80ac142aa90"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/a2a7ce260b303e3596b21113677d59e93f221b9a18b51108425c4edd898a9161",
+      "bytes": 104190,
+      "sha256": "98b0022245c648486b9e6f125fbd8496264cea101fa2090afa5a8c20ea25692e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/aa6595b1a52bed64cba036c096657c3f2f2e722a41ba51c31ddb739946bc659f",
+      "bytes": 105714,
+      "sha256": "f0823f9ba3ef0898bd8ebac64192d85391c4d5f46c391b6cd252dd7c2aac137a"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/dee83e174772db4f7ec619deb53db3451318fae270a262532bfc89594e3fe62b",
+      "bytes": 106015,
+      "sha256": "2a00868ce5ae57dab14bcd05ac5736ab4cd36d44bb6673450d6b9c4df016c78e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/df083fb2ce6e5e5d5f21c6540c043d13ba9ecbdce77a7d503cb620386ada8c42",
+      "bytes": 105546,
+      "sha256": "b6325356b0241f69a106a027a082b4f8b6ee298d0e7872070fbe145a313863b3"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/http/ea71fed47ea41bce2171fbb6e951edfc4244920b370c7805a4974ce5bd43f20b",
+      "bytes": 105211,
+      "sha256": "acb093df50d348fdeff9027067076ccba80cf534f12028aa8feb38bc27ae5c39"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/manifest.json",
+      "bytes": 2415,
+      "sha256": "d90ab92bccfe3159a29ff98817b892871dbf38ba23ece91ba970ea7db8ab7bab"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-000.json",
+      "bytes": 263613,
+      "sha256": "71d64216a7a80e26f27742b26f6620715708557f76feea15f16502557151894d"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-001.json",
+      "bytes": 264862,
+      "sha256": "d5a602f1812902ece145cabf78c22ee4484f154f3e403794fde13e696ef19ffc"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-002.json",
+      "bytes": 264941,
+      "sha256": "625c2f60d5974708c766ef33c1a23a0592a8b874bb535c1b3a7e1091d150525f"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-003.json",
+      "bytes": 265588,
+      "sha256": "5aea743be5a50ce4cb207e6901fb66aa195e907813d6f7211f41b7ad2bae226b"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-004.json",
+      "bytes": 264067,
+      "sha256": "9871eda9c38c9d83695073c99492f8655133e0fd35b9158330901b1a2205e37e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-005.json",
+      "bytes": 263487,
+      "sha256": "6f40f1895eb86dddc7168408e0491508ccc0b41faff3e9e5022af03cbcabf5e9"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-006.json",
+      "bytes": 265088,
+      "sha256": "635932ce2c9a484cdf2c18763cc6b8db9c6aec39521e757c426f796add0ca44f"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-007.json",
+      "bytes": 265892,
+      "sha256": "efca3e3833b037fc2ea0e2ba4f52f6007662a86c958b031d0d60e2195857f99b"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-008.json",
+      "bytes": 265916,
+      "sha256": "85087782b78b9ca7e6c7ce02c8a4b854436b865700513226089a269ae16f5708"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-009.json",
+      "bytes": 263155,
+      "sha256": "87e05a97f37c67a0e38f697a5e54216e49589c15282c01e2834cffc57ad09c0d"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-010.json",
+      "bytes": 264887,
+      "sha256": "da806dd2e9c172b97ade20c359710d8f03c9121ce987174a9d578cb85c005413"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-011.json",
+      "bytes": 265591,
+      "sha256": "d6358542ce01f8b3e623ef90dd6b7d24af88b0c433d0c6e0dd8967c4cb6fe3e1"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-012.json",
+      "bytes": 265423,
+      "sha256": "1a929a06df5db1c504e04cd852ffaff54430a458ecdccc1958fb1ed30c9a2afc"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/subset-013.json",
+      "bytes": 211838,
+      "sha256": "c60e268462dea5a1215ef575a56defabf1a0390176eee4555a37d3cc22f037c4"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/_requests.json",
+      "bytes": 4201,
+      "sha256": "17196c71d18c5849e479e15f766a9551781f62de713af668bfbe45886611f4d0"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/c1-vs-legacy-offset-audit.json",
+      "bytes": 1517,
+      "sha256": "eab15d7d1f459b91fa81c02db9ed59d72d105967fabca5ed352b2f00c03af5a2"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/http/0c36dd3f2ad097102847b6af89183f9f79744ae734cd8add5d2cb012564e4f89",
+      "bytes": 276,
+      "sha256": "e980594ac18d03f5f040225d1a8b80aa8f09655a711b9e6fe5c930fb1e51aba0"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/http/8d29e50cae6377015682979a2ab1477bbfcad8a10726ace48bd6851633c6788c",
+      "bytes": 276,
+      "sha256": "37222fc71af965b20bedff7a19e9b9249c753f32094090f8ea455a593f550f28"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/http/94433e706e5a9bda96298bca0a6bedc10605874cc09bac3bd4273f462b2fed0b",
+      "bytes": 1537061,
+      "sha256": "eac7bf6b0ef91fabae0eec34a36d088876ea28a2b5d291fedd0341a32c5fe986"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/http/9f42791a512d8a5cc68c043dcb577256261f7242b58ed36f52a4dbc43afbbb65",
+      "bytes": 1800101,
+      "sha256": "912854ed51c5af784abe515c943cbc971c9a4018385064c92c7ee6783a483197"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/legacy-collection-audit.json",
+      "bytes": 79827,
+      "sha256": "1cfa835ec018d72a1e9a03b9b6ee79526c9de4c2fe78eb7b2455d9b778cf7402"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/manifest.json",
+      "bytes": 2032,
+      "sha256": "cc4882b5f69b9cceded92d569c38de6037ca1db6c377a2d92d2ef8c00780d31c"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250521_1_L2A/blue.tif",
+      "bytes": 117905,
+      "sha256": "9741d174b6c7d022746bd0b854f636ce66492cce7338d962c66e6683e3a7edf7"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250521_1_L2A/green.tif",
+      "bytes": 119025,
+      "sha256": "bb50cfbec917ed7f48989fd3877a5c1f7de945cfc69ac5d0b14751773f9c5376"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250521_1_L2A/nir.tif",
+      "bytes": 119933,
+      "sha256": "76ce93545725f1ba772a9b62eb2d3f6389c70e9651db53ac90a7f49d6781d66f"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250521_1_L2A/red.tif",
+      "bytes": 119199,
+      "sha256": "7c6298530b638caf285df005fa528ba82afedf54efc3831e260a877cc8f0eb45"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250521_1_L2A/scl.tif",
+      "bytes": 4095,
+      "sha256": "1bafa2e64267adb4237f9b4d0d6573dfa2186640d311c1cf070cd94e3d663764"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250521_1_L2A/stac-item.json",
+      "bytes": 35071,
+      "sha256": "936f3ee169a286e4958b0b288c625052544e1cf15fe626a2894a65f9d08362a2"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250630_1_L2A/blue.tif",
+      "bytes": 112571,
+      "sha256": "7401740ab0f61ed21d082c2adbbccfc93b39dd439db14c374479ae24bd5eb1dc"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250630_1_L2A/green.tif",
+      "bytes": 112159,
+      "sha256": "aa35492a34b5844e20c9cc6d17190298f87efda4e09ff8396477a8076b552ff0"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250630_1_L2A/nir.tif",
+      "bytes": 116981,
+      "sha256": "531a0031536e0bea93cb283ada256b6bd43ac4f9a01942126eb1ad9b723851c5"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250630_1_L2A/red.tif",
+      "bytes": 113639,
+      "sha256": "ee24f56625727caa1aa8e609081a3a291ecd4068aab8c97bdda0dfaca7fa5915"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250630_1_L2A/scl.tif",
+      "bytes": 4277,
+      "sha256": "64a2c45c121bbbc2aab33fa4265b3f7096a2750ff3bbc6cb461bea4acdccdd1a"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_48PXS_20250630_1_L2A/stac-item.json",
+      "bytes": 35065,
+      "sha256": "a763804b14f0ccc70506d71f9bc9053e9ae4b6ea76ec8c185650b54b988649e3"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250521T033207_L2A/blue.tif",
+      "bytes": 118123,
+      "sha256": "53b19ab486e1cb60cd4c49db8f1f86bac2def9a04b6a453bb7825675c48157ff"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250521T033207_L2A/green.tif",
+      "bytes": 119123,
+      "sha256": "bedbd726bcffc93c6db40b03413e3deb686f25b9199d7ecf8a85c456aa7e1d69"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250521T033207_L2A/nir.tif",
+      "bytes": 120037,
+      "sha256": "538ca67c325a287c3957f679f71ebc0e19c39ff58f3afd67a1843be4c3713d6c"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250521T033207_L2A/red.tif",
+      "bytes": 119263,
+      "sha256": "310c9434b89e53f4339f8065ace02564ac5b710346ca470a9541da737bdbcfaa"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250521T033207_L2A/scl.tif",
+      "bytes": 4121,
+      "sha256": "dd59a7b74d4767e2cd05a65635182eb0d6427ce4254965bf6c8b833f764d07eb"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250521T033207_L2A/stac-item.json",
+      "bytes": 26327,
+      "sha256": "4ccc90f08161209582ce361ee7ebe3b52236a7ba73b9145fbba43e4d5c92771e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250630T032940_L2A/blue.tif",
+      "bytes": 112573,
+      "sha256": "0a6158472c16c3d4c8568615894ed64c1c6b012dc422cb4966a05fa7ca63eac5"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250630T032940_L2A/green.tif",
+      "bytes": 112177,
+      "sha256": "06fcde8fa72d7747f08c7c4c5827dd891b1ca8b8a2acc7bd2c1192e07196cc12"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250630T032940_L2A/nir.tif",
+      "bytes": 117035,
+      "sha256": "c67b2f20575a3086c522240e62031695d9a10cd0ce897f945da2a5ccdb93e394"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250630T032940_L2A/red.tif",
+      "bytes": 113723,
+      "sha256": "b1027af6e5105d926789d3f33869a7d7b32157a820305e82691bb6f9fc99b255"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250630T032940_L2A/scl.tif",
+      "bytes": 4303,
+      "sha256": "dfae536ab6b084325abd94d750f54bfaea7af6e59b5a782802f7c3cf428390f2"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2A_T48PXS_20250630T032940_L2A/stac-item.json",
+      "bytes": 26524,
+      "sha256": "4df5543531e0a712c9b7d3603b522b24bbe8afc372c8119283d08ff90475a13c"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20250713_0_L2A/blue.tif",
+      "bytes": 99947,
+      "sha256": "8cae9d43b1e211481b75c78defc3552aaa420c659b6961d2a38c1e96461515d3"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20250713_0_L2A/green.tif",
+      "bytes": 98695,
+      "sha256": "3bdc282b36e2331c3d8bf3b7551bd1e51f06303bd6d03335bc044df3cb270fcb"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20250713_0_L2A/nir.tif",
+      "bytes": 91189,
+      "sha256": "b1e5525929cb74abfc3a5f87111bc6d25bc0051a95764c2fc584858eb59352d4"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20250713_0_L2A/red.tif",
+      "bytes": 101075,
+      "sha256": "d540c0660cb213ca4b428fbe143a0005bdb4eb388cb942ef84d30d1e27bd92a1"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20250713_0_L2A/scl.tif",
+      "bytes": 2779,
+      "sha256": "cd3284a8c1bdd8e5adcbf68bb0e7236995f147b75111aa600f98a48405d9d2ed"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20250713_0_L2A/stac-item.json",
+      "bytes": 35067,
+      "sha256": "c76dcb70fb5a07f176ddb37f13b3f32eca253a9f30f990f7dd9d50fd7f6a5365"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251130_0_L2A/blue.tif",
+      "bytes": 111738,
+      "sha256": "19304539885ae1ecdffbe74922435e356c7f13ff303fff9900c9c96ba9eb74dc"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251130_0_L2A/green.tif",
+      "bytes": 111770,
+      "sha256": "d38c472ded7ad460c618437d944372f8edf1b1d3ea2f8705ce035e44af072d2f"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251130_0_L2A/nir.tif",
+      "bytes": 115024,
+      "sha256": "99aa70d13d39bd02f0914dcc1e5fed641a20873e72f361e545763874bce33335"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251130_0_L2A/red.tif",
+      "bytes": 114514,
+      "sha256": "f0401831d9b412336366e32879e3fffe1ca8bfa646d5378f2bfd3023d2c31164"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251130_0_L2A/scl.tif",
+      "bytes": 5074,
+      "sha256": "ee17783f83f48219cd509a3d2e08de468cb4d0df74979befcd14e8b8f823a2da"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251130_0_L2A/stac-item.json",
+      "bytes": 35102,
+      "sha256": "27a1daec5ea42d837e3bfe8e337d560a5998fe9b8b8d44f3551c016687f47a75"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251220_0_L2A/blue.tif",
+      "bytes": 110268,
+      "sha256": "8abd6914984f7449b61f8d97d7db04d970026482fd3e6bac9166bdcbb1d4324f"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251220_0_L2A/green.tif",
+      "bytes": 111612,
+      "sha256": "a2ac235691011d4bf76e7e2beec2ada310177dbd03ff9b330bd98089c446d53b"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251220_0_L2A/nir.tif",
+      "bytes": 113742,
+      "sha256": "151fbd96ba5fb8eeb757f6dd4952870ca4a0132278d4b96f01e02550360e7402"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251220_0_L2A/red.tif",
+      "bytes": 112564,
+      "sha256": "6fb21c8c5a0e80539cc2ed14dcea4f07ec0d5fc20d0caf6930d543b3c9eabe9b"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251220_0_L2A/scl.tif",
+      "bytes": 3684,
+      "sha256": "0970529a579efb2b7a026007dbb3e9c6ad9425e2bbff66214e4229905725ab9e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_48PXS_20251220_0_L2A/stac-item.json",
+      "bytes": 35105,
+      "sha256": "2a98c3f98d1d5ac590b1f07bf3d65f35f7b7e50c28c20d515f5a656fea7d1908"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20250713T033418_L2A/blue.tif",
+      "bytes": 100057,
+      "sha256": "cdd98a51d8692d60a10dacda908647e7ebb871cc67ac8790c54b07b8688dedf6"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20250713T033418_L2A/green.tif",
+      "bytes": 98725,
+      "sha256": "224a875f552a4bb07a9ba19f3c1e8384df5dc3ac4d244075cb9dadf2c5b98f96"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20250713T033418_L2A/nir.tif",
+      "bytes": 91271,
+      "sha256": "dcb21790d1606a16c381ec72bbf745536ef96995be4b1dcf84c9c65beb643cfe"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20250713T033418_L2A/red.tif",
+      "bytes": 101205,
+      "sha256": "c3410c3c77fb47c5df62f9abe4d067065250dccef7761c7d2ab58a9d5595fcc2"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20250713T033418_L2A/scl.tif",
+      "bytes": 2805,
+      "sha256": "7eefa7cfe336d589af418e00070512f57b7590769340f19ed9420df782ad8a19"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20250713T033418_L2A/stac-item.json",
+      "bytes": 26528,
+      "sha256": "0fe1e84325a7baeb0ee803fd7d3911dcea6fec522e43fd0ad2d2c09f441d0de2"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251130T033239_L2A/blue.tif",
+      "bytes": 111664,
+      "sha256": "1e6316cac3f6694f78b37ddbced1bc6d3999f7703e0ecba2b5d1e81b9d3e94da"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251130T033239_L2A/green.tif",
+      "bytes": 111822,
+      "sha256": "2fb831a4f42dd44f275ecd4254a1d99d090a621cfbf0ba3e4163e57d34c1d658"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251130T033239_L2A/nir.tif",
+      "bytes": 115056,
+      "sha256": "b9002bd1fede6c1c39cc58458305f12fd2a4a41c6b968efae783a3fe028e325e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251130T033239_L2A/red.tif",
+      "bytes": 114436,
+      "sha256": "7b0f18e67357a68438e738b81d2e5c9249c8792d8b010b1fadafcdbeb7f21c14"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251130T033239_L2A/scl.tif",
+      "bytes": 5100,
+      "sha256": "087901a26e20a21af7232bbd9be0e61cf6c52d55b6dce97d78b723bd816aa336"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251130T033239_L2A/stac-item.json",
+      "bytes": 26546,
+      "sha256": "c108453526103805de803329d6581554910394fdd62363bfdd0c6ea561964c84"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251220T033030_L2A/blue.tif",
+      "bytes": 110234,
+      "sha256": "658b2a7e37af8adef09d45fd50d9621377aa29b213c7baf9cdc41ffb49b525e4"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251220T033030_L2A/green.tif",
+      "bytes": 111646,
+      "sha256": "e9d6027e202696acb136b9cffb22238586d55d422ee0620869eadee831ef7b3a"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251220T033030_L2A/nir.tif",
+      "bytes": 113742,
+      "sha256": "53279cc2271af0620a42fb35f4838e721b9c8bb7afd3ce536fa8fe90e93b73c5"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251220T033030_L2A/red.tif",
+      "bytes": 112652,
+      "sha256": "dcdaabb01c3931f4c5a91a40fc5fb40c4f97cbf399cac37101279ddce05a9ace"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251220T033030_L2A/scl.tif",
+      "bytes": 3710,
+      "sha256": "1995ecca251965b8541f6418ae8e80c4e092fc34f6d60933e870f3b123fe8810"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2B_T48PXS_20251220T033030_L2A/stac-item.json",
+      "bytes": 26550,
+      "sha256": "470e7aa9621b29b0d476c1d3746925a9ffc6a9f74b20fa8f711a6869e8f95e5a"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250218_0_L2A/blue.tif",
+      "bytes": 120147,
+      "sha256": "f2d88049fba85da7b7153b2bf45facd638e5712437212a39dc1432814b0c7780"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250218_0_L2A/green.tif",
+      "bytes": 119971,
+      "sha256": "e589ba7017c1786a64a228687969e50c3118e88d53413e4a277e1bdf01b1cab8"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250218_0_L2A/nir.tif",
+      "bytes": 118687,
+      "sha256": "56902af48edb77a5c03a8eead7e68092745deef423361e6e20f23b265fb05389"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250218_0_L2A/red.tif",
+      "bytes": 120465,
+      "sha256": "b7d29d4a24475c0eb1138016efdcaf6c2817ea5edbab88a46ff7eb58e0e0930b"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250218_0_L2A/scl.tif",
+      "bytes": 4217,
+      "sha256": "7b8104cbd166069ceab02f6835f2feabff2085fcf11f6f8dade9f2a522fb26cc"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250218_0_L2A/stac-item.json",
+      "bytes": 35065,
+      "sha256": "e4ffe6564faa29fe477b2aacd5ad62d0ad38ca3f9da15dc1066d69b691b59e47"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250228_0_L2A/blue.tif",
+      "bytes": 113453,
+      "sha256": "03d48c06a13939c737b65bdb086e8e18f7321bc7d5da07a10ed0e6082215aa97"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250228_0_L2A/green.tif",
+      "bytes": 112139,
+      "sha256": "e4cf6699030b7a9b3f483b57292f231c9f0c3cc9e57e649d5b65ad6b23a7abfc"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250228_0_L2A/nir.tif",
+      "bytes": 117139,
+      "sha256": "08d156dec527b8caee477148c830e637225bb123363825c988c4f95c44dc895c"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250228_0_L2A/red.tif",
+      "bytes": 114855,
+      "sha256": "07efd40e2f81146098a12d77ecd583c30537224fc36f7e6c8c5f4b4c92e400c7"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250228_0_L2A/scl.tif",
+      "bytes": 4809,
+      "sha256": "de93d323fdb694387edd0711cb87bcf17c2cd46cd5db802ea2d5df630dbf7138"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250228_0_L2A/stac-item.json",
+      "bytes": 35065,
+      "sha256": "cae1548310cfd92165704f119a491003d4692aab1848a826621416994e5114e6"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250807_0_L2A/blue.tif",
+      "bytes": 122247,
+      "sha256": "197620885e723e7bc9ec517252cbcad3cce93dfdd1901bd87200b0fe09141445"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250807_0_L2A/green.tif",
+      "bytes": 122501,
+      "sha256": "d4bdbde9e7966545cfec758ac43df9f55b63beb9ca38c5f19fc24d05bee4a7d1"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250807_0_L2A/nir.tif",
+      "bytes": 121055,
+      "sha256": "00918f7c1dab86ca251726b609b0ac9d677c8e7901fa33e4cecd8779a3cd0f60"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250807_0_L2A/red.tif",
+      "bytes": 122929,
+      "sha256": "3596e2e36d4e5eee00de95f39cc10e2aa026d1d36223926f2105402f639f0ce8"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250807_0_L2A/scl.tif",
+      "bytes": 3763,
+      "sha256": "8f8c78b1d5af2ab93e64b35253dfa19880bd62b801633cd2ad3afb9df504b9d2"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_48PXS_20250807_0_L2A/stac-item.json",
+      "bytes": 35050,
+      "sha256": "460bfae119cfaedae9b3b80790fa8cf8e301331de1d3d5cda24d0903cad7ba2a"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250218T033054_L2A/blue.tif",
+      "bytes": 120127,
+      "sha256": "f38db4ad6bec8288918c97f80f57c056d230d08364dc4815086bcb83aec641c1"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250218T033054_L2A/green.tif",
+      "bytes": 119971,
+      "sha256": "71bc78b7b2b50157e388a82d674c8bcfdcf8320d0167ea7a495c926b7add9f8d"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250218T033054_L2A/nir.tif",
+      "bytes": 118781,
+      "sha256": "0b5c3e7ee8d38cc7ac9669a7203af2c47aa538e75ce2e14a5eecdea15b39792c"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250218T033054_L2A/red.tif",
+      "bytes": 120503,
+      "sha256": "013842b577e50f8080b112aad935e922fa0ed67ea15d97223adbe982dfb8c3b1"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250218T033054_L2A/scl.tif",
+      "bytes": 4243,
+      "sha256": "08582900a93d427c1df96c5819c2783a3c7950bd8c1ff74430393907d1fab779"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250218T033054_L2A/stac-item.json",
+      "bytes": 26320,
+      "sha256": "7919a3675383f495627a4c96c1d6b874627be21f1cca5fe05c8bfbb04994873c"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250228T032919_L2A/blue.tif",
+      "bytes": 113367,
+      "sha256": "6669cbc412bfe2b9c4979e8087c6a94079ecd1891bba8ea23828c517618ae546"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250228T032919_L2A/green.tif",
+      "bytes": 112033,
+      "sha256": "1b8f309904111c95681b396d1ace22d4752e3901367df77a5752f420317ec75e"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250228T032919_L2A/nir.tif",
+      "bytes": 117173,
+      "sha256": "0dee25fc67bfdef96493c3898b931da3bc05fd90d8951a4f332aa5a9857d9763"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250228T032919_L2A/red.tif",
+      "bytes": 114955,
+      "sha256": "ab4c318091c8eff8830553b272ed1ef73c9d5f7765c6d1f534b430ba49949e68"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250228T032919_L2A/scl.tif",
+      "bytes": 4835,
+      "sha256": "b7f984e3b275ff847ee99e291b7f27e3d072fdf95d1ca23bf90c017557aaaa1f"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250228T032919_L2A/stac-item.json",
+      "bytes": 26320,
+      "sha256": "966aabc344115f1fec26154f7b84d9d83c0e70d20d7e786ff5a5c1c38c38d9cf"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250807T032852_L2A/blue.tif",
+      "bytes": 122755,
+      "sha256": "489cbf823347711f148df82f0140288f1fbfe5e58fb069edecad6088e7eb57d7"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250807T032852_L2A/green.tif",
+      "bytes": 122547,
+      "sha256": "2603a4aa96b80eec2167a396862da46a3db605dd5c8b8ac04f344381965c4d82"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250807T032852_L2A/nir.tif",
+      "bytes": 121147,
+      "sha256": "b407e1eab58faa12b086cddfe872fcf298603779fb4ee489976c79e05829b8f1"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250807T032852_L2A/red.tif",
+      "bytes": 123031,
+      "sha256": "00f680416dc98c55f8dfb48a9000ed1364b393bcb52eb5ef2bcca431f454500b"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250807T032852_L2A/scl.tif",
+      "bytes": 3789,
+      "sha256": "138c6058b5329b8eb8f5fb8e6ab23ec804873b067e732745f0cd6e4e41f98ca1"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/S2C_T48PXS_20250807T032852_L2A/stac-item.json",
+      "bytes": 26527,
+      "sha256": "7384e96480b9557fe45a4b03160d3b7a1b70a154f231a6e433dba859f02d18d7"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/scenes.json",
+      "bytes": 80668,
+      "sha256": "a07de02c7b78dbc3b2044d46251a2c011418ddbf8e20ebbdc674dc1b3090721b"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/stac-search-page-2.json",
+      "bytes": 386,
+      "sha256": "a213c3ec84bc7d4f23a0dc042a6e8962b3aa33c9ef565dbc114b690fcb2a7632"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/sentinel2/stac-search.json",
+      "bytes": 2623640,
+      "sha256": "20397b793fc022105a7b4bcc0cdd7753506e09b8db9bc190e09c143922c4c245"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/_requests.json",
+      "bytes": 10953,
+      "sha256": "7e7a2407f39048651d896f165ac2efe0b0ec98576e2fcd4d484949106051b4db"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/centroid-daily.csv",
+      "bytes": 128030,
+      "sha256": "9188c050badb9e7b98fc916a381f1d5f66d2bbc73d95e0236ebfa2072fba4f2c"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/0fc061bf299b1435061347ce4f4f50f3dc8d8ff219d32b6b492040db8cb192d0",
+      "bytes": 10503,
+      "sha256": "62aff5bc8aaee2c71645ae5ed69b26fd6bff62352b27bb3ffb078cff3c29a610"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/15a86e07d6f0896f645f3289a0dac2cccdfa74be4cc0adc796629c72dc3860dc",
+      "bytes": 392432,
+      "sha256": "e7e2fc58b25adf91aac2ff43862f4edf36a5bdbe612806cf16cab6c7371ffd83"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/24acc12f7d4b1dfd93b847722fd8e1054b2dd261245a8aa2722dca9a9c8f762b",
+      "bytes": 534137,
+      "sha256": "916e8e4f676f40f8ef487b2bdb5432d04ecd9af69e44feaa68aca5673db1d5db"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/28ae2c626c1b7358bc85e27d5e33676210115a39fe5100d5921829a1c9d0f3a8",
+      "bytes": 387109,
+      "sha256": "6e8180c32acb7d26088fdbe90c4cf77d3b88c54b796dae4b859bd70b12207780"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/33e28741463d81df0e790eea720489c490883723a041707ea5cd5bb5f519401b",
+      "bytes": 183403,
+      "sha256": "0e42082bd6b8e49b1b70417ca0ebead8fbec76925a132da51fc33898fd14f7da"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/6c0556c286b74d542f567e31e2fdae7641a6b6436863b61b414ba6963510acb3",
+      "bytes": 646,
+      "sha256": "542e11598d8b8401ed51b053fa63a0a0e8bd5aa1c051967ac6303d071216fb08"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/78ed5308c2adbdc6e187da49c9712b3800d2b66503cb341e68485d00bd0fe4ba",
+      "bytes": 241237,
+      "sha256": "029a3131bceaca8e9856ab23c121d839a681c170c4df41ab23cdfd442a0184f0"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/8da51d6c3d973e63320513d125066da15f9933dba0845c343cd02268ee3e9cf2",
+      "bytes": 18236,
+      "sha256": "eccb5073561ae7f07fceee76fefdcf901f2df43cea95e912c144dd2ea2937d21"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/908998095cd2457ec98becfee888d15f15ad6883ac9409c9104c298c6c9c61a6",
+      "bytes": 534756,
+      "sha256": "ccb77393fea2264319f9a40d31418d84514c3521666b73a827c62eebf819dcb3"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/95c4a7c2ca38faac28f58dad0b57ca6d335a865ec0f916acd286f24b23034ab0",
+      "bytes": 209633,
+      "sha256": "3db2019a64f525c0dba53cf74786d89a1d8968f32f78ea8e5f6c6d9e616eb254"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/aedfaf5502ede0ae34b966cb2743abac68e0709d483cce28ec3b94511266215f",
+      "bytes": 332850,
+      "sha256": "207fe06ca50e591a159d0ee6ee6d953cecec145a0ec43700a4959aef59da5a51"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/b5c9f0b13dc6f5488a394f564973372697407dda290b5f3ac14b4a475f11055c",
+      "bytes": 465863,
+      "sha256": "b928eb741489ab6da38dac79a16da0e35ee553144a7124dcf7ee348962799174"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/d6ce8134f9f86dce5828e15a85dd211ea997912ea3b1c07943ea02a0a284b0b9",
+      "bytes": 21988,
+      "sha256": "b4ac3699a71965967cb73794884048274260703826e3c8ceee5850767a6ab7f2"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/e6d79802faad719f80c5f81030f4fb7dc05e308521a5137872711797745cce1a",
+      "bytes": 211417,
+      "sha256": "a61b99d7abd710c71d1f619af250017218c7ecb98bf444732fd5e1550efed09d"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/ec18107564fe7632364885aee9bb81bdcfaf446035c7a39d661218cdefe6e19c",
+      "bytes": 277284,
+      "sha256": "9dec607d32002a750d7e61c2820579d97ce6bd6e6c21862c7544d7a6516a3c9a"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/http/ee1226e09ac221d19960c83042335862ca01a41c972a6666a95e98817181dbb8",
+      "bytes": 274503,
+      "sha256": "9969a556c0c735ee45f76a96aa36affffdcd1c09c9e3594d133121867e216819"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/manifest.json",
+      "bytes": 5492,
+      "sha256": "9953c3f58fe9d056fecdf47eec61bf3da804e3ff9dec1f9fdf933479ae3dd1f5"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/regional-daily.nc",
+      "bytes": 1560456,
+      "sha256": "1e64b407f79e210c6446366defb54fa1c34d926fa31a6b761a267f8546158d58"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/source-zmetadata.json",
+      "bytes": 27034,
+      "sha256": "83400060d8a27c5670adea14985f950fd18e17e287b2ab827d644257224749eb"
+    },
+    {
+      "path": "data/raw/v2/agronomy/CTU605-pages.json",
+      "bytes": 20359,
+      "sha256": "66edccb89fa9f284c4c784e18ccd82bfc09cf21754f25b2ff63da79818b70363"
+    },
+    {
+      "path": "data/raw/v2/agronomy/CTU605.pdf",
+      "bytes": 354215,
+      "sha256": "ecc93a21a7b965dbc62a1d5722c001d9f2058edb0555708ba85108bb0eee1ccf"
+    },
+    {
+      "path": "data/raw/v2/agronomy/DROUGHT2026-pages.json",
+      "bytes": 94500,
+      "sha256": "6434c569ea05970f4a2335461399a9b6eead79a6b4c3d55ce7ffa8eb221513b2"
+    },
+    {
+      "path": "data/raw/v2/agronomy/DROUGHT2026.pdf",
+      "bytes": 45182048,
+      "sha256": "51efa2c3d33436b579667c65441705299fda5c1472799e326823772fbf930fa2"
+    },
+    {
+      "path": "data/raw/v2/agronomy/MARD2024-pages.json",
+      "bytes": 42460,
+      "sha256": "3a8efbb8c9f271e0e1aebcab06abe2ad12f74f1c50d47dc6a4a0a21c68c653f0"
+    },
+    {
+      "path": "data/raw/v2/agronomy/MARD2024.pdf",
+      "bytes": 26059098,
+      "sha256": "1dd8cd4859ea0695011c47a306e9a264bc995110751c5ae5ee4215fa5c0c1b9a"
+    },
+    {
+      "path": "data/raw/v2/agronomy/sources.json",
+      "bytes": 2146,
+      "sha256": "8569073391489781262edaed7f30ec04b333a9fa04028e084e0788b9888dec98"
+    },
+    {
+      "path": "data/raw/v2/power-1984-1993.json",
+      "bytes": 506494,
+      "sha256": "07d8affccba92c51b2b6309030886b9e3a7015186fc0a57d484fba78848fb627"
+    },
+    {
+      "path": "data/raw/v2/power-1994-2003.json",
+      "bytes": 506883,
+      "sha256": "8e0e980f4b1cbc6aab4137a8c345905f65c399dc9e32348f8b6d0da95a80fd87"
+    },
+    {
+      "path": "data/raw/v2/power-2004-2014.json",
+      "bytes": 557251,
+      "sha256": "86c70359456eac7c1bfbbe4de2d6a16997681303c5863640317e30bd7f58f1a7"
+    },
+    {
+      "path": "data/raw/v2/power-extreme-recheck.json",
+      "bytes": 1139,
+      "sha256": "80c1121b5927b0d59d702836d1e6625bd5b28b7b09cbbefee73ce72ea194cccf"
+    },
+    {
+      "path": "data/raw/v2/sources.json",
+      "bytes": 3346,
+      "sha256": "d5f1bfb6a6ac9bd79a6e693e2407aa324ec1477d2bde5f42da3242fbd5068e30"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/00-source-audit.png",
+      "bytes": 80096,
+      "sha256": "324698b170be0862446cc0ed56421f97141479f150db98daca28cbcd0b0a3e5b"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/01-soilgrids-uncertainty.png",
+      "bytes": 44367,
+      "sha256": "3b5881bff808bf5d3ca9009a2ef3f0fe6887bf62b34d3c0b8af4b3a7b8549f13"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/02-provincial-soil-context.png",
+      "bytes": 47544,
+      "sha256": "4ba25e6e38290e74ba995d1cf0f3c05b644936f7e25070d8f5ea4dd16d7768a0"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/03-paired-ph-methods.png",
+      "bytes": 49419,
+      "sha256": "a6a0e3dcd690039f02d052e42d47f0295112a831433fca81564af23aba877136"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/04-rotation-reference-outcomes.png",
+      "bytes": 75425,
+      "sha256": "8084deeddf286c2c5de23517507586c0a6bfa5aad692ecf58e9e4bebaef6670b"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/05-cantho-temperature-and-coverage.png",
+      "bytes": 118917,
+      "sha256": "1c4d2e4c18d9050080637e655a753a8fa25e5977d01cba1427ddd4cd87f25302"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/06-station-rain-flags.png",
+      "bytes": 39064,
+      "sha256": "080c721ed11326f8f57bd6dd46f62ba8f6c5b935e558aaa82baa2165c1b0c3ae"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/agronomic-rule-candidates.csv",
+      "bytes": 1429,
+      "sha256": "33165580207cb32997651c1eb029ee6e94f392a494e51bf7d382b66ec7985746"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-intake/fit.json",
+      "bytes": 3631,
+      "sha256": "b66ce4727ccc165627c68afde8106ecb130ddfe9c52c8f712e654536f9c5917f"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-intake/go_summary.json",
+      "bytes": 297,
+      "sha256": "57e9ca1e761406e9a0805733d3729e524922d7c64d00643723b3cb2514c07026"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-intake/inventory.json",
+      "bytes": 13285,
+      "sha256": "19ee8ab5b022a7c61c8a27e10213b85129db1c9cfbf6bef2d0db3dcbee00e573"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-intake/machine.json",
+      "bytes": 353,
+      "sha256": "f6a0ab68ba651af84b2bf7170c8bf8ba9cdd5afb21b6ef831957f2efc2713c44"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-intake/model_plan.json",
+      "bytes": 2755,
+      "sha256": "46e37db92deee8157f14695086afefca79ac5bfaa3dc8c9a12f7a843fefbff3b"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-intake/report.md",
+      "bytes": 3161,
+      "sha256": "74a90e6425a4c47ca2b3c5fdb4b620b2ef4d8892e972b04d6be9711cd2f2c3bd"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-intake/research_queue.json",
+      "bytes": 1372,
+      "sha256": "2ad2089bcd68b38e4ea349c31079c8cdfaa2a2e701ac4edf04a876a855424943"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-intake/run_manifest.json",
+      "bytes": 393,
+      "sha256": "95deaf7fc4352bdb986c617766cdac9f2110119452a5d65e977b8f50af73c6ea"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-rotations-as-supplied.csv",
+      "bytes": 1902,
+      "sha256": "7f88856b81e5b3ce5b95a71ce4860bd4d81215489551d37c7b312ce057bc727c"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-soil-as-supplied.csv",
+      "bytes": 1717,
+      "sha256": "79a66331755cd63a0f2f7131380b3c10d8c0416765571c4520a583ad7eee57f0"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-sources-as-supplied.csv",
+      "bytes": 4287,
+      "sha256": "0c9881f4533eb1c77daadf981cb602d908ba47eeb72c6f8f4ee44a6c849bbe43"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bich-weather-as-supplied.csv",
+      "bytes": 2082,
+      "sha256": "d13bb868d59eaa38dce9fc40d7ad678ff4c543838fd8292208190c502ceae0fc"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bilingual-source-register.csv",
+      "bytes": 6046,
+      "sha256": "665c06280c9cb8e5e41cfb8fa56f59350f917f264f6e2cff594cb6b8f12cd0e3"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/cantho-daily-qa.csv",
+      "bytes": 205502,
+      "sha256": "29002c5f2c5ef6847eb159fe5a0d06100094947a3fa5093bfabcb8a075b4e7c8"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/cantho-monthly-coverage-and-values.csv",
+      "bytes": 8769,
+      "sha256": "a429e8ba7b637f72a75ff961c98091ad798275394a13e8075061cf167e2cec7a"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/crop-calendar-candidates.csv",
+      "bytes": 1125,
+      "sha256": "37256d9083beda5c376ed28727b2de6987587c44ac94df212ba69419b38964ae"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/dongthap-published-soil-areas.csv",
+      "bytes": 1497,
+      "sha256": "2814f4ffecd9913427ed97b3c048ac22b64f77c2e7a5e6aeafe17aa3ffaacdd3"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/local-intake/fit.json",
+      "bytes": 4255,
+      "sha256": "b3ecddb801e57e20d8ab93cc06a06c6a99d46b046d43b0e97a862915aff37c48"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/local-intake/go_summary.json",
+      "bytes": 297,
+      "sha256": "fbfbee16ccf89bc44c0643cfe46db6a42113d6b30369afcb53ddd1ed222419ab"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/local-intake/inventory.json",
+      "bytes": 163686,
+      "sha256": "c01f1027103f624d17faa1a5292f3d19be37bb2124fcfabc8c9fe2ef26344f2e"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/local-intake/machine.json",
+      "bytes": 353,
+      "sha256": "f6a0ab68ba651af84b2bf7170c8bf8ba9cdd5afb21b6ef831957f2efc2713c44"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/local-intake/model_plan.json",
+      "bytes": 2748,
+      "sha256": "ae9173683a49a88c2c3d8b0524e7e0d3ee907a565111f0a3d54fc9055eb62840"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/local-intake/report.md",
+      "bytes": 10188,
+      "sha256": "5a69bc38bd7d6097eb58a1b93b7b382755feb08fcd060b3b99e71ad513e62c5d"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/local-intake/research_queue.json",
+      "bytes": 1372,
+      "sha256": "3bc8f573686d21ba5d8c082144209bdce2f5858745be85d391ba9bc5cd735013"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/local-intake/run_manifest.json",
+      "bytes": 399,
+      "sha256": "b3a8a44a4511d4dc5f57b2d6e2b9808c24d0aa5be86855057271d0a7c67c4776"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/notebook-execution.json",
+      "bytes": 286,
+      "sha256": "862e3d5c14668df223f372001ffce42cc4a6a15bc70f29ca2115a53dbd78d89d"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/dongthap-soils-2025.pdf-page-2.png",
+      "bytes": 559525,
+      "sha256": "adc45ad3da006cbe31a9326368e0a67a29cad74f4749fb26ad8faba830478e54"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/dongthap-soils-2025.pdf-page-3.png",
+      "bytes": 631255,
+      "sha256": "49a6c7ac00804a9009f1b5ecb65be5a50318e8898bdcbaf5ee2649b1590e1ce2"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/rotation-2017-2020-published2024.pdf-page-10.png",
+      "bytes": 235434,
+      "sha256": "6439adaf8a5d16cb118487f046c8935d4871b85072f8986dd3a5eb7071a30e12"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/rotation-2017-2020-published2024.pdf-page-4.png",
+      "bytes": 306725,
+      "sha256": "436d8ae13b5df4fe44ed93e5c56d48c6a2655ee315d557a24e0a53fa8c1f97cd"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/rotation-2017-2020-published2024.pdf-page-8.png",
+      "bytes": 330309,
+      "sha256": "f09ebb131bf8d2edca3d353e6343e99ddea17129255d45c566bd9fdba54d4d67"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/rotation-carbon-n-2009.pdf-page-3.png",
+      "bytes": 381095,
+      "sha256": "d4c0706574ab368dc7f7d7b56108df3ea1d282518ce78e391068c52eabff7fee"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/rotation-carbon-n-2009.pdf-page-6.png",
+      "bytes": 250688,
+      "sha256": "a2db55e5e2b620c8bfae035f3c65e1c6658a2c1b658a63cac5284396de5af372"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/tiengiang-statistical-yearbook-2023-summary.pdf-page-24.png",
+      "bytes": 153723,
+      "sha256": "55bfef0e1477f6f86e5e6ebf101d58fa3ded8be2bc95ff543c90f6b486b3811d"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/tiengiang-statistical-yearbook-2023-summary.pdf-page-25.png",
+      "bytes": 155977,
+      "sha256": "c85b620b60c3f2991e11738aee71d7821dae2f33c7dcd7a4c4e8c97917c8fd63"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/pdf-review/tiengiang-statistical-yearbook-2023-summary.pdf-page-26.png",
+      "bytes": 50332,
+      "sha256": "60d066cf4c9895a84f33f83b7e40d2f9f0832c7e704e76fb58edb21ccd6a13e8"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/published-rotation-reference-cases.csv",
+      "bytes": 2293,
+      "sha256": "d4a2e35fb9e070af057b9e4a9b45325c2ef871a48ad0dbbfd889bbcab36d2470"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/rag-evidence-seed.jsonl",
+      "bytes": 7124,
+      "sha256": "12ad297f82a011cdf3f2e736cc0dc8656059967ea8337a4bdb1ffe711ca89037"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/regional-soil-ranges.csv",
+      "bytes": 2239,
+      "sha256": "1ad7e42e21cceff51fc6c4a27d51c0435a6fba4940be3578f8434df3beb09a86"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/soilgrids-soc-n-cec-physical.csv",
+      "bytes": 3169,
+      "sha256": "9b8c4a73fe039a704ca9a921c6cc5368d9c4a11c7f1e898bb4e308c6db9b458b"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/source-audit-enriched.csv",
+      "bytes": 4586,
+      "sha256": "4f291c8d9803c68ffd9677f7805571fc0dcbaf913c39f05e0bc1694eb8535cd7"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/summary.json",
+      "bytes": 3670,
+      "sha256": "84ea6fb389e164fa0f9aa5227ca1b6f67201789a678dc9eca84c5cbc2b7c6077"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/validation-record.json",
+      "bytes": 3091,
+      "sha256": "2f79388ac493f530fa067bf33bc45b7606711b4e07a34af48bd15e6255d3db85"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/vinhlong-study-soil-profile.csv",
+      "bytes": 11621,
+      "sha256": "77267f91153239bbe5ed177df1fafd772787f0871de57286d44e91ed90cd5819"
+    }
+  ],
+  "nasa_sources": [
+    {
+      "path": "data\\raw\\v2\\power-1984-1993.json",
+      "sha256": "07d8affccba92c51b2b6309030886b9e3a7015186fc0a57d484fba78848fb627",
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX%2CRH2M&community=AG&longitude=106.0216210397&latitude=10.4790980766&start=19840101&end=19931231&format=JSON&time-standard=UTC",
+      "retrieved_at_utc": "2026-11-14T16:02:22.076212+00:00",
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Daily Data",
+        "api": {
+          "version": "v2.10.3",
+          "name": "POWER Daily API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "UTC",
+        "start": "19840101",
+        "end": "19931231"
+      },
+      "license": "NASA POWER open data; cite POWER and underlying MERRA2/GEOSIT; no exclusive field truth"
+    },
+    {
+      "path": "data\\raw\\v2\\power-1994-2003.json",
+      "sha256": "8e0e980f4b1cbc6aab4137a8c345905f65c399dc9e32348f8b6d0da95a80fd87",
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX%2CRH2M&community=AG&longitude=106.0216210397&latitude=10.4790980766&start=19940101&end=20031231&format=JSON&time-standard=UTC",
+      "retrieved_at_utc": "2026-11-14T16:02:23.517162+00:00",
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Daily Data",
+        "api": {
+          "version": "v2.10.3",
+          "name": "POWER Daily API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "UTC",
+        "start": "19940101",
+        "end": "20031231"
+      },
+      "license": "NASA POWER open data; cite POWER and underlying MERRA2/GEOSIT; no exclusive field truth"
+    },
+    {
+      "path": "data\\raw\\v2\\power-2004-2014.json",
+      "sha256": "86c70359456eac7c1bfbbe4de2d6a16997681303c5863640317e30bd7f58f1a7",
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX%2CRH2M&community=AG&longitude=106.0216210397&latitude=10.4790980766&start=20040101&end=20141231&format=JSON&time-standard=UTC",
+      "retrieved_at_utc": "2026-11-14T16:02:25.776306+00:00",
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Daily Data",
+        "api": {
+          "version": "v2.10.3",
+          "name": "POWER Daily API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "UTC",
+        "start": "20040101",
+        "end": "20141231"
+      },
+      "license": "NASA POWER open data; cite POWER and underlying MERRA2/GEOSIT; no exclusive field truth"
+    },
+    {
+      "path": "data\\raw\\resource-eda\\power-dashboard-20261114\\daily.json",
+      "sha256": "5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b",
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point",
+      "vintage": "original v1 snapshot 2015-2026-10",
+      "license": "NASA POWER open data"
+    }
+  ],
+  "aoi": {
+    "id": "MT-BLOCK-01",
+    "latitude": 10.4790980766,
+    "longitude": 106.0216210397,
+    "label": "Mỹ Thành, Đồng Tháp (user label; coordinate not independently surveyed)"
+  },
+  "period": [
+    "1984-01-01",
+    "2026-10-01"
+  ],
+  "rows": 514,
+  "schema": {
+    "precip_sum_mm": "float64",
+    "air_temp_mean_c": "float64",
+    "T2M_MIN": "float64",
+    "T2M_MAX": "float64",
+    "air_rh_mean_pct": "float64",
+    "SFMC": "float64",
+    "RZMC": "float64"
+  },
+  "units": {
+    "precip_sum_mm": "mm/month",
+    "air_temp_mean_c": "degC",
+    "air_rh_mean_pct": "percent"
+  },
+  "local_scope": "Frozen v2 references and contexts; no temporally aligned field weather/yield labels. Never pool stations/soil quantiles as target labels.",
+  "corpus_cards": 17,
+  "raw_preserved": true,
+  "new_data": false
+}

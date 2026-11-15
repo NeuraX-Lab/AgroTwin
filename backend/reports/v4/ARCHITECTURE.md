@@ -1,0 +1,9 @@
+# V4 — evidence sufficiency and source integrity
+
+Branch `research/ai-v4-evidence-gate`, source v3 `c6cd2fb`. ML is exactly the frozen v3 selection; corpus is the same 17 v2 cards. V4 modifies Block B only. Architecture: `ML Forecast contract + farmer input -> conditional rules; query -> unchanged v2 hybrid retrieval -> lexical support / temporal-scope gate -> source-byte SHA256 verification -> literal card renderer`. Rules never convert a regional forecast into eligibility, score, probability, yield or water savings.
+
+Useful difference: relative retrieval scores alone cannot establish support. V4 checks the fraction of meaningful query terms covered by the chosen card, keeps the original policy, rejects dynamic sensor/current-value requests, and checks the original cached source bytes for each answer. There is no new embedding, external LLM, free-form generator, corpus enrichment or paid call. This is an auditable heuristic, not a general semantic entailment solution or novel research claim.
+
+`scripts/research_runtime.py` defines the independent `Forecast` interface. Target, horizon, region, units, calendar/as-of/origin, value, bounds and uncertainty method are checked. Nonfinite values, unit/region mismatch, invalid bounds and unavailable future observations are rejected. Bad/missing ML records are excluded with warnings; outputs outside the user planting window are excluded from decision context. ML perturbations do not alter hard constraint outcomes. Existing response fields and `schema_version=fieldshift-2` remain; `research_schema_version` identifies additions. `/api/v2/analyze` is a compatible research alias on the NEW server; original v2 server/code remains available.
+
+Skills: same five local research/QA/gating/domain/API skills as v3, especially evidence limits and API error states. No new skill or model weight was installed. Source review and expert-signoff limits are inherited from v3.

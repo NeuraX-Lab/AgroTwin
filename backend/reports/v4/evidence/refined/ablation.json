@@ -1,0 +1,85 @@
+{
+  "development": {
+    "full": {
+      "n": 19,
+      "answerable": 11,
+      "unanswerable": 8,
+      "answerable_evidence_agreement": 1.0,
+      "correct_abstention": 1.0,
+      "overall_correct": 1.0,
+      "literal_support": true,
+      "verified_citation_fraction": 1.0,
+      "expert_groundedness_evaluated": false
+    },
+    "no_sufficiency": {
+      "n": 19,
+      "answerable": 11,
+      "unanswerable": 8,
+      "answerable_evidence_agreement": 1.0,
+      "correct_abstention": 0.0,
+      "overall_correct": 0.5789473684210527,
+      "literal_support": true,
+      "verified_citation_fraction": 1.0,
+      "expert_groundedness_evaluated": false
+    },
+    "no_integrity": {
+      "n": 19,
+      "answerable": 11,
+      "unanswerable": 8,
+      "answerable_evidence_agreement": 1.0,
+      "correct_abstention": 1.0,
+      "overall_correct": 1.0,
+      "literal_support": true,
+      "verified_citation_fraction": 0.0,
+      "expert_groundedness_evaluated": false
+    }
+  },
+  "source_fault": {
+    "guarded": {
+      "status": "insufficient_evidence",
+      "answer": "Chưa đủ bằng chứng đã kiểm chứng để trả lời câu hỏi này cho ruộng.",
+      "answer_en": "Insufficient verified evidence for this question.",
+      "citations": [],
+      "retrieved": [
+        "mungbean-water",
+        "rice-awd-2024",
+        "soil-ph-method"
+      ],
+      "domain_approved": false,
+      "generation": "constrained extractive; query support + source integrity",
+      "location_scope": "Mekong/nearby studies with explicit transfer limits",
+      "query_support_fraction": 0.75,
+      "abstention_reason": "source_integrity_failure",
+      "source_bytes_verified": false,
+      "latency_ms": 1.0022999995271675
+    },
+    "without_integrity": {
+      "status": "reference_only",
+      "answer": "Đậu xanh cần điều kiện tưới–tiêu chủ động. Quy trình ĐBSCL khuyên tránh đất thấp bị úng, nhiễm phèn hoặc mặn. Điều kiện tại ruộng Mỹ Thành chưa được xác nhận.",
+      "answer_en": "Mungbean needs controllable irrigation and drainage. The Mekong guideline advises avoiding waterlogged, acid-sulfate or saline sites. The target field conditions are unknown.",
+      "citations": [
+        {
+          "card_id": "mungbean-water",
+          "source_id": "VN_MUNGBEAN_MEKONG",
+          "locator": "PDF3 section4.1",
+          "url": "https://harc-ias.vn/storage/uploads/files/QTKT%20SX%20dau%20xanh%20DBSCL_%20Final%281%29.pdf",
+          "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa",
+          "scope": "IAS Mekong Delta technical protocol dated 2014; source-backed conditions, not current farm measurements or approved hard thresholds"
+        }
+      ],
+      "retrieved": [
+        "mungbean-water",
+        "rice-awd-2024",
+        "soil-ph-method"
+      ],
+      "domain_approved": false,
+      "generation": "constrained extractive; query support + source integrity",
+      "location_scope": "Mekong/nearby studies with explicit transfer limits",
+      "query_support_fraction": 0.75,
+      "abstention_reason": null,
+      "source_bytes_verified": false,
+      "latency_ms": 1.0363000037614256
+    }
+  },
+  "limitation": "Authored support check; no semantic entailment or independent agronomy audit"
+}

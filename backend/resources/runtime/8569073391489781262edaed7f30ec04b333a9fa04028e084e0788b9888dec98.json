@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CTU605",
+    "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/605/3214/3214",
+    "org": "Can Tho University",
+    "scope": "Mekong rice soils, Long Khanh and Vinh My trials; not target plot",
+    "year": 2009,
+    "path": "data\\raw\\v2\\agronomy\\CTU605.pdf",
+    "sha256": "ecc93a21a7b965dbc62a1d5722c001d9f2058edb0555708ba85108bb0eee1ccf",
+    "pages": 6,
+    "retrieved_at_utc": "2026-11-14T16:06:27.006454+00:00",
+    "status": "downloaded",
+    "license": "Public free access; redistribution rights not established; local research copy only",
+    "domain_reviewed": false
+  },
+  {
+    "id": "MARD2024",
+    "url": "https://khuyennongvn.gov.vn/data/documents/0/2024/03/29/hangweb/so-tay-huong-dan-quy-trinh-1-trieu-ha-dbscl-ngay-27-3-2024.pdf",
+    "org": "National Agricultural Extension Center / Department of Crop Production",
+    "scope": "Mekong Delta high-quality low-emission rice technical handbook; field applicability requires water control",
+    "year": 2024,
+    "path": "data\\raw\\v2\\agronomy\\MARD2024.pdf",
+    "sha256": "1dd8cd4859ea0695011c47a306e9a264bc995110751c5ae5ee4215fa5c0c1b9a",
+    "pages": 78,
+    "retrieved_at_utc": "2026-11-14T16:06:32.631271+00:00",
+    "status": "downloaded",
+    "license": "Public free access; redistribution rights not established; local research copy only",
+    "domain_reviewed": false
+  },
+  {
+    "id": "DROUGHT2026",
+    "url": "https://khuyennongvn.gov.vn/data/documents/0/2026/10/06/hangweb/st-hanhan-muakho-2026-2027-full.pdf",
+    "org": "National Agricultural Extension Center",
+    "scope": "Mekong Delta drought/salinity 2026-2027 handbook; bulletins cannot stand in for current field salinity",
+    "year": 2026,
+    "path": "data\\raw\\v2\\agronomy\\DROUGHT2026.pdf",
+    "sha256": "51efa2c3d33436b579667c65441705299fda5c1472799e326823772fbf930fa2",
+    "pages": 60,
+    "retrieved_at_utc": "2026-11-14T16:06:45.896307+00:00",
+    "status": "downloaded",
+    "license": "Public free access; redistribution rights not established; local research copy only",
+    "domain_reviewed": false
+  }
+]

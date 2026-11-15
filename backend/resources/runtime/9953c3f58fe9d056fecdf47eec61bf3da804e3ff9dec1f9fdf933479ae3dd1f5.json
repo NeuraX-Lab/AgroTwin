@@ -1,0 +1,117 @@
+{
+  "source": "NASA POWER public SMAP L4 Zarr",
+  "source_url": "https://nasa-power-smap.s3.amazonaws.com/smap/temporal/power_smap_daily_temporal_utc.zarr",
+  "source_metadata_sha256": "83400060d8a27c5670adea14985f950fd18e17e287b2ab827d644257224749eb",
+  "aoi": {
+    "region_id": "MT-BLOCK-01",
+    "label": "Mỹ Thành, Đồng Tháp",
+    "latitude": 10.479098076600966,
+    "longitude": 106.0216210397036,
+    "crs": "EPSG:4326",
+    "geometry_kind": "point_query_at_digitised_block_centroid",
+    "confirmation_status": "from_user_supplied_pack_not_field_verified",
+    "area_ha_approx": 1.996,
+    "pack_relative_root": "NeuraX-MyThanh-Bich-Research-Pack",
+    "pack_version": "1.3",
+    "boundary_role": "analyst_digitised_visible_cultivation_block_not_verified_farm",
+    "soil_homogeneous_verified": false,
+    "current_crop_verified": false,
+    "geometry_sha256": "8d8d0f7b5963b197f7dddb2d86d5a99eae812e617e477f135b540f6038ac7950",
+    "alias_in_bich_workbook": "Thạnh Mỹ, Tháp Mười",
+    "alias_status": "user_declared_same_locality_2026-11-14_not_independently_geocoded",
+    "coordinate_anchor": "previous_research_pack_retained_by_user_confirmation"
+  },
+  "source_attrs": {
+    "acknowledgement": "The Prediction Of Worldwide Energy Resources (POWER) Project is funded through the NASA Applied Sciences Program within the Earth Science Division of the Science Mission Directorate.",
+    "comment": "POWER data version 10.0.0 uses the source data resolution.",
+    "conventions": "CF-1.8, ACDD-1.3",
+    "creator_email": "bradley.macpherson@nasa.gov",
+    "creator_name": "Bradley Macpherson",
+    "derived_from": "The data products are derived from data partners and the POWER science team.",
+    "derived_info": "The data products are derived from data partners.",
+    "derived_link": "https://power.larc.nasa.gov",
+    "history": "The POWER project was established in the early 2000s to support distribution of NASA research products.",
+    "institution": "NASA Langley Research Center (LaRC)",
+    "keywords": "Earth Science",
+    "keywords_vocabulary": "NASA Global Change Master Directory (GCMD) Science Keyword Version 9.1.5",
+    "naming_authority": "gov.nasa.larc.power",
+    "processing_level": "4",
+    "project": "Prediction Of Worldwide Energy Resource (POWER)",
+    "publisher_email": "paul.w.stackhouse@nasa.gov",
+    "publisher_name": "Paul Stackhouse",
+    "references": "https://power.larc.nasa.gov",
+    "source": "Prediction Of Worldwide Energy Resource (POWER)",
+    "standard_name_vocabulary": "CF Standard Name Table v72",
+    "summary": "The POWER project provides solar and meteorological datasets from NASA research for support of renewable energy, building energy efficiency, and agricultural needs.",
+    "version": "POWER Version 10.0.0",
+    "date_created": "2026-08-03T20:01:03Z",
+    "geospatial_bounds": "POLYGON((-180.0 90.0, -180.0 -90.0, 180.0 -90.0, 180.0 90.0, -180.0 90.0))",
+    "geospatial_lat_max": 84.6564493915619,
+    "geospatial_lat_min": -84.6564493915619,
+    "geospatial_lat_resolution": 0.09,
+    "geospatial_lon_max": 179.95332856993562,
+    "geospatial_lon_min": -179.95332856993562,
+    "geospatial_lon_resolution": 0.09,
+    "time_coverage_duration": "P1D",
+    "time_coverage_end": "2029-12-31T00:00:00",
+    "time_coverage_resolution": "P1D",
+    "time_coverage_start": "2015-03-31T00:00:00",
+    "time_standard": "Universal Time Coordinated (UTC)",
+    "title": "POWER Universal Time Coordinated (UTC) Time Series",
+    "id": "power_smap_daily_temporal_utc.zarr"
+  },
+  "variable_attrs": {
+    "SFMC": {
+      "long_name": "Surface Soil Moisture",
+      "standard_name": "Surface_Soil_Moisture",
+      "definition": "Top layer soil moisture (0-5 cm).",
+      "base": "float32",
+      "units": "m3 m-3",
+      "valid_min": 0.0,
+      "valid_max": 0.9,
+      "significant_digits": 2,
+      "cell_methods": "time: mean",
+      "status": "reviewing"
+    },
+    "RZMC": {
+      "long_name": "Root Zone Soil Moisture",
+      "standard_name": "Root_Zone_Soil_Moisture",
+      "definition": "Root zone soil moisture (0-100 cm).",
+      "base": "float32",
+      "units": "m3 m-3",
+      "valid_min": 0.0,
+      "valid_max": 0.9,
+      "significant_digits": 2,
+      "cell_methods": "time: mean",
+      "status": "reviewing"
+    }
+  },
+  "native_centre": {
+    "latitude": 10.471763691925508,
+    "longitude": 106.01141613030445
+  },
+  "requested_period": [
+    "2015-03-31",
+    "2025-12-31"
+  ],
+  "native_subset_shape": {
+    "time": 3929,
+    "lat": 7,
+    "lon": 7
+  },
+  "scientific_values_downloaded": true,
+  "files": [
+    {
+      "path": "data\\raw\\satellite-context-2026-11-14\\smap-l4\\regional-daily.nc",
+      "sha256": "1e64b407f79e210c6446366defb54fa1c34d926fa31a6b761a267f8546158d58"
+    },
+    {
+      "path": "data\\raw\\satellite-context-2026-11-14\\smap-l4\\centroid-daily.csv",
+      "sha256": "9188c050badb9e7b98fc916a381f1d5f66d2bbc73d95e0236ebfa2072fba4f2c"
+    }
+  ],
+  "version_notes": "POWER v10 metadata identifies processing_level 4; underlying upstream SMAP L4 version not pinned by this redistribution metadata. Source variables are marked status=reviewing.",
+  "lineage_caution": "Model assimilates satellite observations and meteorological forcing; not independent validation of POWER weather or field moisture.",
+  "dataset_selected": false,
+  "features_selected": []
+}

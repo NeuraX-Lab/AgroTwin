@@ -1,0 +1,585 @@
+{
+  "metrics": {
+    "n": 19,
+    "answerable": 11,
+    "unanswerable": 8,
+    "answerable_evidence_agreement": 1.0,
+    "correct_abstention": 0.0,
+    "overall_correct": 0.5789473684210527,
+    "literal_support": true,
+    "verified_citation_fraction": 0.0,
+    "expert_groundedness_evaluated": false
+  },
+  "rows": [
+    {
+      "q": "Bắp non thu lần đầu hay giải phóng đất bao lâu?",
+      "id": "babycorn-duration",
+      "response": {
+        "status": "reference_only",
+        "answer": "Hướng dẫn bắp non nêu thu lần đầu sau 40–75 ngày tùy giống, rồi thu nhiều lần trong 7–12 ngày. Thời gian thu lần đầu khác thời gian giải phóng đất cho vụ tiếp.",
+        "answer_en": "The baby-corn guide gives first harvest40–75days depending on cultivar, with harvest spread over7–12days. First harvest is not field-release date.",
+        "citations": [
+          {
+            "card_id": "babycorn-duration",
+            "source_id": "VN_BABYCORN_GUIDE",
+            "locator": "PDF53 printed48",
+            "url": "https://elib.vnuf.edu.vn/bitstream/123456789/9570/1/Tai%20lieu%20huong%20dan%20thuc%20hanh%20cay%20luong%20thuc.pdf",
+            "sha256": "69f3a97b03b3fc232b120ed73c4c7fa574d349d7266f80434d66b275ef8b3e46",
+            "scope": "University teaching reference; general baby corn practice, not a verified Mekong calendar"
+          }
+        ],
+        "retrieved": [
+          "babycorn-duration",
+          "babycorn-water",
+          "rotation-counterexample"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "Đậu xanh có cần rãnh thoát nước?",
+      "id": "mungbean-water",
+      "response": {
+        "status": "reference_only",
+        "answer": "Đậu xanh cần điều kiện tưới–tiêu chủ động. Quy trình ĐBSCL khuyên tránh đất thấp bị úng, nhiễm phèn hoặc mặn. Điều kiện tại ruộng Mỹ Thành chưa được xác nhận.",
+        "answer_en": "Mungbean needs controllable irrigation and drainage. The Mekong guideline advises avoiding waterlogged, acid-sulfate or saline sites. The target field conditions are unknown.",
+        "citations": [
+          {
+            "card_id": "mungbean-water",
+            "source_id": "VN_MUNGBEAN_MEKONG",
+            "locator": "PDF3 section4.1",
+            "url": "https://harc-ias.vn/storage/uploads/files/QTKT%20SX%20dau%20xanh%20DBSCL_%20Final%281%29.pdf",
+            "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa",
+            "scope": "IAS Mekong Delta technical protocol dated 2014; source-backed conditions, not current farm measurements or approved hard thresholds"
+          }
+        ],
+        "retrieved": [
+          "mungbean-water",
+          "rotation-counterexample",
+          "rice-awd-2024"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "T2M là gì?",
+      "id": "power-temperature",
+      "response": {
+        "status": "reference_only",
+        "answer": "T2M là nhiệt độ không khí ở độ cao 2 m, đơn vị °C. PRECTOTCORR mới là lượng mưa; RH2M là độ ẩm không khí, không phải ẩm đất.",
+        "answer_en": "T2M is air temperature at2m in°C. PRECTOTCORR is precipitation; RH2M is air relative humidity, not soil moisture.",
+        "citations": [
+          {
+            "card_id": "power-temperature",
+            "source_id": "NASA_POWER",
+            "locator": "daily.json parameter metadata",
+            "url": "https://power.larc.nasa.gov/",
+            "sha256": "5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b",
+            "scope": "regional model or measurement-product context; not field agronomic approval"
+          }
+        ],
+        "retrieved": [
+          "power-temperature",
+          "soil-ph-method",
+          "power-rain"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "How does AWD save water in rice?",
+      "id": "rice-awd-2024",
+      "response": {
+        "status": "reference_only",
+        "answer": "Sổ tay ĐBSCL 2024 hướng dẫn quản lý nước cho lúa bằng ướt–khô xen kẽ theo giai đoạn. Cần kiểm soát cấp–thoát nước và theo dõi mực nước tại ruộng; mưa tháng không thay được phép đo đó.",
+        "answer_en": "The 2024 Mekong rice handbook describes stage-specific alternate wetting and drying. It requires water control and field water-level monitoring; monthly rainfall cannot replace those measurements.",
+        "citations": [
+          {
+            "card_id": "rice-awd-2024",
+            "source_id": "MARD2024",
+            "locator": "PDF35 / printed27, section4",
+            "url": "https://khuyennongvn.gov.vn/data/documents/0/2024/03/29/hangweb/so-tay-huong-dan-quy-trinh-1-trieu-ha-dbscl-ngay-27-3-2024.pdf",
+            "sha256": "1dd8cd4859ea0695011c47a306e9a264bc995110751c5ae5ee4215fa5c0c1b9a",
+            "scope": "Mekong Delta high-quality low-emission rice technical handbook; field applicability requires water control"
+          }
+        ],
+        "retrieved": [
+          "rice-awd-2024",
+          "crop-water-formula",
+          "soil-ph-method"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "Can I use coastal salinity dates for inland fields?",
+      "id": "salinity-scope-2026",
+      "response": {
+        "status": "reference_only",
+        "answer": "Sổ tay hạn mặn 2026–2027 phân lịch lúa theo vùng rủi ro, gồm vùng ven biển và lúa–tôm. Chưa xác nhận Mỹ Thành thuộc các nhóm này; không sao chép lịch hoặc ngưỡng của lúa–tôm cho ruộng.",
+        "answer_en": "The 2026–2027 drought handbook separates coastal and rice-shrimp risk zones. The target field has not been assigned to those zones; their calendars or thresholds must not be copied automatically.",
+        "citations": [
+          {
+            "card_id": "salinity-scope-2026",
+            "source_id": "DROUGHT2026",
+            "locator": "PDF10 / printed8, section2.3",
+            "url": "https://khuyennongvn.gov.vn/data/documents/0/2026/10/06/hangweb/st-hanhan-muakho-2026-2027-full.pdf",
+            "sha256": "51efa2c3d33436b579667c65441705299fda5c1472799e326823772fbf930fa2",
+            "scope": "Mekong Delta drought/salinity 2026-2027 handbook; bulletins cannot stand in for current field salinity"
+          }
+        ],
+        "retrieved": [
+          "salinity-scope-2026",
+          "soil-ph-method",
+          "babycorn-water"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "Soil compaction after triple rice?",
+      "id": "rotation-soil-ctu",
+      "response": {
+        "status": "reference_only",
+        "answer": "Nghiên cứu CTU về đất lúa ba vụ khảo sát nén dẽ và các hệ luân canh tại Long Khánh/Vĩnh Mỹ. Nó hỗ trợ xem xét cơ chế vật lý đất; chưa chứng minh mức cải thiện ở ruộng Mỹ Thành.",
+        "answer_en": "The CTU triple-rice soil study examined compaction and rotation systems at Long Khanh/Vinh My. It supports considering soil physical mechanisms, not a quantified benefit for the target field.",
+        "citations": [
+          {
+            "card_id": "rotation-soil-ctu",
+            "source_id": "CTU605",
+            "locator": "PDF1 abstract; PDF3 experimental design",
+            "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/605/3214/3214",
+            "sha256": "ecc93a21a7b965dbc62a1d5722c001d9f2058edb0555708ba85108bb0eee1ccf",
+            "scope": "Mekong rice soils, Long Khanh and Vinh My trials; not target plot"
+          }
+        ],
+        "retrieved": [
+          "rotation-soil-ctu",
+          "mungbean-calendar",
+          "rotation-historic"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "Rice protein content per 100 grams?",
+      "abstain": true,
+      "response": {
+        "status": "reference_only",
+        "answer": "Nghiên cứu lịch sử tại Cai Lậy có các chuỗi lúa–lúa–lúa, lúa–bắp non–lúa và lúa–đậu xanh–lúa. Kết quả ở nơi và thời điểm đó là đối chứng tham khảo, chưa xác nhận phương án tốt nhất cho ruộng hiện tại.",
+        "answer_en": "The historical CaiLay study compares rice–rice–rice, rice–babycorn–rice and rice–mungbean–rice. Its outcomes are references, not optimal-rotation labels for the current field.",
+        "citations": [
+          {
+            "card_id": "rotation-historic",
+            "source_id": "LOCAL_ROT2009",
+            "locator": "Table4 PDF6",
+            "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/view/597",
+            "sha256": "316c7b190c8db3959b2b54096ce9434fe38d21aa0f8373a31a29157d69995155",
+            "scope": "Long Khanh, Cai Lay, Tien Giang; historic experiment"
+          }
+        ],
+        "retrieved": [
+          "rotation-historic",
+          "rice-awd-2024",
+          "rotation-soil-ctu"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": false,
+      "evidence_agreement": null,
+      "literal_support": true
+    },
+    {
+      "q": "Wheat irrigation requirements?",
+      "abstain": true,
+      "response": {
+        "status": "reference_only",
+        "answer": "Bắp non cần đất cao và tưới–tiêu chủ động theo hướng dẫn tham khảo. Chưa có dữ liệu để tính chính xác nước tiết kiệm tại Mỹ Thành.",
+        "answer_en": "The baby-corn reference calls for elevated land and controlled irrigation/drainage. Exact water savings at the target field are unknown.",
+        "citations": [
+          {
+            "card_id": "babycorn-water",
+            "source_id": "VN_BABYCORN_GUIDE",
+            "locator": "PDF52–53",
+            "url": "https://elib.vnuf.edu.vn/bitstream/123456789/9570/1/Tai%20lieu%20huong%20dan%20thuc%20hanh%20cay%20luong%20thuc.pdf",
+            "sha256": "69f3a97b03b3fc232b120ed73c4c7fa574d349d7266f80434d66b275ef8b3e46",
+            "scope": "University teaching reference; general baby corn practice, not a verified Mekong calendar"
+          }
+        ],
+        "retrieved": [
+          "babycorn-water",
+          "rice-awd-2024",
+          "mungbean-water"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": false,
+      "evidence_agreement": null,
+      "literal_support": true
+    },
+    {
+      "q": "Does rice grow on Mars?",
+      "abstain": true,
+      "response": {
+        "status": "reference_only",
+        "answer": "Nghiên cứu lịch sử tại Cai Lậy có các chuỗi lúa–lúa–lúa, lúa–bắp non–lúa và lúa–đậu xanh–lúa. Kết quả ở nơi và thời điểm đó là đối chứng tham khảo, chưa xác nhận phương án tốt nhất cho ruộng hiện tại.",
+        "answer_en": "The historical CaiLay study compares rice–rice–rice, rice–babycorn–rice and rice–mungbean–rice. Its outcomes are references, not optimal-rotation labels for the current field.",
+        "citations": [
+          {
+            "card_id": "rotation-historic",
+            "source_id": "LOCAL_ROT2009",
+            "locator": "Table4 PDF6",
+            "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/view/597",
+            "sha256": "316c7b190c8db3959b2b54096ce9434fe38d21aa0f8373a31a29157d69995155",
+            "scope": "Long Khanh, Cai Lay, Tien Giang; historic experiment"
+          }
+        ],
+        "retrieved": [
+          "rotation-historic",
+          "soil-ph-method",
+          "babycorn-duration"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": false,
+      "evidence_agreement": null,
+      "literal_support": true
+    },
+    {
+      "q": "How much arsenic is safe in rice?",
+      "abstain": true,
+      "response": {
+        "status": "reference_only",
+        "answer": "T2M là nhiệt độ không khí ở độ cao 2 m, đơn vị °C. PRECTOTCORR mới là lượng mưa; RH2M là độ ẩm không khí, không phải ẩm đất.",
+        "answer_en": "T2M is air temperature at2m in°C. PRECTOTCORR is precipitation; RH2M is air relative humidity, not soil moisture.",
+        "citations": [
+          {
+            "card_id": "power-temperature",
+            "source_id": "NASA_POWER",
+            "locator": "daily.json parameter metadata",
+            "url": "https://power.larc.nasa.gov/",
+            "sha256": "5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b",
+            "scope": "regional model or measurement-product context; not field agronomic approval"
+          }
+        ],
+        "retrieved": [
+          "power-temperature",
+          "rotation-historic",
+          "smap-moisture"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": false,
+      "evidence_agreement": null,
+      "literal_support": true
+    },
+    {
+      "q": "pH electrode calibration procedure?",
+      "abstain": true,
+      "response": {
+        "status": "reference_only",
+        "answer": "pH nước và pH KCl là hai phương pháp khác nhau; phải giữ phương pháp và độ sâu. Một hồ sơ đất ở Vĩnh Long không tạo công thức chuyển đổi chung cho ruộng Mỹ Thành.",
+        "answer_en": "Water pH and KCl pH use different methods. Preserve method and depth; one VinhLong profile does not justify a universal conversion for the target field.",
+        "citations": [
+          {
+            "card_id": "soil-ph-method",
+            "source_id": "LOCAL_ROT2024",
+            "locator": "Table1 PDF4",
+            "url": "https://doi.org/10.3390/agronomy14061185",
+            "sha256": "29b883cb53ab099658f6792f9917d7bc446eb3aca00f9442747bf7802f12a401",
+            "scope": "My Loi, Thien My, Tra On, Vinh Long; trial 2017–2020"
+          }
+        ],
+        "retrieved": [
+          "soil-ph-method",
+          "optical-limits",
+          "babycorn-water"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": false,
+      "evidence_agreement": null,
+      "literal_support": true
+    },
+    {
+      "q": "Rice export tariff and market contract?",
+      "abstain": true,
+      "response": {
+        "status": "reference_only",
+        "answer": "Nghiên cứu lịch sử tại Cai Lậy có các chuỗi lúa–lúa–lúa, lúa–bắp non–lúa và lúa–đậu xanh–lúa. Kết quả ở nơi và thời điểm đó là đối chứng tham khảo, chưa xác nhận phương án tốt nhất cho ruộng hiện tại.",
+        "answer_en": "The historical CaiLay study compares rice–rice–rice, rice–babycorn–rice and rice–mungbean–rice. Its outcomes are references, not optimal-rotation labels for the current field.",
+        "citations": [
+          {
+            "card_id": "rotation-historic",
+            "source_id": "LOCAL_ROT2009",
+            "locator": "Table4 PDF6",
+            "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/view/597",
+            "sha256": "316c7b190c8db3959b2b54096ce9434fe38d21aa0f8373a31a29157d69995155",
+            "scope": "Long Khanh, Cai Lay, Tien Giang; historic experiment"
+          }
+        ],
+        "retrieved": [
+          "rotation-historic",
+          "rice-awd-2024",
+          "rotation-soil-ctu"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": false,
+      "evidence_agreement": null,
+      "literal_support": true
+    },
+    {
+      "q": "Mungbean vitamin content?",
+      "abstain": true,
+      "response": {
+        "status": "reference_only",
+        "answer": "Đậu xanh cần điều kiện tưới–tiêu chủ động. Quy trình ĐBSCL khuyên tránh đất thấp bị úng, nhiễm phèn hoặc mặn. Điều kiện tại ruộng Mỹ Thành chưa được xác nhận.",
+        "answer_en": "Mungbean needs controllable irrigation and drainage. The Mekong guideline advises avoiding waterlogged, acid-sulfate or saline sites. The target field conditions are unknown.",
+        "citations": [
+          {
+            "card_id": "mungbean-water",
+            "source_id": "VN_MUNGBEAN_MEKONG",
+            "locator": "PDF3 section4.1",
+            "url": "https://harc-ias.vn/storage/uploads/files/QTKT%20SX%20dau%20xanh%20DBSCL_%20Final%281%29.pdf",
+            "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa",
+            "scope": "IAS Mekong Delta technical protocol dated 2014; source-backed conditions, not current farm measurements or approved hard thresholds"
+          }
+        ],
+        "retrieved": [
+          "mungbean-water",
+          "mungbean-duration",
+          "rotation-counterexample"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": false,
+      "evidence_agreement": null,
+      "literal_support": true
+    },
+    {
+      "q": "Current water level at my field?",
+      "abstain": true,
+      "response": {
+        "status": "reference_only",
+        "answer": "Sổ tay ĐBSCL 2024 hướng dẫn quản lý nước cho lúa bằng ướt–khô xen kẽ theo giai đoạn. Cần kiểm soát cấp–thoát nước và theo dõi mực nước tại ruộng; mưa tháng không thay được phép đo đó.",
+        "answer_en": "The 2024 Mekong rice handbook describes stage-specific alternate wetting and drying. It requires water control and field water-level monitoring; monthly rainfall cannot replace those measurements.",
+        "citations": [
+          {
+            "card_id": "rice-awd-2024",
+            "source_id": "MARD2024",
+            "locator": "PDF35 / printed27, section4",
+            "url": "https://khuyennongvn.gov.vn/data/documents/0/2024/03/29/hangweb/so-tay-huong-dan-quy-trinh-1-trieu-ha-dbscl-ngay-27-3-2024.pdf",
+            "sha256": "1dd8cd4859ea0695011c47a306e9a264bc995110751c5ae5ee4215fa5c0c1b9a",
+            "scope": "Mekong Delta high-quality low-emission rice technical handbook; field applicability requires water control"
+          }
+        ],
+        "retrieved": [
+          "rice-awd-2024",
+          "babycorn-water",
+          "rotation-soil-ctu"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": false,
+      "evidence_agreement": null,
+      "literal_support": true
+    },
+    {
+      "q": "How does mungbean drainage prevent waterlogging?",
+      "id": "mungbean-water",
+      "response": {
+        "status": "reference_only",
+        "answer": "Đậu xanh cần điều kiện tưới–tiêu chủ động. Quy trình ĐBSCL khuyên tránh đất thấp bị úng, nhiễm phèn hoặc mặn. Điều kiện tại ruộng Mỹ Thành chưa được xác nhận.",
+        "answer_en": "Mungbean needs controllable irrigation and drainage. The Mekong guideline advises avoiding waterlogged, acid-sulfate or saline sites. The target field conditions are unknown.",
+        "citations": [
+          {
+            "card_id": "mungbean-water",
+            "source_id": "VN_MUNGBEAN_MEKONG",
+            "locator": "PDF3 section4.1",
+            "url": "https://harc-ias.vn/storage/uploads/files/QTKT%20SX%20dau%20xanh%20DBSCL_%20Final%281%29.pdf",
+            "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa",
+            "scope": "IAS Mekong Delta technical protocol dated 2014; source-backed conditions, not current farm measurements or approved hard thresholds"
+          }
+        ],
+        "retrieved": [
+          "mungbean-water",
+          "crop-water-formula",
+          "soil-ph-method"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "Is baby corn first harvest the field release date?",
+      "id": "babycorn-duration",
+      "response": {
+        "status": "reference_only",
+        "answer": "Hướng dẫn bắp non nêu thu lần đầu sau 40–75 ngày tùy giống, rồi thu nhiều lần trong 7–12 ngày. Thời gian thu lần đầu khác thời gian giải phóng đất cho vụ tiếp.",
+        "answer_en": "The baby-corn guide gives first harvest40–75days depending on cultivar, with harvest spread over7–12days. First harvest is not field-release date.",
+        "citations": [
+          {
+            "card_id": "babycorn-duration",
+            "source_id": "VN_BABYCORN_GUIDE",
+            "locator": "PDF53 printed48",
+            "url": "https://elib.vnuf.edu.vn/bitstream/123456789/9570/1/Tai%20lieu%20huong%20dan%20thuc%20hanh%20cay%20luong%20thuc.pdf",
+            "sha256": "69f3a97b03b3fc232b120ed73c4c7fa574d349d7266f80434d66b275ef8b3e46",
+            "scope": "University teaching reference; general baby corn practice, not a verified Mekong calendar"
+          }
+        ],
+        "retrieved": [
+          "babycorn-duration",
+          "babycorn-water",
+          "power-rain"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "Can NDVI directly measure soil NPK?",
+      "id": "optical-limits",
+      "response": {
+        "status": "reference_only",
+        "answer": "NDVI/EVI mô tả tín hiệu thảm thực vật và nhịp mùa vụ. Chúng không trực tiếp đo pH, NPK, loại cây hoặc nguyên nhân stress. Mây và coverage phải đi cùng bản đồ.",
+        "answer_en": "NDVI/EVI describe vegetation signal and seasonal change. They do not directly measure pH,NPK,crop identity or stress cause. Cloud QA and coverage accompany maps.",
+        "citations": [
+          {
+            "card_id": "optical-limits",
+            "source_id": "NASA_MODIS",
+            "locator": "MOD13Q1 QA/indices metadata and EDA",
+            "url": "https://modis.ornl.gov/rst/api/v1/MOD13Q1/bands",
+            "sha256": "a4c18d679d6b3f93d8b5789f274e4d7ad82a6b6d1376143a90a9f93e2039b321",
+            "scope": "regional model or measurement-product context; not field agronomic approval"
+          }
+        ],
+        "retrieved": [
+          "optical-limits",
+          "rotation-soil-ctu",
+          "rice-awd-2024"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "Why preserve the pH measurement method and depth?",
+      "id": "soil-ph-method",
+      "response": {
+        "status": "reference_only",
+        "answer": "pH nước và pH KCl là hai phương pháp khác nhau; phải giữ phương pháp và độ sâu. Một hồ sơ đất ở Vĩnh Long không tạo công thức chuyển đổi chung cho ruộng Mỹ Thành.",
+        "answer_en": "Water pH and KCl pH use different methods. Preserve method and depth; one VinhLong profile does not justify a universal conversion for the target field.",
+        "citations": [
+          {
+            "card_id": "soil-ph-method",
+            "source_id": "LOCAL_ROT2024",
+            "locator": "Table1 PDF4",
+            "url": "https://doi.org/10.3390/agronomy14061185",
+            "sha256": "29b883cb53ab099658f6792f9917d7bc446eb3aca00f9442747bf7802f12a401",
+            "scope": "My Loi, Thien My, Tra On, Vinh Long; trial 2017–2020"
+          }
+        ],
+        "retrieved": [
+          "soil-ph-method",
+          "optical-limits",
+          "soilgrid-limits"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    },
+    {
+      "q": "Does the rotation trial use sesame and soybean?",
+      "id": "rotation-counterexample",
+      "response": {
+        "status": "reference_only",
+        "answer": "Thí nghiệm Vĩnh Long 2017–2020 dùng mè và đậu nành. Tác động chính của hệ thống luân canh lên năng suất lúa cuối kỳ không có ý nghĩa thống kê. Không đổi đậu nành thành đậu xanh khi diễn giải.",
+        "answer_en": "The2017–2020 VinhLong trial uses sesame and soybean. The final rice-yield main effect of cropping system is not statistically significant. Soybean is not mungbean.",
+        "citations": [
+          {
+            "card_id": "rotation-counterexample",
+            "source_id": "LOCAL_ROT2024",
+            "locator": "Table3 PDF10",
+            "url": "https://doi.org/10.3390/agronomy14061185",
+            "sha256": "29b883cb53ab099658f6792f9917d7bc446eb3aca00f9442747bf7802f12a401",
+            "scope": "My Loi, Thien My, Tra On, Vinh Long; trial 2017–2020"
+          }
+        ],
+        "retrieved": [
+          "rotation-counterexample",
+          "soil-ph-method",
+          "rotation-soil-ctu"
+        ],
+        "domain_approved": false,
+        "generation": "constrained extractive; no free-form LLM",
+        "location_scope": "Mekong/nearby studies with explicit transfer limits"
+      },
+      "correct_abstention": true,
+      "evidence_agreement": true,
+      "literal_support": true
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "MT-BLOCK-01",
+  "name": "Mỹ Thành, Đồng Tháp",
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "MT-BLOCK-01",
+          "status": "analyst_digitised_visible_cultivation_block_not_verified_farm",
+          "area_ha_approx": 1.996,
+          "center_lon_lat": [
+            106.0216210397036,
+            10.479098076600966
+          ],
+          "crs": "EPSG:4326",
+          "homogeneous_soil_verified": false,
+          "current_crop_verified": false,
+          "rotation_verified": false,
+          "may_contain_multiple_subplots": true,
+          "legal_boundary": false,
+          "source_image_date_metadata": "2025-08-07",
+          "date_scope": "source citation footprint; not current 2026 field survey",
+          "edge_interpretation": "visible outer cultivation edges next to tree strips and bunds; no land title or farm ownership inferred"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                106.02119400000001,
+                10.479885999999999
+              ],
+              [
+                106.02108000000001,
+                10.479603999999998
+              ],
+              [
+                106.02096000000002,
+                10.479279999999997
+              ],
+              [
+                106.02082800000001,
+                10.478943999999998
+              ],
+              [
+                106.020756,
+                10.478763999999998
+              ],
+              [
+                106.02206400000001,
+                10.478313999999997
+              ],
+              [
+                106.02210000000001,
+                10.478415999999998
+              ],
+              [
+                106.022478,
+                10.479429999999997
+              ],
+              [
+                106.02119400000001,
+                10.479885999999999
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "properties": {
+    "id": "MT-BLOCK-01",
+    "status": "analyst_digitised_visible_cultivation_block_not_verified_farm",
+    "area_ha_approx": 1.996,
+    "center_lon_lat": [
+      106.0216210397036,
+      10.479098076600966
+    ],
+    "crs": "EPSG:4326",
+    "homogeneous_soil_verified": false,
+    "current_crop_verified": false,
+    "rotation_verified": false,
+    "may_contain_multiple_subplots": true,
+    "legal_boundary": false,
+    "source_image_date_metadata": "2025-08-07",
+    "date_scope": "source citation footprint; not current 2026 field survey",
+    "edge_interpretation": "visible outer cultivation edges next to tree strips and bunds; no land title or farm ownership inferred"
+  },
+  "geometry_source_sha256": "8d8d0f7b5963b197f7dddb2d86d5a99eae812e617e477f135b540f6038ac7950",
+  "soil_context": {
+    "checked_rasters": 15,
+    "point_lon_lat": [
+      106.0216210397036,
+      10.479098076600966
+    ],
+    "values": [
+      {
+        "property": "clay",
+        "depth": "0-5cm",
+        "mean": 35.3,
+        "Q0.05": 0.4,
+        "Q0.95": 93.2
+      },
+      {
+        "property": "phh2o",
+        "depth": "0-5cm",
+        "mean": 6.3,
+        "Q0.05": 4.5,
+        "Q0.95": 8.3
+      },
+      {
+        "property": "phh2o",
+        "depth": "15-30cm",
+        "mean": 6.3,
+        "Q0.05": 4.5,
+        "Q0.95": 8.3
+      },
+      {
+        "property": "phh2o",
+        "depth": "5-15cm",
+        "mean": 6.3,
+        "Q0.05": 4.5,
+        "Q0.95": 8.3
+      },
+      {
+        "property": "sand",
+        "depth": "0-5cm",
+        "mean": 21.1,
+        "Q0.05": 1.2,
+        "Q0.95": 72.5
+      }
+    ],
+    "matches_existing_centroid_model": true,
+    "native_support_m": 250,
+    "resampling_algorithm_verified": false,
+    "field_measurement": false,
+    "limits": [
+      "Centroid model cell, not a block average or measured sample.",
+      "Q05/Q95 are marginal prediction quantiles, not replicate field measurements.",
+      "Sand and clay quantiles cannot be combined into a valid joint texture class.",
+      "No EC, irrigation, drainage, compaction or current crop verified."
+    ]
+  }
+}

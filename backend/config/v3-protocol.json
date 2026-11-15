@@ -1,0 +1,27 @@
+{
+  "version": 3,
+  "created_before_candidate_evaluation": true,
+  "source_commit": "c6fad2b",
+  "dataset": "Frozen v2 NASA + LOCAL only; unchanged 17-card v2 corpus",
+  "targets": {"precip_sum_mm":"mm/month", "air_temp_mean_c":"degC", "air_rh_mean_pct":"percent"},
+  "horizons_months": [1,3],
+  "development_years": [2004,2006,2008,2010,2011],
+  "calibration_years": [2015,2016,2017],
+  "final_diagnostic_years": [2018,2019,2020,2021,2022,2023,2024,2025],
+  "test_independence": "No project-wide unseen labels remain established. Final is locked reused retrospective diagnostic, NOT independent test. Do not tune after opening.",
+  "availability": "Target t, origin t-h, latest observation t-h-1; completed UTC months; no verified historical vintage",
+  "refit": "Quarterly expanding origin, training labels <= first target in quarter minus h+1 months; monthly feature updates. Same schedule for ALL methods.",
+  "primary_metric": "Per-task MAE; overall equal mean MAE ratio to development-chosen simple baseline across six tasks",
+  "secondary": ["RMSE", "bias", "dry/wet MAE", "year MAE", "paired year-block bootstrap CI95", "interval coverage", "interval score", "width", "latency", "artifact bytes"],
+  "gate": {"relative_MAE_improvement":0.03,"minimum_winning_dev_years":3,"maximum_season_degradation":0.10,"CI95_lower_must_exceed_zero_for_confirmed_gain":true},
+  "selection": "Choose simple climatology/seasonal-naive by development MAE. Promote candidate only if ALL gate conditions pass; otherwise retain baseline. Historical v2 specs are frozen comparators, not re-tuned.",
+  "uncertainty": "Point methods frozen on development. Separate 2015-2017 rolling calibration; 80% finite-sample empirical absolute-error bands. v5 compare pooled vs seasonal-scaled on development prequential calibration only. No exchangeability/coverage guarantee.",
+  "rag": "Original v2 development/final are exposed regressions. New authored development safety cases and separately frozen final paraphrases; same 17 cards. Evaluate recall/top1, correct abstention, literal support, source-byte hash validity, deterministic constraints; no expert gold claim.",
+  "budget": {"wall_minutes":45,"max_method_versions":3,"max_candidate_fits":2400,"cpu_threads":1,"paid_services":false,"seeds":[17,42,91]},
+  "stop": "Finish three ranked feasible hypotheses or wall budget; stop after two non-improving method hypotheses. No test-driven successor. No claim of absolute optimum.",
+  "ranked_hypotheses": [
+    {"version":"v3","method":"train-only seasonal anomaly ridge and recency climatology","mechanism":"Reduce secular shift and unnecessary raw seasonal fitting","risk":"Small per-month sample; shrinkage needed","fits_budget":2200},
+    {"version":"v4","method":"query-evidence sufficiency and source-integrity gate","mechanism":"Stop unrelated agronomic queries and corrupted provenance from becoming sourced answers","risk":"False abstention on paraphrases","fits_budget":0},
+    {"version":"v5","method":"season-scaled empirical residual calibration","mechanism":"Allow wet/dry heteroscedastic uncertainty without changing point forecasts","risk":"Only 15 dry and 21 wet calibration months","fits_budget":0}
+  ]
+}

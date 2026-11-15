@@ -1,0 +1,9 @@
+{
+ "selected_system":"v4",
+ "ml":"v3 frozen climatology",
+ "rag":"v4 refined evidence gate",
+ "uncertainty":"v3 pooled separate calibration",
+ "auto_upgrade":false,
+ "decision":"User selected v4; no global ML-superiority claim",
+ "scope":"research_only, single retained AOI, historical vintage unverified"
+}

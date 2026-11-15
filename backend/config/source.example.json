@@ -1,0 +1,17 @@
+{
+  "provider": "NASA POWER",
+  "product": "POWER Daily Point (exact version unknown until reviewed)",
+  "source_url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+  "license": "REVIEW OFFICIAL TERMS / ATTRIBUTION",
+  "verification_status": "unverified",
+  "data_mode": "unknown",
+  "aoi": "SET-VALID-REGION-ID",
+  "longitude": null,
+  "latitude": null,
+  "time_standard": "UNKNOWN; POWER daily defaults to LST unless configured",
+  "parameters": ["PRECTOTCORR", "T2M"],
+  "resolution": "verify",
+  "downloaded_at_utc": null,
+  "reviewer": null,
+  "notes": "Copy to data/raw/_source.json and fill only verified fields. Do not mark observed/verified merely from file name."
+}

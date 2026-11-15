@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "frozen_before_new_data_download": true,
+  "aoi": {"id":"MT-BLOCK-01","latitude":10.4790980766,"longitude":106.0216210397,"label":"Mỹ Thành, Đồng Tháp (user label; coordinate not independently surveyed)"},
+  "primary_metric":"MAE in target units; equally weighted validation months",
+  "new_data_period":[1984,2014],
+  "development_validation_years":[2004,2006,2008,2010,2011],
+  "new_locked_test_years":[2012,2013,2014],
+  "old_exposed_period":"2015-2025: v1 EDA/test exposed, used for reproducibility and optional SMAP ablation only, never new blind test",
+  "horizons_months":[1,3],
+  "targets":{"precip_sum_mm":"mm/month","air_temp_mean_c":"degC","air_rh_mean_pct":"percent"},
+  "availability_policy":"Completed calendar months only; conservative one extra month latency buffer. Historical product vintage unavailable: retrospective hindcast, not operational skill proof.",
+  "selection":"lowest mean development MAE; within 2% prefer lower-complexity baseline; test cannot change candidate",
+  "interval":"80% absolute residual empirical band from development rolling errors; evaluate coverage/width, no guaranteed dependent-time coverage",
+  "budget":{"max_candidate_fits":1600,"cpu_threads":1,"max_training_minutes":30,"paid_services":false,"seeds":[17,42,91]},
+  "stop":"Evaluate baseline, v1 reproduction, HGB raw/expanded/log-target, ridge anomalies, ExtraTrees, bias correction and blend. Stop after preregistered search plus development error analysis when marginal gain <2% or budget reached. No test-driven tuning.",
+  "independence_warning":"New historical 2012-2014 labels were not in original DATA v1. Final evaluation is retrospective, single AOI, no spatial/generalization or field-rain accuracy claim. Test integrity also requires immutable selection record.",
+  "primary_scope":"monthly climate estimates, not daily weather forecasts or exact irrigation requirements"
+}

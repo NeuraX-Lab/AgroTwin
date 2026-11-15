@@ -1,0 +1,143 @@
+{
+  "v1_exact": {
+    "A8": true,
+    "B10": true,
+    "seasonal_naive": true
+  },
+  "v1_test": {
+    "A8": {
+      "MAE_mm": 65.20748544438484,
+      "RMSE_mm": 94.30769952059369,
+      "bias_mm": 42.98133650350068,
+      "n": 12,
+      "MAE_skill_vs_naive": -0.3307876415119615
+    },
+    "B10": {
+      "MAE_mm": 63.146655366718385,
+      "RMSE_mm": 91.28204083793068,
+      "bias_mm": 43.80124676504851,
+      "n": 12,
+      "MAE_skill_vs_naive": -0.28872916954475536
+    },
+    "seasonal_naive": {
+      "MAE_mm": 48.99916666666666,
+      "RMSE_mm": 74.40638699063408,
+      "bias_mm": 17.999166666666664,
+      "n": 12
+    }
+  },
+  "v2_exact": [
+    {
+      "task": "precip_sum_mm-h1",
+      "reproduced": {
+        "MAE": 36.433055555555555,
+        "RMSE": 50.5672479366723,
+        "bias": 10.014722222222222,
+        "n": 36
+      },
+      "historical": {
+        "MAE": 36.433055555555555,
+        "RMSE": 50.5672479366723,
+        "bias": 10.014722222222222,
+        "n": 36
+      },
+      "match": true
+    },
+    {
+      "task": "precip_sum_mm-h3",
+      "reproduced": {
+        "MAE": 32.98771309864801,
+        "RMSE": 45.98359854530059,
+        "bias": 15.079897747667312,
+        "n": 36
+      },
+      "historical": {
+        "MAE": 32.98771309864801,
+        "RMSE": 45.98359854530059,
+        "bias": 15.079897747667312,
+        "n": 36
+      },
+      "match": true
+    },
+    {
+      "task": "air_temp_mean_c-h1",
+      "reproduced": {
+        "MAE": 0.5067280608333603,
+        "RMSE": 0.6079880779433127,
+        "bias": -0.14507598681510508,
+        "n": 36
+      },
+      "historical": {
+        "MAE": 0.5067280608333603,
+        "RMSE": 0.6079880779433127,
+        "bias": -0.14507598681510508,
+        "n": 36
+      },
+      "match": true
+    },
+    {
+      "task": "air_temp_mean_c-h3",
+      "reproduced": {
+        "MAE": 0.592951734330128,
+        "RMSE": 0.7569946813187999,
+        "bias": -0.1900181415992196,
+        "n": 36
+      },
+      "historical": {
+        "MAE": 0.592951734330128,
+        "RMSE": 0.7569946813187999,
+        "bias": -0.1900181415992196,
+        "n": 36
+      },
+      "match": true
+    },
+    {
+      "task": "air_rh_mean_pct-h1",
+      "reproduced": {
+        "MAE": 3.8596978645651387,
+        "RMSE": 4.985747752871842,
+        "bias": 1.200931458091575,
+        "n": 36
+      },
+      "historical": {
+        "MAE": 3.8596978645651387,
+        "RMSE": 4.985747752871842,
+        "bias": 1.200931458091575,
+        "n": 36
+      },
+      "match": true
+    },
+    {
+      "task": "air_rh_mean_pct-h3",
+      "reproduced": {
+        "MAE": 3.8363500277652522,
+        "RMSE": 4.9362587844620744,
+        "bias": 0.9136797365453982,
+        "n": 36
+      },
+      "historical": {
+        "MAE": 3.8363500277652522,
+        "RMSE": 4.9362587844620744,
+        "bias": 0.9136797365453982,
+        "n": 36
+      },
+      "match": true
+    }
+  ],
+  "raw_monthly_max_abs_difference": {
+    "precip_sum_mm": 5.684341886080802e-14,
+    "air_temp_mean_c": 3.552713678800501e-15,
+    "air_rh_mean_pct": 1.4210854715202004e-14
+  },
+  "generic_original": {
+    "seasonal_naive_mae": 48.99916666666666,
+    "candidate_mae": 59.311981647600184,
+    "seasonal_naive_rmse": 74.40638699063408,
+    "candidate_rmse": 90.9489017969249
+  },
+  "generic_selected": "seasonal_naive",
+  "generic_warning": "Selection uses same final-year holdout. Diagnostic only; not independent validation.",
+  "v1_v2_comparability": "Historical periods, features, buffer and train length differ; no direct ranking.",
+  "critical_preprocessing_error_found": false,
+  "interpretation": "No verified target/future leakage in v1/v2 monthly lags under their declared latency. Historical data vintages are unverified. Main repaired issues are selection/uncertainty/provenance validation."
+}

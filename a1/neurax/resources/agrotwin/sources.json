@@ -1,0 +1,150 @@
+{
+  "version": "agrotwin-sources-1",
+  "sources": [
+    {
+      "id": "NASA-POWER-CACHE",
+      "provider": "NASA POWER",
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=106.02154675&latitude=10.4770865&start=20150101&end=20251231&format=JSON&time-standard=UTC",
+      "kind": "gridded_weather_estimate",
+      "retrievedAt": "2026-11-12T02:12:21.632567+00:00",
+      "sourceSha256": "60fd764713fde469a037889ec2459018821abddd842c089899ac01d34e0fdf32",
+      "featuresSha256": "9912d774974bd5bc1f71bc900811ee0e1fd33b9f3a4fbbbec625523ea15b1a92",
+      "flags": [
+        {
+          "date": "2020-06-14",
+          "parameter": "PRECTOTCORR",
+          "value": 488.17,
+          "unit": "mm/day",
+          "status": "needs_independent_review",
+          "action": "kept_raw_not_corrected"
+        }
+      ],
+      "units": {
+        "rain": "mm/month",
+        "temp": "°C"
+      },
+      "nativeResolution": "Original POWER grid; not field measurements",
+      "validation": "Technical integrity checked; not domain approved",
+      "NASA": true,
+      "evidence_class": "DERIVED_MODEL",
+      "license": "NASA data: retain source/product attribution; no endorsement implied",
+      "access_status": "real cache available; live acquisition tested separately"
+    },
+    {
+      "id": "SOILGRIDS",
+      "provider": "ISRIC",
+      "product": "SoilGrids model, 250 m, depth-specific predictions",
+      "NASA": false,
+      "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_01.html",
+      "license": "CC-BY-4.0; attribution required",
+      "evidence_class": "DERIVED_MODEL",
+      "variables": "pH water (dimensionless), clay/sand (%), prediction quantiles",
+      "uncertainty": "Centroid cell; not field measurement; resampling method unverified"
+    },
+    {
+      "id": "SOIL-01",
+      "provider": "Can Tho University",
+      "product": "WRB-FAO regional soil classification, revised 2009, published 2011",
+      "NASA": false,
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/view/1006",
+      "license": "Citation/link only; full paper not redistributed in runnable package",
+      "evidence_class": "REGIONAL_HISTORICAL",
+      "locator": "journal pp11,12,16,17; map 1:250,000; 276 augerings",
+      "sha256": "4a436d9560106f74f2a1ae233f5ced45992de5ac38223d9c38855bfda17c1b0a"
+    },
+    {
+      "id": "S4",
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/605/3214/3214",
+      "scope": "Long Khanh and Vinh My historical experiments",
+      "locator": "PDF p2 methods; p4-5 discussion/Table4",
+      "reading_status": "read_in_prior_feasibility_pass",
+      "NASA": false,
+      "provider": "Source publisher",
+      "license": "Citation/link; full text not redistributed",
+      "evidence_class": "REGIONAL_HISTORICAL"
+    },
+    {
+      "id": "S5",
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/597/3222/3222",
+      "scope": "Diked Cai Lay experimental field; 2005 measurements on experiment continuing from 2001",
+      "locator": "PDF p2-3 methods/Table1",
+      "reading_status": "read_in_prior_feasibility_pass",
+      "NASA": false,
+      "provider": "Source publisher",
+      "license": "Citation/link; full text not redistributed",
+      "evidence_class": "REGIONAL_HISTORICAL"
+    },
+    {
+      "id": "EXT-MUNG-2018",
+      "url": "https://khuyennongvn.gov.vn/hoat-dong-khuyen-nong/chuyen-giao-tbkt/quang-tri-hieu-qua-mo-hinh-chuyen-doi-cay-dau-xanh-tren-dat-lua-thieu-nuoc-17502.html",
+      "scope": "Cam Lo, Quang Tri; DX208 demonstration",
+      "locator": "Drainage and irrigation discussion",
+      "reading_status": "read_in_prior_feasibility_pass",
+      "NASA": false,
+      "provider": "Source publisher",
+      "license": "Citation/link; full text not redistributed",
+      "evidence_class": "REGIONAL_HISTORICAL"
+    },
+    {
+      "id": "AGRO-BABY-2008",
+      "url": "https://agro.gov.vn/vn/tID11656_Ky-thuat-trong-ngo-bao-tu.html",
+      "scope": "Archived cultivation guidance with spring/winter calendar; not a My Thanh study",
+      "locator": "Sections 1, 3 and 6",
+      "reading_status": "page_read_2026-11-13",
+      "evidence_limit": "Archived guidance, not a locally validated response function",
+      "NASA": false,
+      "provider": "Source publisher",
+      "license": "Citation/link; full text not redistributed",
+      "evidence_class": "REGIONAL_HISTORICAL"
+    },
+    {
+      "id": "VAAS-MUNG-2014",
+      "url": "https://tapchi.vaas.vn/sites/tapchi.vaas.vn/files/tapchi/2021-09/tc14_14.pdf",
+      "scope": "Huong Son, Ha Tinh; summer trials 2010 and 2011",
+      "locator": "PDF p2 methods; p3 Table2; p4 conclusion",
+      "reading_status": "PDF_read_2026-11-13",
+      "evidence_limit": "Source abstract text has OCR/inconsistency issues; Table2 and methods were used for the specific duration observation",
+      "NASA": false,
+      "provider": "Source publisher",
+      "license": "Citation/link; full text not redistributed",
+      "evidence_class": "REGIONAL_HISTORICAL"
+    },
+    {
+      "id": "ESA-S2",
+      "provider": "ESA Copernicus",
+      "NASA": false,
+      "product": "Sentinel-2 L2A reflectance and SCL, 2025 sample coverage",
+      "license": "Copernicus attribution; no raster included here",
+      "evidence_class": "REMOTE_SENSING",
+      "url": "https://dataspace.copernicus.eu/",
+      "integration": "research QA only; not a runtime crop classifier"
+    },
+    {
+      "id": "OSM",
+      "provider": "OpenStreetMap contributors",
+      "NASA": false,
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL; retain map attribution; online standard tiles subject to usage policy",
+      "integration": "navigation only; offline geometry fallback",
+      "evidence_class": "UNKNOWN"
+    },
+    {
+      "id": "GEOMETRY",
+      "provider": "Team analyst",
+      "NASA": false,
+      "product": "Image-digitised research block, not cadastral/surveyed",
+      "license": "Team-authored geometry; original Esri image excluded from distributable assets",
+      "evidence_class": "PROPOSED"
+    },
+    {
+      "id": "IMPLEMENTATION-POLICY",
+      "provider": "NeuraX",
+      "product": "Input completeness checks, agrotwin-readiness-1.0",
+      "NASA": false,
+      "evidence_class": "PROPOSED",
+      "url": null,
+      "license": "Team-authored implementation policy",
+      "scope": "Presence of user inputs; not crop suitability or agronomic approval"
+    }
+  ]
+}

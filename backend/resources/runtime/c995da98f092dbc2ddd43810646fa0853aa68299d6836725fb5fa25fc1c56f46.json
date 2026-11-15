@@ -1,0 +1,43 @@
+{
+  "models": [
+    {
+      "task": "precip_sum_mm-h1",
+      "path": "runs/research-v3/precip_sum_mm-h1/model.joblib",
+      "sha256": "5eab71f5f627e2f707099984570d6f74b3b2a78c5adce69a45090997d5d68fba",
+      "bytes": 1411
+    },
+    {
+      "task": "precip_sum_mm-h3",
+      "path": "runs/research-v3/precip_sum_mm-h3/model.joblib",
+      "sha256": "147cd378239cd7e9d60eb66eba0ffc7051ea33c64dea84308f7769a043f8f534",
+      "bytes": 1411
+    },
+    {
+      "task": "air_temp_mean_c-h1",
+      "path": "runs/research-v3/air_temp_mean_c-h1/model.joblib",
+      "sha256": "f5955ba0581e4087a83e94f890e6c816f6d17a9ed32b5203b57f0b01afd4f3a2",
+      "bytes": 1409
+    },
+    {
+      "task": "air_temp_mean_c-h3",
+      "path": "runs/research-v3/air_temp_mean_c-h3/model.joblib",
+      "sha256": "6e002b1bfc290daf21de44f2284f4927dd0b7a43d08d76048daaddf2ebc3a27f",
+      "bytes": 1409
+    },
+    {
+      "task": "air_rh_mean_pct-h1",
+      "path": "runs/research-v3/air_rh_mean_pct-h1/model.joblib",
+      "sha256": "da626447d1e120ab03369b18abbd61119152697ba6bce6b1ec34ead1d3dc6086",
+      "bytes": 1412
+    },
+    {
+      "task": "air_rh_mean_pct-h3",
+      "path": "runs/research-v3/air_rh_mean_pct-h3/model.joblib",
+      "sha256": "b2ea9a1b53cfb5058d4c31cc4faa4d544d7709c7d64b3be54cd90f633eb7388b",
+      "bytes": 1412
+    }
+  ],
+  "ml_selection_sha256": "c94396cf86beb0746d29ae7b45a56bd00cce3b0151f564ba5b08d4975bbe502b",
+  "rag_selection_sha256": "6422b57aabaeabb097023c9111e8c5cd2548d70b9facd14d382f4e7454c058fc",
+  "selected_system": "v4 (v3 climatology + pooled bands + refined v4 RAG)"
+}

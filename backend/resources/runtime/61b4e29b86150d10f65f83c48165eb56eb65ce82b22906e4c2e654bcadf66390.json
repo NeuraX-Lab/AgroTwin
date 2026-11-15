@@ -1,0 +1,257 @@
+[
+  {
+    "id": "mungbean-water",
+    "source_id": "VN_MUNGBEAN_MEKONG",
+    "locator": "PDF3 section4.1",
+    "topic": "mungbean",
+    "vi": "Đậu xanh cần điều kiện tưới–tiêu chủ động. Quy trình ĐBSCL khuyên tránh đất thấp bị úng, nhiễm phèn hoặc mặn. Điều kiện tại ruộng Mỹ Thành chưa được xác nhận.",
+    "en": "Mungbean needs controllable irrigation and drainage. The Mekong guideline advises avoiding waterlogged, acid-sulfate or saline sites. The target field conditions are unknown.",
+    "tags": "đậu xanh mungbean drainage waterlogging thoát nước ngập úng tưới tiêu",
+    "source": {
+      "url": "https://harc-ias.vn/storage/uploads/files/QTKT%20SX%20dau%20xanh%20DBSCL_%20Final%281%29.pdf",
+      "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa",
+      "scope": "IAS Mekong Delta technical protocol dated 2014; source-backed conditions, not current farm measurements or approved hard thresholds"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "mungbean-calendar",
+    "source_id": "VN_MUNGBEAN_MEKONG",
+    "locator": "PDF3 season section",
+    "topic": "mungbean",
+    "vi": "Quy trình lịch sử mô tả vụ Xuân Hè gieo từ đầu tháng 2 đến giữa tháng 3 sau lúa Đông Xuân sớm, thu hoạch tháng 4–5; có điều kiện đất và nước. Đây chưa phải lịch riêng của ruộng.",
+    "en": "The historical spring-summer window is early February to mid-March after early winter-spring rice, harvesting April–May under suitable soil and water conditions. It is not a confirmed field schedule.",
+    "tags": "lịch vụ gieo trồng sowing planting harvest calendar đậu xanh mungbean",
+    "source": {
+      "url": "https://harc-ias.vn/storage/uploads/files/QTKT%20SX%20dau%20xanh%20DBSCL_%20Final%281%29.pdf",
+      "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa",
+      "scope": "IAS Mekong Delta technical protocol dated 2014; source-backed conditions, not current farm measurements or approved hard thresholds"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "mungbean-duration",
+    "source_id": "VN_MUNGBEAN208",
+    "locator": "HTML product description",
+    "topic": "mungbean",
+    "vi": "Sản phẩm giống đậu xanh 208 ghi thời gian sinh trưởng 60–65 ngày. Chỉ áp dụng như thông tin giống; chưa biết giống đang dùng tại ruộng.",
+    "en": "The mungbean208 product specifies60–65days. This is cultivar-specific information, and the farm cultivar is unknown.",
+    "tags": "duration cultivar thời gian sinh trưởng giống 208 đậu xanh mungbean",
+    "source": {
+      "url": "https://nongsanhaugiang.com.vn/vn/seed/NSHG1505885",
+      "sha256": "be0705a639ed81a9be2d2674c1b0bc218582f52b8f4207eedd66ca9c7c98ffd9",
+      "scope": "Cultivar producer specification; duration conditional on cultivar and environment, not independent trial"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "babycorn-duration",
+    "source_id": "VN_BABYCORN_GUIDE",
+    "locator": "PDF53 printed48",
+    "topic": "baby_corn",
+    "vi": "Hướng dẫn bắp non nêu thu lần đầu sau 40–75 ngày tùy giống, rồi thu nhiều lần trong 7–12 ngày. Thời gian thu lần đầu khác thời gian giải phóng đất cho vụ tiếp.",
+    "en": "The baby-corn guide gives first harvest40–75days depending on cultivar, with harvest spread over7–12days. First harvest is not field-release date.",
+    "tags": "bắp non ngô bao tử baby corn duration harvest thu hoạch ngày",
+    "source": {
+      "url": "https://elib.vnuf.edu.vn/bitstream/123456789/9570/1/Tai%20lieu%20huong%20dan%20thuc%20hanh%20cay%20luong%20thuc.pdf",
+      "sha256": "69f3a97b03b3fc232b120ed73c4c7fa574d349d7266f80434d66b275ef8b3e46",
+      "scope": "University teaching reference; general baby corn practice, not a verified Mekong calendar"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "babycorn-water",
+    "source_id": "VN_BABYCORN_GUIDE",
+    "locator": "PDF52–53",
+    "topic": "baby_corn",
+    "vi": "Bắp non cần đất cao và tưới–tiêu chủ động theo hướng dẫn tham khảo. Chưa có dữ liệu để tính chính xác nước tiết kiệm tại Mỹ Thành.",
+    "en": "The baby-corn reference calls for elevated land and controlled irrigation/drainage. Exact water savings at the target field are unknown.",
+    "tags": "baby corn drainage irrigation bắp non tưới thoát nước",
+    "source": {
+      "url": "https://elib.vnuf.edu.vn/bitstream/123456789/9570/1/Tai%20lieu%20huong%20dan%20thuc%20hanh%20cay%20luong%20thuc.pdf",
+      "sha256": "69f3a97b03b3fc232b120ed73c4c7fa574d349d7266f80434d66b275ef8b3e46",
+      "scope": "University teaching reference; general baby corn practice, not a verified Mekong calendar"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "soil-ph-method",
+    "source_id": "LOCAL_ROT2024",
+    "locator": "Table1 PDF4",
+    "topic": "soil",
+    "vi": "pH nước và pH KCl là hai phương pháp khác nhau; phải giữ phương pháp và độ sâu. Một hồ sơ đất ở Vĩnh Long không tạo công thức chuyển đổi chung cho ruộng Mỹ Thành.",
+    "en": "Water pH and KCl pH use different methods. Preserve method and depth; one VinhLong profile does not justify a universal conversion for the target field.",
+    "tags": "pH H2O KCl convert conversion hiệu chỉnh độ sâu phương pháp",
+    "source": {
+      "url": "https://doi.org/10.3390/agronomy14061185",
+      "sha256": "29b883cb53ab099658f6792f9917d7bc446eb3aca00f9442747bf7802f12a401",
+      "scope": "My Loi, Thien My, Tra On, Vinh Long; trial 2017–2020"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "rotation-historic",
+    "source_id": "LOCAL_ROT2009",
+    "locator": "Table4 PDF6",
+    "topic": "rotation",
+    "vi": "Nghiên cứu lịch sử tại Cai Lậy có các chuỗi lúa–lúa–lúa, lúa–bắp non–lúa và lúa–đậu xanh–lúa. Kết quả ở nơi và thời điểm đó là đối chứng tham khảo, chưa xác nhận phương án tốt nhất cho ruộng hiện tại.",
+    "en": "The historical CaiLay study compares rice–rice–rice, rice–babycorn–rice and rice–mungbean–rice. Its outcomes are references, not optimal-rotation labels for the current field.",
+    "tags": "luân canh rotation Cai Lay R0 R1 R2 đối chứng research",
+    "source": {
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/view/597",
+      "sha256": "316c7b190c8db3959b2b54096ce9434fe38d21aa0f8373a31a29157d69995155",
+      "scope": "Long Khanh, Cai Lay, Tien Giang; historic experiment"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "rotation-counterexample",
+    "source_id": "LOCAL_ROT2024",
+    "locator": "Table3 PDF10",
+    "topic": "rotation",
+    "vi": "Thí nghiệm Vĩnh Long 2017–2020 dùng mè và đậu nành. Tác động chính của hệ thống luân canh lên năng suất lúa cuối kỳ không có ý nghĩa thống kê. Không đổi đậu nành thành đậu xanh khi diễn giải.",
+    "en": "The2017–2020 VinhLong trial uses sesame and soybean. The final rice-yield main effect of cropping system is not statistically significant. Soybean is not mungbean.",
+    "tags": "sesame soybean mè đậu nành đậu xanh năng suất significant luân canh",
+    "source": {
+      "url": "https://doi.org/10.3390/agronomy14061185",
+      "sha256": "29b883cb53ab099658f6792f9917d7bc446eb3aca00f9442747bf7802f12a401",
+      "scope": "My Loi, Thien My, Tra On, Vinh Long; trial 2017–2020"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "crop-water-formula",
+    "source_id": "LOCAL_FAO56",
+    "locator": "Chapter5",
+    "topic": "water",
+    "vi": "Phương pháp FAO dùng ETc = Kc × ET0. Cần hệ số theo cây/giai đoạn, thời tiết và quản lý nước. Công thức không tự chứng minh các tổng nước 1200/950/850 mm trong workbook.",
+    "en": "FAO uses ETc=Kc×ET0 with crop-stage coefficients and local weather/water management. It does not establish the workbook1200/950/850mm totals.",
+    "tags": "FAO ETc ET0 Kc công thức nhu cầu nước water demand 1200 950 850",
+    "source": {
+      "url": "https://www.fao.org/4/x0490e/x0490e0a.htm",
+      "sha256": "2fd4400aa432d1341032a602f2bcf2bb5eff068bac99a5cb9cc09c29875f057a",
+      "scope": "Global method; local calibration needed"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "power-temperature",
+    "source_id": "NASA_POWER",
+    "locator": "daily.json parameter metadata",
+    "topic": "NASA",
+    "vi": "T2M là nhiệt độ không khí ở độ cao 2 m, đơn vị °C. PRECTOTCORR mới là lượng mưa; RH2M là độ ẩm không khí, không phải ẩm đất.",
+    "en": "T2M is air temperature at2m in°C. PRECTOTCORR is precipitation; RH2M is air relative humidity, not soil moisture.",
+    "tags": "POWER T2M nhiệt độ rainfall precipitation RH2M độ ẩm không khí",
+    "source": {
+      "url": "https://power.larc.nasa.gov/",
+      "sha256": "5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b",
+      "scope": "regional model or measurement-product context; not field agronomic approval"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "power-rain",
+    "source_id": "NASA_POWER",
+    "locator": "daily.json units / DATA aggregation",
+    "topic": "NASA",
+    "vi": "PRECTOTCORR có đơn vị mm/ngày. Pipeline chỉ xuất tổng mưa tháng khi đủ ngày calendar; dữ liệu thiếu không thành mưa bằng 0. Đây là ước lượng ô lưới vùng.",
+    "en": "PRECTOTCORR is mm/day. The pipeline publishes monthly totals only with full calendar coverage; missing is not zero. It is a regional grid estimate.",
+    "tags": "PRECTOTCORR monthly rainfall mưa tháng mm missing zero thiếu 0 POWER",
+    "source": {
+      "url": "https://power.larc.nasa.gov/",
+      "sha256": "5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b",
+      "scope": "regional model or measurement-product context; not field agronomic approval"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "smap-moisture",
+    "source_id": "NASA_SMAP",
+    "locator": "SMAP L4 source manifest",
+    "topic": "NASA",
+    "vi": "SFMC và RZMC mô tả ẩm thể tích lớp mặt và vùng rễ trong sản phẩm SMAP L4, đơn vị m³/m³. Đây là bối cảnh mô hình vùng, không phải đầu dò tại ruộng hoặc quan trắc mưa độc lập.",
+    "en": "SFMC and RZMC describe surface and root-zone volumetric moisture in SMAP L4, m³/m³. This regional model context is not a field probe or independent rain observation.",
+    "tags": "SMAP SFMC RZMC surface root zone soil moisture ẩm đất vùng rễ",
+    "source": {
+      "url": "https://nasa-power-smap.s3.amazonaws.com/smap/temporal/power_smap_daily_temporal_utc.zarr/.zmetadata",
+      "sha256": "9953c3f58fe9d056fecdf47eec61bf3da804e3ff9dec1f9fdf933479ae3dd1f5",
+      "scope": "regional model or measurement-product context; not field agronomic approval"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "optical-limits",
+    "source_id": "NASA_MODIS",
+    "locator": "MOD13Q1 QA/indices metadata and EDA",
+    "topic": "NASA",
+    "vi": "NDVI/EVI mô tả tín hiệu thảm thực vật và nhịp mùa vụ. Chúng không trực tiếp đo pH, NPK, loại cây hoặc nguyên nhân stress. Mây và coverage phải đi cùng bản đồ.",
+    "en": "NDVI/EVI describe vegetation signal and seasonal change. They do not directly measure pH,NPK,crop identity or stress cause. Cloud QA and coverage accompany maps.",
+    "tags": "NDVI EVI MODIS Sentinel pH NPK crop stress bản đồ cây mây cloud",
+    "source": {
+      "url": "https://modis.ornl.gov/rst/api/v1/MOD13Q1/bands",
+      "sha256": "a4c18d679d6b3f93d8b5789f274e4d7ad82a6b6d1376143a90a9f93e2039b321",
+      "scope": "regional model or measurement-product context; not field agronomic approval"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "soilgrid-limits",
+    "source_id": "ISRIC_SOIL",
+    "locator": "point-properties.json and pack model JSON",
+    "topic": "soil",
+    "vi": "SoilGrids cung cấp ước lượng đất theo vị trí, độ sâu và khoảng bất định. Các phân vị không phải mẫu đất lặp; không dùng chúng thay số đo EC hoặc đất riêng ruộng.",
+    "en": "SoilGrids provides model estimates by location/depth with uncertainty. Quantiles are not replicate samples and do not replace field EC measurements.",
+    "tags": "SoilGrids SOC CEC nitrogen carbon đất uncertainty model EC",
+    "source": {
+      "url": "https://rest.isric.org/soilgrids/v2.0/properties/query",
+      "sha256": "adad30ecee91f017acd42c46ed1d65579a8f4dc4877bc76b940225c0de9ca407",
+      "scope": "regional model or measurement-product context; not field agronomic approval"
+    },
+    "text_kind": "analyst_bilingual_evidence_card_not_verbatim_quote"
+  },
+  {
+    "id": "rice-awd-2024",
+    "source_id": "MARD2024",
+    "locator": "PDF35 / printed27, section4",
+    "topic": "rice",
+    "vi": "Sổ tay ĐBSCL 2024 hướng dẫn quản lý nước cho lúa bằng ướt–khô xen kẽ theo giai đoạn. Cần kiểm soát cấp–thoát nước và theo dõi mực nước tại ruộng; mưa tháng không thay được phép đo đó.",
+    "en": "The 2024 Mekong rice handbook describes stage-specific alternate wetting and drying. It requires water control and field water-level monitoring; monthly rainfall cannot replace those measurements.",
+    "tags": "AWD rice lúa water irrigation saving tiết kiệm tưới nước",
+    "source": {
+      "url": "https://khuyennongvn.gov.vn/data/documents/0/2024/03/29/hangweb/so-tay-huong-dan-quy-trinh-1-trieu-ha-dbscl-ngay-27-3-2024.pdf",
+      "sha256": "1dd8cd4859ea0695011c47a306e9a264bc995110751c5ae5ee4215fa5c0c1b9a",
+      "scope": "Mekong Delta high-quality low-emission rice technical handbook; field applicability requires water control"
+    },
+    "text_kind": "analyst_paraphrase"
+  },
+  {
+    "id": "salinity-scope-2026",
+    "source_id": "DROUGHT2026",
+    "locator": "PDF10 / printed8, section2.3",
+    "topic": "water",
+    "vi": "Sổ tay hạn mặn 2026–2027 phân lịch lúa theo vùng rủi ro, gồm vùng ven biển và lúa–tôm. Chưa xác nhận Mỹ Thành thuộc các nhóm này; không sao chép lịch hoặc ngưỡng của lúa–tôm cho ruộng.",
+    "en": "The 2026–2027 drought handbook separates coastal and rice-shrimp risk zones. The target field has not been assigned to those zones; their calendars or thresholds must not be copied automatically.",
+    "tags": "salinity drought coastal rice shrimp inland scope lịch mặn ven biển vùng phạm vi",
+    "source": {
+      "url": "https://khuyennongvn.gov.vn/data/documents/0/2026/10/06/hangweb/st-hanhan-muakho-2026-2027-full.pdf",
+      "sha256": "51efa2c3d33436b579667c65441705299fda5c1472799e326823772fbf930fa2",
+      "scope": "Mekong Delta drought/salinity 2026-2027 handbook; bulletins cannot stand in for current field salinity"
+    },
+    "text_kind": "analyst_paraphrase"
+  },
+  {
+    "id": "rotation-soil-ctu",
+    "source_id": "CTU605",
+    "locator": "PDF1 abstract; PDF3 experimental design",
+    "topic": "soil",
+    "vi": "Nghiên cứu CTU về đất lúa ba vụ khảo sát nén dẽ và các hệ luân canh tại Long Khánh/Vĩnh Mỹ. Nó hỗ trợ xem xét cơ chế vật lý đất; chưa chứng minh mức cải thiện ở ruộng Mỹ Thành.",
+    "en": "The CTU triple-rice soil study examined compaction and rotation systems at Long Khanh/Vinh My. It supports considering soil physical mechanisms, not a quantified benefit for the target field.",
+    "tags": "compaction soil physical triple rice soil rotation nén dẽ độ bền đoàn lạp luân canh đất ba vụ",
+    "source": {
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/605/3214/3214",
+      "sha256": "ecc93a21a7b965dbc62a1d5722c001d9f2058edb0555708ba85108bb0eee1ccf",
+      "scope": "Mekong rice soils, Long Khanh and Vinh My trials; not target plot"
+    },
+    "text_kind": "analyst_paraphrase"
+  }
+]

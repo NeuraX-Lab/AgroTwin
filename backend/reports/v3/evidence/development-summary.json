@@ -1,0 +1,92 @@
+[
+  {
+    "task": "precip_sum_mm-h1",
+    "selected": "clim-mean",
+    "baseline": "clim-mean",
+    "selected_MAE": 31.87067824181991,
+    "baseline_MAE": 31.87067824181991,
+    "candidate": "v2-frozen",
+    "candidate_MAE": 32.05516666666667,
+    "gain": -0.005788657004628162,
+    "gate_pass": false,
+    "paired_CI95": [
+      -2.3834477682811044,
+      2.4250957631874304
+    ]
+  },
+  {
+    "task": "precip_sum_mm-h3",
+    "selected": "clim-mean",
+    "baseline": "clim-mean",
+    "selected_MAE": 31.87067824181991,
+    "baseline_MAE": 31.87067824181991,
+    "candidate": "v2-frozen",
+    "candidate_MAE": 31.354134657137717,
+    "gain": 0.01620748641628833,
+    "gate_pass": false,
+    "paired_CI95": [
+      -1.032831200997971,
+      2.0659183703623607
+    ]
+  },
+  {
+    "task": "air_temp_mean_c-h1",
+    "selected": "clim-mean",
+    "baseline": "clim-mean",
+    "selected_MAE": 0.4838239588217996,
+    "baseline_MAE": 0.4838239588217996,
+    "candidate": "v2-frozen",
+    "candidate_MAE": 0.4397795241663349,
+    "gain": 0.09103400906958181,
+    "gate_pass": false,
+    "paired_CI95": [
+      -0.011036279327360295,
+      0.12369270297196848
+    ]
+  },
+  {
+    "task": "air_temp_mean_c-h3",
+    "selected": "clim-mean",
+    "baseline": "clim-mean",
+    "selected_MAE": 0.4838239588217996,
+    "baseline_MAE": 0.4838239588217996,
+    "candidate": "recent-20",
+    "candidate_MAE": 0.4700728137304236,
+    "gain": 0.028421794416429114,
+    "gate_pass": false,
+    "paired_CI95": [
+      -0.021044984916826454,
+      0.04666103146357544
+    ]
+  },
+  {
+    "task": "air_rh_mean_pct-h1",
+    "selected": "clim-mean",
+    "baseline": "clim-mean",
+    "selected_MAE": 2.8984057141977835,
+    "baseline_MAE": 2.8984057141977835,
+    "candidate": "v2-frozen",
+    "candidate_MAE": 2.5928663912015755,
+    "gain": 0.10541634026579838,
+    "gate_pass": false,
+    "paired_CI95": [
+      -0.3769593007051759,
+      1.0170692048178316
+    ]
+  },
+  {
+    "task": "air_rh_mean_pct-h3",
+    "selected": "clim-mean",
+    "baseline": "clim-mean",
+    "selected_MAE": 2.8984057141977835,
+    "baseline_MAE": 2.8984057141977835,
+    "candidate": "recent-10",
+    "candidate_MAE": 2.688509803352933,
+    "gain": 0.07241771219835769,
+    "gate_pass": false,
+    "paired_CI95": [
+      -0.8918206720028322,
+      0.9593764033887565
+    ]
+  }
+]

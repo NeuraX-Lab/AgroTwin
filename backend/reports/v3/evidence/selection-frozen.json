@@ -1,0 +1,231 @@
+{
+  "tasks": {
+    "precip_sum_mm-h1": {
+      "target": "precip_sum_mm",
+      "h": 1,
+      "spec": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "baseline": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "best_candidate": {
+        "id": "v2-frozen",
+        "kind": "legacy",
+        "spec": {
+          "id": "clim_median",
+          "kind": "clim_median",
+          "group": "v1",
+          "complexity": 0
+        }
+      },
+      "gate_pass": false,
+      "gain": -0.005788657004628162,
+      "winning_years": 1,
+      "paired_CI95": [
+        -2.3834477682811044,
+        2.4250957631874304
+      ],
+      "season_degradation": {
+        "dry": 0.03875487917886522,
+        "wet": -0.002028788338823473
+      }
+    },
+    "precip_sum_mm-h3": {
+      "target": "precip_sum_mm",
+      "h": 3,
+      "spec": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "baseline": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "best_candidate": {
+        "id": "v2-frozen",
+        "kind": "legacy",
+        "spec": {
+          "id": "ridge-1",
+          "kind": "ridge",
+          "group": "expanded",
+          "alpha": 1,
+          "complexity": 4
+        }
+      },
+      "gate_pass": false,
+      "gain": 0.01620748641628833,
+      "winning_years": 3,
+      "paired_CI95": [
+        -1.032831200997971,
+        2.0659183703623607
+      ],
+      "season_degradation": {
+        "dry": 0.0580732508651578,
+        "wet": -0.03382204961069635
+      }
+    },
+    "air_temp_mean_c-h1": {
+      "target": "air_temp_mean_c",
+      "h": 1,
+      "spec": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "baseline": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "best_candidate": {
+        "id": "v2-frozen",
+        "kind": "legacy",
+        "spec": {
+          "id": "blend-0.75",
+          "kind": "blend",
+          "base": {
+            "id": "clim_mean",
+            "kind": "clim_mean",
+            "group": "v1",
+            "complexity": 1
+          },
+          "candidate": {
+            "id": "hgb-v1-7-0.08-12",
+            "kind": "hgb",
+            "group": "v1",
+            "leaves": 7,
+            "rate": 0.08,
+            "leaf": 12,
+            "complexity": 6
+          },
+          "weight": 0.75,
+          "group": "expanded",
+          "complexity": 9
+        }
+      },
+      "gate_pass": false,
+      "gain": 0.09103400906958181,
+      "winning_years": 3,
+      "paired_CI95": [
+        -0.011036279327360295,
+        0.12369270297196848
+      ],
+      "season_degradation": {
+        "dry": -0.1416650354698814,
+        "wet": -0.03526392366409947
+      }
+    },
+    "air_temp_mean_c-h3": {
+      "target": "air_temp_mean_c",
+      "h": 3,
+      "spec": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "baseline": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "best_candidate": {
+        "id": "recent-20",
+        "kind": "mean",
+        "window": 20
+      },
+      "gate_pass": false,
+      "gain": 0.028421794416429114,
+      "winning_years": 2,
+      "paired_CI95": [
+        -0.021044984916826454,
+        0.04666103146357544
+      ],
+      "season_degradation": {
+        "dry": -0.07872724683967536,
+        "wet": 0.026989671190147613
+      }
+    },
+    "air_rh_mean_pct-h1": {
+      "target": "air_rh_mean_pct",
+      "h": 1,
+      "spec": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "baseline": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "best_candidate": {
+        "id": "v2-frozen",
+        "kind": "legacy",
+        "spec": {
+          "id": "blend-0.75",
+          "kind": "blend",
+          "base": {
+            "id": "clim_mean",
+            "kind": "clim_mean",
+            "group": "v1",
+            "complexity": 1
+          },
+          "candidate": {
+            "id": "hgb-expanded-3-0.03-12",
+            "kind": "hgb",
+            "group": "expanded",
+            "leaves": 3,
+            "rate": 0.03,
+            "leaf": 12,
+            "complexity": 6
+          },
+          "weight": 0.75,
+          "group": "expanded",
+          "complexity": 9
+        }
+      },
+      "gate_pass": false,
+      "gain": 0.10541634026579838,
+      "winning_years": 2,
+      "paired_CI95": [
+        -0.3769593007051759,
+        1.0170692048178316
+      ],
+      "season_degradation": {
+        "dry": -0.22714220180218914,
+        "wet": 0.05566103600595884
+      }
+    },
+    "air_rh_mean_pct-h3": {
+      "target": "air_rh_mean_pct",
+      "h": 3,
+      "spec": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "baseline": {
+        "id": "clim-mean",
+        "kind": "mean"
+      },
+      "best_candidate": {
+        "id": "recent-10",
+        "kind": "mean",
+        "window": 10
+      },
+      "gate_pass": false,
+      "gain": 0.07241771219835769,
+      "winning_years": 4,
+      "paired_CI95": [
+        -0.8918206720028322,
+        0.9593764033887565
+      ],
+      "season_degradation": {
+        "dry": -0.11255752717834067,
+        "wet": -0.019301505014426623
+      }
+    }
+  },
+  "protocol_sha256": "b0357d58c025bf7ade9d480b11ef21497d743fd73e93ea0cc54d651a3af9de81",
+  "data_manifest_sha256": "e22531b38e4a64c9478adf36c72b4b6b910251663802ac35ac1772ced07d4c40",
+  "final_opened": false,
+  "fits": 1320,
+  "seconds": 60.71640589999879,
+  "selection_utc": "2026-11-14T18:59:20.319837+00:00"
+}

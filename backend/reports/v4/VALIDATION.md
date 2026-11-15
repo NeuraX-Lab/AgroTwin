@@ -1,0 +1,7 @@
+# V4 validation limits and gates
+
+New authored development and final question lists are separate in `config/v4-rag-evaluation.json`; hash frozen before final evaluation. Final remains self-authored technical evidence, not external expert gold. Development threshold search uses no final questions. The original v2 final has previously been viewed and used for policy regression; it can protect existing behavior but cannot establish fresh independent quality.
+
+Measure retrieval recall@3, top1/evidence agreement, answerable retention, correct abstention, literal card support, byte-verified citation share and deterministic constraints. No LLM self-judge is used. There is no general semantic contradiction detector; explicit conflicting farm evidence prevents applicable output as in v2. A source may remain scientifically outdated even when its bytes match. Lexical support can falsely accept an unsupported compositional query or reject a distant synonym; this is a bounded safety improvement with known recall tradeoffs.
+
+End-to-end: schema/type/unit/time errors isolated at ML->RAG interface; missing forecasts produce warnings; rain 100000 mm stress fixture changes context only and cannot alter constraint options; planting-window mismatch removes climate context. Default empty farm cannot become eligible. Poor drainage and saline/acid-sulfate checks retain v2 behavior. No independent agronomic review, generated free-form text or production-readiness claim.

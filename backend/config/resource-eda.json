@@ -1,0 +1,56 @@
+{
+  "study_id": "fieldshift-resources-2026-11-13",
+  "selection_status": "candidate_not_selected",
+  "aoi": {
+    "region_id": "MT-BLOCK-01",
+    "label": "Mỹ Thành, Đồng Tháp — tâm khối minh họa ~2 ha",
+    "latitude": 10.479098076600966,
+    "longitude": 106.0216210397036,
+    "crs": "EPSG:4326",
+    "geometry_kind": "point_query_at_digitised_block_centroid",
+    "confirmation_status": "from_user_supplied_pack_not_field_verified",
+    "area_ha_approx": 1.996,
+    "pack_relative_root": "NeuraX-MyThanh-Bich-Research-Pack",
+    "pack_version": "1.3",
+    "boundary_role": "analyst_digitised_visible_cultivation_block_not_verified_farm",
+    "soil_homogeneous_verified": false,
+    "current_crop_verified": false,
+    "geometry_sha256": "8d8d0f7b5963b197f7dddb2d86d5a99eae812e617e477f135b540f6038ac7950"
+  },
+  "power": {
+    "start": "2019-01-01",
+    "end": "2025-12-31",
+    "parameters": [
+      "PRECTOTCORR",
+      "T2M",
+      "T2M_MIN",
+      "T2M_MAX",
+      "RH2M"
+    ]
+  },
+  "modis": {
+    "product": "MOD13Q1",
+    "start": "2023-01-01",
+    "end": "2025-12-31"
+  },
+  "smap": {
+    "product": "SPL3SMP_E",
+    "start": "2024-01-01",
+    "end": "2024-03-31"
+  },
+  "imerg": {
+    "product": "GPM_3IMERGDF",
+    "version": "07",
+    "start": "2024-01-01",
+    "end": "2024-01-31"
+  },
+  "policy": {
+    "auto_train": false,
+    "auto_approve": false,
+    "raw_data_git": false,
+    "impute": false,
+    "outliers": "flag_only",
+    "monthly_precip_min_coverage": 1.0,
+    "smap_monthly_min_calendar_coverage_exploratory": 0.5
+  }
+}

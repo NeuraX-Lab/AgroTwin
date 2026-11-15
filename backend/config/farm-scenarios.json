@@ -1,0 +1,11 @@
+{
+  "schema_version": "farm-preferences-1",
+  "data_mode": "synthetic",
+  "authorization": "User explicitly authorized simulated farmer goals on 2026-11-14",
+  "physical_farm_observations": false,
+  "scenarios": [
+    {"id":"water","label":"Ưu tiên nguồn nước","goal":"water","crop_interests":["mungbean","baby_corn"],"risk_tolerance":"low","objective":"Tìm phương án có thể giảm áp lực nước; cần kiểm khả năng tưới và tiêu","weights":{"water":0.6,"soil":0.25,"yield":0.15}},
+    {"id":"soil","label":"Ưu tiên đất và đa dạng cây","goal":"soil","crop_interests":["mungbean"],"risk_tolerance":"low","objective":"Xem xét thay một vụ lúa bằng cây khác, có bằng chứng về đất","weights":{"water":0.2,"soil":0.65,"yield":0.15}},
+    {"id":"yield","label":"Ưu tiên sản lượng","goal":"yield","crop_interests":["rice","baby_corn","mungbean"],"risk_tolerance":"medium","objective":"Tăng sản lượng nhưng cần số liệu đối chứng và điều kiện áp dụng","weights":{"water":0.15,"soil":0.15,"yield":0.7}}
+  ]
+}

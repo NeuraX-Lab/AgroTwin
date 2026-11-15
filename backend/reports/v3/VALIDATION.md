@@ -1,0 +1,15 @@
+# Validation protocol and audit
+
+Development years: 2004/2006/2008/2010/2011, equally weighted months. Primary per-task MAE; equal average of six MAE/baseline ratios for a system summary. Secondary RMSE/bias, dry/wet, year, interval width/coverage, inference latency/bytes. Same observations, targets, horizons, quarterly refit schedule and latency across every shared-protocol method. The original v1/v2 published comparisons remain separately labeled.
+
+Promotion requires >=3% MAE gain, improvement in >=3/5 development years, neither season worse by >10%, paired year-block bootstrap lower CI95 >0. CI is descriptive and not corrected for multiple candidate selection; passing it alone would not establish scientific significance. With only five development years, power is limited. Baselines are themselves chosen on development, so all development estimates have selection optimism.
+
+All six tasks retain climatology under this gate. Calibration years 2015–2017 are separate from point-model selection. V5 may test heteroscedastic bands using **development prequential** errors only, before selecting a calibration method. Empirical finite-sample radius uses ceil((n+1)*0.8), bounded to observed n; serial dependence/shift means no nominal coverage guarantee.
+
+Final diagnostic locked to 2018–2025 and opened once after the complete v3–v5 selection chain is committed. Labels have been exposed to prior project work; this is **not an independent test**. No untouched project-wide holdout can be established from the frozen existing dataset. The 2012–2014 original v2 test is also exposed; exact reproduction of it proves computation, not new generalization. No geographic holdout exists at one AOI.
+
+Verified issues: generic baseline promotes using its only holdout; v1/v2 latency and sample windows differ; v2 selected development residuals are reused for calibration and historical coverage is only 0.639–0.722 at nominal 0.8; runtime citation provenance is not byte-reverified; original RAG final has been reused for policy regression. No verified future-target leakage was found in v1/v2 under their stated availability assumptions. Missing historical vintages, agronomic gold labels and expert sign-off are limitations, not invented failures.
+
+The original SQLite scanner correctly closes its connection. Its old Windows test did not close a separate verification connection; `contextlib.closing` repairs test cleanup without changing scanner behavior. The first check run had 21 passes/1 failure from that cleanup. Subsequent verification is recorded in the final report.
+
+Final completed after freeze commit `9214d35`: see `evidence/final-diagnostic.json` and `../research-final/HANDOFF_VI.md`. The selected ML is 4.85% worse than frozen v2 on the equal-task mean MAE ratio in the reused diagnostic; selection is unchanged. All 60 development configurations replay identically; saved inference/calibration match. Full suite after checksum hardening: 74 passed, one deprecation warning. Runtime now rejects changed monthly input and, when packaged, changed weights before loading them. No final result drove those provenance guards or model selection.

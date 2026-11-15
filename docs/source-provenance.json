@@ -1,0 +1,2249 @@
+{
+  "purpose": "Public submission consolidation; not a claim that all code was first authored in this repository.",
+  "sources": [
+    {
+      "repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "branch": "feat/v4-dashboard-api",
+      "authors": [
+        "39\tLe Nguyen Gia Hung",
+        "21\tAm2uocVi3t",
+        "1\thei1sme"
+      ],
+      "source_commit_authored_at": "2026-11-15T12:28:48+07:00",
+      "source_commit_committed_at": "2026-11-15T12:28:48+07:00"
+    },
+    {
+      "repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "branch": "feat/v4-dashboard-esp32-integration",
+      "authors": [
+        "13\thei1sme",
+        "4\tLe Nguyen Gia Hung",
+        "2\tAm2uocVi3t"
+      ],
+      "source_commit_authored_at": "2026-11-15T12:33:52+07:00",
+      "source_commit_committed_at": "2026-11-15T12:33:52+07:00"
+    },
+    {
+      "repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "branch": "",
+      "authors": [
+        "39\tLe Nguyen Gia Hung",
+        "14\thei1sme"
+      ],
+      "source_commit_authored_at": "2026-11-14T17:53:33+07:00",
+      "source_commit_committed_at": "2026-11-14T17:53:33+07:00"
+    },
+    {
+      "repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "branch": "docs/argotwin-pitch",
+      "authors": [
+        "12\tAm2uocVi3t",
+        "2\tLe Nguyen Gia Hung"
+      ],
+      "source_commit_authored_at": "2026-11-15T10:55:29+07:00",
+      "source_commit_committed_at": "2026-11-15T10:55:29+07:00"
+    }
+  ],
+  "files": [
+    {
+      "path": "frontend/.env.example",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/.env.example",
+      "source_worktree_changed": false,
+      "imported_sha256": "b76ce708bf751e897ef4bcc39fae1d0879b60c3f1f70ab36f6069c17e81c3c47"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/.gitignore",
+      "source_worktree_changed": false,
+      "imported_sha256": "454d69b3702f5f3e20d838790d0fcf05c9ded3aef2edf3f03e5bcaf675bb6487"
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/eslint.config.js",
+      "source_worktree_changed": false,
+      "imported_sha256": "50db47b096816ee20bb8c172aa52bf26d91cacaf0fd6d1097428d24234eb8228"
+    },
+    {
+      "path": "frontend/index.html",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/index.html",
+      "source_worktree_changed": false,
+      "imported_sha256": "fda141acfb4b06911d88387e99707e20749e70b8adc00a5bef78c1660372461f"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/package-lock.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "38db85d3d1b9bea34f7330a2f416c5981c0683fb548dad2598262a2e0459d0b5"
+    },
+    {
+      "path": "frontend/package.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/package.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "3b662fe483f64b18761b9b61acab4a4e16800b7ef9e9ef573b70aae276186bb1"
+    },
+    {
+      "path": "frontend/playwright.config.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/playwright.config.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "b5ec8a43bae84ebf4c56278fd6c3b41be53340b69510deb549d10fdd6f45dd4c"
+    },
+    {
+      "path": "frontend/public/analysis/my-thanh.saved.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/analysis/my-thanh.saved.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "f27ceb17a9906490eff7b15f13f40277e5f29123ac871fc68efa6c6b2dcf8311"
+    },
+    {
+      "path": "frontend/public/favicon.svg",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/favicon.svg",
+      "source_worktree_changed": false,
+      "imported_sha256": "69fb15517911dab0d42ebeb7c7b9bddcecad334b3c39035a3eb0a58b215cf111"
+    },
+    {
+      "path": "frontend/public/imagery/context/my-thanh-sentinel-false-colour.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/imagery/context/my-thanh-sentinel-false-colour.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "41f0da4914fd3d552b9f3fa755adedc4fc9ee4010701aa81feb1a9a10d0fc53e"
+    },
+    {
+      "path": "frontend/public/imagery/context/sentinel-manifest.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/imagery/context/sentinel-manifest.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "0ff9c5bb6416730556c29c40f63a60b787a9eaa4143770c31702f4dfcec7ceb3"
+    },
+    {
+      "path": "frontend/public/imagery/my-thanh-research.svg",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/imagery/my-thanh-research.svg",
+      "source_worktree_changed": false,
+      "imported_sha256": "8fadd02eb83b0fc7d0fdd31c4bc75e5e35cd952cefb98e637253f24152bb5dbb"
+    },
+    {
+      "path": "frontend/public/research/e1.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/research/e1.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "4476a21254302d4390ca32119ae16299217e82372eb39024e0b920ec77eb6d39"
+    },
+    {
+      "path": "frontend/public/research/model-program.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/research/model-program.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "862aba720a837e4dd8e8fd3e91fb35df7c8f035ae1b3709ce10e241434f87a17"
+    },
+    {
+      "path": "frontend/public/snapshots/research/my-thanh.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/snapshots/research/my-thanh.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "bb4fffc081cd9a62ff83cbdc55aa7a2e4a1cc9e2deeb2f17335270ceb5d028eb"
+    },
+    {
+      "path": "frontend/public/snapshots/sandbox/my-thanh.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/snapshots/sandbox/my-thanh.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c33775824c63ec1cf2e5387ce98f0553e5c6b8c247e13a9745cff535d7489d0e"
+    },
+    {
+      "path": "frontend/public/snapshots/v2/overview.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/snapshots/v2/overview.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "aa291206fa83776a4d8eec8ca268e9f4c567df52b17a7e826f54a12bb398e9fe"
+    },
+    {
+      "path": "frontend/public/terrain/10/813/481.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/10/813/481.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "2296f801b416d07392946ba51109ff6ac484fdcf8425357a0322fcc03db64015"
+    },
+    {
+      "path": "frontend/public/terrain/10/813/482.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/10/813/482.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "812bd2ea7e80fcc52247f33cff2944b366c0573ee2b158412e8fc9130f13f6ca"
+    },
+    {
+      "path": "frontend/public/terrain/11/1627/963.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/11/1627/963.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "17d39af94897865044fb2b7aea56578e1a2ba9b7a9762bb324ca738dbc94c487"
+    },
+    {
+      "path": "frontend/public/terrain/11/1627/964.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/11/1627/964.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "72168ae23a3cd82f665c5dcc5215331a10c13160c7d10196756f90fa8c91a616"
+    },
+    {
+      "path": "frontend/public/terrain/12/3254/1927.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/12/3254/1927.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "e28ed19d1d512c3470ec2aab01ecd8dcc7154c981a017516076dcad3099efb41"
+    },
+    {
+      "path": "frontend/public/terrain/12/3254/1928.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/12/3254/1928.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "452d86b7c927ef44d1c2b93b78f3e684d6909a2dbc4ba99fea2963acd1c52827"
+    },
+    {
+      "path": "frontend/public/terrain/13/6508/3855.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/13/6508/3855.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "c2cef0e8253797de6c1efca10becafbbef0d2c7c81f64e84e06cc95aa39b9e79"
+    },
+    {
+      "path": "frontend/public/terrain/13/6508/3856.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/13/6508/3856.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "5950ba921eb21d2d404511b22e28082fda9cf393b5bf9db6606fb688a84b43e7"
+    },
+    {
+      "path": "frontend/public/terrain/13/6509/3855.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/13/6509/3855.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "3cee44b26c0c4fe3b13edf874d23d142ed828535931ff68089ac99055ea9b779"
+    },
+    {
+      "path": "frontend/public/terrain/13/6509/3856.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/13/6509/3856.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "667b2c2ad79c4760ddade3ecea51c8ffe53d0e072da04e6ab874e336ed251267"
+    },
+    {
+      "path": "frontend/public/terrain/14/13016/7711.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13016/7711.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "493e414f73185949c2eca9a5610017f218c0fffb3a0646f6c69f636629882b45"
+    },
+    {
+      "path": "frontend/public/terrain/14/13016/7712.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13016/7712.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "2944358e81bf84015305592f701efaf912a7b3fc270ab0a877746346f2e03419"
+    },
+    {
+      "path": "frontend/public/terrain/14/13016/7713.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13016/7713.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "ba51d2fee0864b862fce1f2a5557fd0f24b1110a1a6aa551c9b1427b6bc796db"
+    },
+    {
+      "path": "frontend/public/terrain/14/13017/7711.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13017/7711.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "ba28001747724138ba07b19fdf251e2dcf84b0dd9086a6980c993f387db1ba0d"
+    },
+    {
+      "path": "frontend/public/terrain/14/13017/7712.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13017/7712.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "6b11fb3d715b512a765256d2468d6573c1498aab3d0575aa44c921e1df945310"
+    },
+    {
+      "path": "frontend/public/terrain/14/13017/7713.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13017/7713.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "f5554a594e252c14f92c2dc8eab226621917104f8105de86d1533b3e9b053c67"
+    },
+    {
+      "path": "frontend/public/terrain/14/13018/7711.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13018/7711.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "7b7e794e58b8d0d6ffa997906b36ecb7a5041cc31fbf9a8c0bd9ff921c1e11c1"
+    },
+    {
+      "path": "frontend/public/terrain/14/13018/7712.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13018/7712.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "fd9d291bef1e568d81a8a991062c357d9a9e714a34aa5893870681b25f93ec57"
+    },
+    {
+      "path": "frontend/public/terrain/14/13018/7713.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/14/13018/7713.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "7b9cb5de4167f79fff84d25d12f9a933c0f4c5abec9dc52365886a1bf0e7c4ce"
+    },
+    {
+      "path": "frontend/public/terrain/README.md",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/README.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "d3da3145ed1891ac8ccd13f5af10ed526f1996267f85d08ee25832584187e75c"
+    },
+    {
+      "path": "frontend/public/terrain/manifest.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/public/terrain/manifest.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "d31081775a7090f1f9e4760e37e847f7757e076123762895168ebfa851b213c4"
+    },
+    {
+      "path": "frontend/scripts/browser-qa.mjs",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/scripts/browser-qa.mjs",
+      "source_worktree_changed": false,
+      "imported_sha256": "6cbabb70e16ada13705d5b118ae86bce1edfaa0bf9d23f9c2d34ce69f76e6d01"
+    },
+    {
+      "path": "frontend/scripts/measurements.mjs",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/scripts/measurements.mjs",
+      "source_worktree_changed": false,
+      "imported_sha256": "e2f909dddbe8f89bc7b44136c6e1d56629c2aabe53a2024f1fdebe66e21b53b1"
+    },
+    {
+      "path": "frontend/scripts/package-analysis.mjs",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/scripts/package-analysis.mjs",
+      "source_worktree_changed": false,
+      "imported_sha256": "0edcb734c8001f33a0e68c0d373748e78bf868be54c844f46f288fbf507e943c"
+    },
+    {
+      "path": "frontend/scripts/package-research.mjs",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/scripts/package-research.mjs",
+      "source_worktree_changed": false,
+      "imported_sha256": "978b7c19c503fc2f451aa1cd5ee7e0001c8a17cd911dba51dc8d31a9464226e0"
+    },
+    {
+      "path": "frontend/scripts/package-snapshots.mjs",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/scripts/package-snapshots.mjs",
+      "source_worktree_changed": false,
+      "imported_sha256": "84086eb2451649148edb330d3c643b528b669185be7c772a34254f282491984b"
+    },
+    {
+      "path": "frontend/scripts/package-terrain.mjs",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/scripts/package-terrain.mjs",
+      "source_worktree_changed": false,
+      "imported_sha256": "4065e84d287f342fc2708fafbd9a8f90a2b8cd2ad0940399813b0340033b10e8"
+    },
+    {
+      "path": "frontend/scripts/verify-demo.mjs",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/scripts/verify-demo.mjs",
+      "source_worktree_changed": false,
+      "imported_sha256": "d4eaa236b7ee6d24b89106a239f8e8f2c745cb680484a1cc966454d9da40c92c"
+    },
+    {
+      "path": "frontend/src/app/App.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/app/App.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "4ae83ac215c25e52feaa03636159bc587e9983db82aabf0dbe34022b8be430d6"
+    },
+    {
+      "path": "frontend/src/app/layouts/Header.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/app/layouts/Header.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "51ec1ef812f6cbfe658a9695486dcb66db78b436c3a4eeb9910f50957549cf0b"
+    },
+    {
+      "path": "frontend/src/app/layouts/Workspace.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/app/layouts/Workspace.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "289ca58c0db2c1f41f2dce1df0f287c55e6d82fcae9c4d1ae53e1db5397a1613"
+    },
+    {
+      "path": "frontend/src/core/contracts/geometry.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/core/contracts/geometry.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "fdb756b90108e98bfb9422f97ceb8dc1189bbe052d0a0d558329f3e16342edb4"
+    },
+    {
+      "path": "frontend/src/core/contracts/index.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/core/contracts/index.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "a5a0c7238a9c335a87e6d4fc60533596c538a4c47ee2514e297f89ed01237d39"
+    },
+    {
+      "path": "frontend/src/core/selectors/index.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/core/selectors/index.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "1213e294aa089ccc5a2f997a8b50cdd268c26a26735e4e173ca2104fb73883a9"
+    },
+    {
+      "path": "frontend/src/core/state/index.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/core/state/index.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "3d77276fee5ef4efe9888b361a946cc3e52ae670a4215dac65a2652c151ff71f"
+    },
+    {
+      "path": "frontend/src/data/adapters/useBundle.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/data/adapters/useBundle.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "bfcd3bba9fe8ed39afd69288d48b67331d93d59b53bfcb5ecdc6a4d9dc33a94d"
+    },
+    {
+      "path": "frontend/src/data/repositories/index.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/data/repositories/index.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "02b3e7f15576b6cc524eb7afd894d9c12b090dd965353519c26a95390fa7cc01"
+    },
+    {
+      "path": "frontend/src/features/analysis/AnalysisPanel.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/analysis/AnalysisPanel.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "86c092a5ff6c3474993af789bea270b07de9d8105c675ef42c3e7e9ff6ca4ac5"
+    },
+    {
+      "path": "frontend/src/features/analysis/ModelProgramEvidence.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/analysis/ModelProgramEvidence.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "f147cf475af1f2ada780e75a25ada51de8914e82bd49d2e64197b90613c2bfe4"
+    },
+    {
+      "path": "frontend/src/features/analysis/ResearchEvidence.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/analysis/ResearchEvidence.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "05c5f0f1e13426e3e48e39b71ef25ca0eb78743953b10b3cb5a46db560a87ca0"
+    },
+    {
+      "path": "frontend/src/features/analysis/ResearchInference.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/analysis/ResearchInference.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "77a865b75f52b4e321aa9bf53cd8067dacf96215faa8c978d9355616ab431eef"
+    },
+    {
+      "path": "frontend/src/features/analysis/contracts.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/analysis/contracts.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "411035f9c792d5a3dc6c91a6ed07f107590dc5dce68c4fba2b949172f3aadcb7"
+    },
+    {
+      "path": "frontend/src/features/analysis/state.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/analysis/state.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "e28a06127a2356616ec6b33b25281e4f97bf19ffed15b5562936e4bbf6f26e81"
+    },
+    {
+      "path": "frontend/src/features/area-setup/Setup.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/area-setup/Setup.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "fa8f05f61be47fa080500f2b3c1557df7c3a80de10afb191d24d6b90598bd89b"
+    },
+    {
+      "path": "frontend/src/features/assistant/Assistant.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/assistant/Assistant.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "7ed7e7d4eda02b65cc48e6302128c317558814234f5d27842dc97947d3c1683e"
+    },
+    {
+      "path": "frontend/src/features/dashboard/ClimateContext.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/ClimateContext.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "82b1bdff782486d238ea3bad1b722fc3872a577e07b39210a090327587e94a66"
+    },
+    {
+      "path": "frontend/src/features/dashboard/ConditionsForm.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/ConditionsForm.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "1ed9d471aa3bb2cc78bee8b544117ee205253c00f6f5a9a617babbc379430ecb"
+    },
+    {
+      "path": "frontend/src/features/dashboard/Dashboard.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/Dashboard.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "278591cee44f478936ef457ad49424a5abe04834873521fad01af820fab6d291"
+    },
+    {
+      "path": "frontend/src/features/dashboard/ForecastPlot.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/ForecastPlot.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "a29a8bdbd20fb9c009106fb1bd5026d2155c3a9766360cccc06ca810783a4a7d"
+    },
+    {
+      "path": "frontend/src/features/dashboard/RotationComparison.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/RotationComparison.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "51af724f184b2c9ddebe791dc89a145d51b2db88b31be70a0911e4e3e277273e"
+    },
+    {
+      "path": "frontend/src/features/dashboard/SensorStrip.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/SensorStrip.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "f212aab392f01a65a3417f6667ba3f3115b1765d504c5c5b87077dcfc7c0bf0b"
+    },
+    {
+      "path": "frontend/src/features/dashboard/climate-contracts.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/climate-contracts.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "b7cd763b19225e954da69470ae7d607312722923c3a9006849b446f4679b73bf"
+    },
+    {
+      "path": "frontend/src/features/dashboard/dashboard.css",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/dashboard.css",
+      "source_worktree_changed": false,
+      "imported_sha256": "91e89bf8c2930b5a2d5d759ea4975a5cee8d1dd87cc14c3960f336248cf2a9ae"
+    },
+    {
+      "path": "frontend/src/features/dashboard/desktop.css",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/desktop.css",
+      "source_worktree_changed": false,
+      "imported_sha256": "e2543ace59932c56be6f8afa14ac9957557f1c28b3e3edc1956dccac1faacc38"
+    },
+    {
+      "path": "frontend/src/features/dashboard/model.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/model.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "47c11b10c5ff315d5f48418879a89456d6dd0f7476656e763e9e0baaa2795603"
+    },
+    {
+      "path": "frontend/src/features/dashboard/v2.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/v2.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "83479051d8d84c42ef43cacc58785fc6a57e29d95855a8e4219af97f5708a0e7"
+    },
+    {
+      "path": "frontend/src/features/dashboard/v4.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/dashboard/v4.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "7065b238b1c56dff5f59190b18105c795ce8c63829fd9e3acbc101ceefed15e2"
+    },
+    {
+      "path": "frontend/src/features/evidence/Evidence.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/evidence/Evidence.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "8a125489772aa15c4c503abafc27284c4c84fda4ac09c3a96ba23ac5068b81d1"
+    },
+    {
+      "path": "frontend/src/features/evidence/EvidenceInspector.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/evidence/EvidenceInspector.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "554700bcf62195525f466eede6b8cfc9b187dd6abe6ed85cb45b8bed79d67d1e"
+    },
+    {
+      "path": "frontend/src/features/farmer/Rotations.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/farmer/Rotations.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "ccf37c794b7812ebcafbc2df36efca16e00fb41030bf2534c901bd580b6b6dc0"
+    },
+    {
+      "path": "frontend/src/features/hardware/Hardware.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/hardware/Hardware.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "314c947e32ade2d6133c86092a8601eb1f7a31b074b7b7ef0d8ff8f7bf0cf811"
+    },
+    {
+      "path": "frontend/src/features/hardware/Pipeline.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/hardware/Pipeline.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "9cfaf8e9d0e6f54645b232b28b274b66433f6cd22c80b63e3681c26967b015b9"
+    },
+    {
+      "path": "frontend/src/features/hardware/model.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/hardware/model.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "3eeb4688a9bb1073bf1bffb1fa66516f7029f38b53b17f2ed95ba2b2b2f6ee10"
+    },
+    {
+      "path": "frontend/src/features/hardware/state.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/hardware/state.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "371672e9220fe87024a8d64221e690bd01c35781637788ab9077bceac9662bde"
+    },
+    {
+      "path": "frontend/src/features/planner/ClimateOutlook.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/planner/ClimateOutlook.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "2a57f0485908243e272214ae34713e0534dcea0f85bcf5a6356eaa3c71f8455d"
+    },
+    {
+      "path": "frontend/src/features/planner/ClimateSummary.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/planner/ClimateSummary.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "88ef1143d194116deb644a589485c566519a7713cb92792e71853ceebcbcb72c"
+    },
+    {
+      "path": "frontend/src/features/planner/Planner.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/planner/Planner.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "dbe405f617f52ef5d6e7466cc9310e39dc8eb7c3e809a3bd7bc7a2e2172fa190"
+    },
+    {
+      "path": "frontend/src/features/planner/model.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/planner/model.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "6c24c9a46e050feb391b53a5af4e607e774dd54f245f4aa10db369bddb7b314f"
+    },
+    {
+      "path": "frontend/src/features/planner/planner.css",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/planner/planner.css",
+      "source_worktree_changed": false,
+      "imported_sha256": "3b13e5ffb36bbbe033ba6c95775d3f5ab87b2041fb431af6bbe3e54d89d8d35f"
+    },
+    {
+      "path": "frontend/src/features/power/QAMatrix.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/power/QAMatrix.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "ff5f06fa1d244b9c05fd9f7efdda248afcb482774da1c91885927269f6cdbd2c"
+    },
+    {
+      "path": "frontend/src/features/sample-selection/Entry.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/sample-selection/Entry.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "60e5e8df65667a76f8d5a3cc49f005a9eb3bf845c233bd0af27b17fbc36c576b"
+    },
+    {
+      "path": "frontend/src/features/scenarios/Scenario.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/features/scenarios/Scenario.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "13c5cad615eb8aba7cc00f0356afa51e922ba00ed70d078228e890d3c49ade8c"
+    },
+    {
+      "path": "frontend/src/i18n/features.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/i18n/features.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "d069ca943ba2d7029981dd932975f5aed00799284c1c86e8f9dceb071ad28c5a"
+    },
+    {
+      "path": "frontend/src/i18n/index.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/i18n/index.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "cdb4b6c94da2288cfb2c00261e8089615ecf9ef302e01e8d56a69dabce7d6769"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/main.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "128e97dd6dbe7a6ec91777ccf74ba6c7be9fe20657cb96950966335f4a15486e"
+    },
+    {
+      "path": "frontend/src/shared/OptionalVisual.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/shared/OptionalVisual.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "b52713c05b5afa89d5014c4b2a43b8364563aaec4eaf63f60cff956f789b420f"
+    },
+    {
+      "path": "frontend/src/shared/charts/Climate.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/shared/charts/Climate.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "4596f4af95f3a31caa508f60eed3aaaa3800679d1cf33c5393d17f50822dcc58"
+    },
+    {
+      "path": "frontend/src/shared/charts/index.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/shared/charts/index.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "cd5f17804a036e3b3d95ccf58717ac10af3632292e093f2af26799ee2b536c98"
+    },
+    {
+      "path": "frontend/src/shared/map/FieldContextMap.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/shared/map/FieldContextMap.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "97455ebbe44657826a3f39a9b00433ec8786df5313278454ad8f1f4b8a3b63fc"
+    },
+    {
+      "path": "frontend/src/shared/map/SpatialMap.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/shared/map/SpatialMap.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "5b2d82911bd96269e97a94e357c599ae722ce1da26c07a394f767a37f6387fc1"
+    },
+    {
+      "path": "frontend/src/shared/map/index.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/shared/map/index.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "8ef20b7b06a6a5256acc881c62c4011fb4aceed6314ce7bb89a2fc485ca6ccc9"
+    },
+    {
+      "path": "frontend/src/shared/ui/Modal.tsx",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/shared/ui/Modal.tsx",
+      "source_worktree_changed": false,
+      "imported_sha256": "001c9c17e2bf7bea765ef6dc446befa31aeef62d584fc48c10c26e9a1d3c6450"
+    },
+    {
+      "path": "frontend/src/styles/index.css",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/src/styles/index.css",
+      "source_worktree_changed": false,
+      "imported_sha256": "0ed7c6979717b7e2b55e5bec0e998c4fa90e3e643ec62f5b79bfefb02d90a86a"
+    },
+    {
+      "path": "frontend/tests/analysis.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/analysis.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "d0e1c0b84ef3302257a9185062b0ed52ebfd339be5aebdab668278bc9905fb7e"
+    },
+    {
+      "path": "frontend/tests/contracts.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/contracts.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "3a9ce1c7c022b929532ad1c3e6530c9e080a94da0711be001235c385d8fb028a"
+    },
+    {
+      "path": "frontend/tests/dashboard.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/dashboard.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "9a5c52ab8a1f81cd87c9511b03e95876dde0b5f51c20c00bc685e0df98b1c5ab"
+    },
+    {
+      "path": "frontend/tests/e2e/analysis.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/analysis.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "1f33463ea4b364ebb6eebba41d4da32cc432baf18e276c2a05ed4d023c1f6192"
+    },
+    {
+      "path": "frontend/tests/e2e/app.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/app.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "2878e16680f401b09936789ece061d5ae6ab30ae6aa76b86899048ff36976b87"
+    },
+    {
+      "path": "frontend/tests/e2e/dashboard-model.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/dashboard-model.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "80be047f5f0d0ec6b15358bb62c786f1ad7ccc1247a18527c263a3d6b492ffff"
+    },
+    {
+      "path": "frontend/tests/e2e/dashboard.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/dashboard.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "2a16d262e5c95411a78a09ad1fc3138a68f2970c7b70baf381cc6537157378c6"
+    },
+    {
+      "path": "frontend/tests/e2e/desktop-hardening.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/desktop-hardening.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "9351d0c62dd8ac2bfb7ce792718d8a2e183bfb150543cc26f6f63a85b0ca41c1"
+    },
+    {
+      "path": "frontend/tests/e2e/desktop-sprint1.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/desktop-sprint1.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "24d5be6f629a9dfdf09b2a6bfcb7802f4e401bb6156aa11aa3b237c012b483d9"
+    },
+    {
+      "path": "frontend/tests/e2e/farmer-sprint2.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/farmer-sprint2.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "034bb97de6a31d9ad0de6fae1ddc1b878cb1c035105da9674f0cac92ca23bad4"
+    },
+    {
+      "path": "frontend/tests/e2e/farmer-sprint21.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/farmer-sprint21.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "38de29aff842b3755a5b91aeea0812c103cee26884bd667dabcc39b6608d2f7c"
+    },
+    {
+      "path": "frontend/tests/e2e/hardware.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/hardware.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "0935f6c530b2b73ccc125bf4814fca353856413a06134c12050457903ce7d03c"
+    },
+    {
+      "path": "frontend/tests/e2e/live-provider.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/live-provider.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "e50d16f0369d8845b03c4b72941e1e3394bf6778547a5ba907da82787a127ea9"
+    },
+    {
+      "path": "frontend/tests/e2e/live-v4.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/live-v4.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "c1b571852750a6ae067b3f4ba17f60253c20c451f1bced107dd752d2372f3477"
+    },
+    {
+      "path": "frontend/tests/e2e/model-program.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/model-program.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "d63537d264257b4b1e77b0d07e4e8de10fb93179786a5acdc517ba1d3165b00a"
+    },
+    {
+      "path": "frontend/tests/e2e/planner.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/planner.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "056d74768ed70188a906cafe3404b525b07a433eac5186ab242ff635fb2f2c87"
+    },
+    {
+      "path": "frontend/tests/e2e/research-inference.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/research-inference.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "c0220303507a3947e68c1f163ddce70d915cb2f7f4f3af76f1d6e6bdcb3c6650"
+    },
+    {
+      "path": "frontend/tests/e2e/sprint3a.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/sprint3a.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "cf57b99f8ca5caad5e3fb762a346ae0f4935406c0ddc421016c30d965bac5755"
+    },
+    {
+      "path": "frontend/tests/e2e/v41.spec.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/e2e/v41.spec.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "b5307fb228c5d3daa720cfefd2c6c24eebda1afa5e9152dc8c3160a30bd95f8a"
+    },
+    {
+      "path": "frontend/tests/fixtures/research-inference.example.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/fixtures/research-inference.example.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "8b88bc723233bf744e27c0a1399b7a647d59612141281eb4c46be864d328add0"
+    },
+    {
+      "path": "frontend/tests/fixtures/v4-analysis.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/fixtures/v4-analysis.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "3f55c63d9b774140fb73af751c008a321317dee2e401b24d2969ed53441bac82"
+    },
+    {
+      "path": "frontend/tests/hardware.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/hardware.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "f65f98fe5b0f42e55cc4dd826bbdcad031cb41666ff26d64ab4660aa2cac45b3"
+    },
+    {
+      "path": "frontend/tests/model-program.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/model-program.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "0fb6939a53302f2d554584fedf4f314641594a93d57d1000db8e22505f15dd4e"
+    },
+    {
+      "path": "frontend/tests/planner.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/planner.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "75b75f8f3d203ce58757eade45b6ce7a6abf41650c75e28a790612a87a27f96a"
+    },
+    {
+      "path": "frontend/tests/research-inference.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/research-inference.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "c2edf7ce31f245d6f31716e1171fa980e7d7df072d34aa6aefc7732498bd3b3e"
+    },
+    {
+      "path": "frontend/tests/state.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/state.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "45e13af773aaca401db6d76524242dfaaf341302caf44fc60cc122a384b736d4"
+    },
+    {
+      "path": "frontend/tests/telemetry-sprint3a.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/telemetry-sprint3a.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "31d44e08a9c7db69489e509e5d078b52ee69a594fd8db2b351551326a7760dc6"
+    },
+    {
+      "path": "frontend/tests/v2.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/v2.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "5df01cdb9cb604b898339e0fab70a8746c4e70675f2d5767d679d98fec2cdb11"
+    },
+    {
+      "path": "frontend/tests/v4.test.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tests/v4.test.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "744de78d2c33a19a117d69bd856b10601a91ee23a3b0ea56ebdef9f942659db1"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/tsconfig.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "d969bd4d2a35a61ddb1ca3f99e115c8ec20c8c09fc00404bb81ff389427060fa"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/vite.config.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "f22d6ff7192e0af2aa8ea24b794cc7026cafd3e11c2f544a1976d8fcc3961f12"
+    },
+    {
+      "path": "frontend/vitest.config.ts",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "frontend/vitest.config.ts",
+      "source_worktree_changed": false,
+      "imported_sha256": "311596650a38456469f41d5694e17af127a275de27ea8389fb9f0f1a394aeae3"
+    },
+    {
+      "path": "backend/scripts/api_schemas.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/api_schemas.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "4e0006fd2151f8390fb1505d4dc4a2ca70b82fe8b1e2e1c85506fa706391b8ef"
+    },
+    {
+      "path": "backend/scripts/selected_v4_api.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/selected_v4_api.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "fc3f345da0f1932cbb0512ce0f6dbfc4ac74ccddc4c1aaee686e131981ee2b8d"
+    },
+    {
+      "path": "backend/scripts/selected_v4_contract.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/selected_v4_contract.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "39e102d0e07d1ad04e9d6a6deabc7191133f339237d5d4ba3826ba008718fe78"
+    },
+    {
+      "path": "backend/scripts/research_runtime.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/research_runtime.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "bb66cc2a26e8a07ce8c46bde569de3f152853a2eab3f2751bb6ea2657c5e7c72"
+    },
+    {
+      "path": "backend/scripts/research_v3.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/research_v3.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "0dee4a7ceec13e6456c1cccf871f321ffb86ba8db7383ed1c6a656beaa9ed4d0"
+    },
+    {
+      "path": "backend/scripts/research_v4.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/research_v4.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "d163ade4af8558e6f50b419ec95745c34672898d59b47d7c67221ca853ba5818"
+    },
+    {
+      "path": "backend/scripts/research_rag.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/research_rag.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "53bc3d0679bc96f6fd1833538f61a5d91ef8b5348438715b4bd60cd6b541135b"
+    },
+    {
+      "path": "backend/scripts/v2_runtime.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/v2_runtime.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "27a2d2ce498b61b0669cadf7dc908ccc2b074fcc51b7ef2b4dd561e28e31cc34"
+    },
+    {
+      "path": "backend/scripts/v2_rag.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/v2_rag.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "8fe993bd8868c723da7f71001728ef91ceb8b738214e6ed53ba91ee849342b96"
+    },
+    {
+      "path": "backend/scripts/v2_data.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/v2_data.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "1871880009e3d6ce97b39d49a07da6a59d69e1a2e574dae00056061bbd660960"
+    },
+    {
+      "path": "backend/scripts/v2_train.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/v2_train.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "d6c5b9bd8d6f5e40fee7072c07ba46beb7d2566549ec9f9347e49883650727bc"
+    },
+    {
+      "path": "backend/scripts/fetch_satellite_context.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/fetch_satellite_context.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "313a262254e37f0cb07e27c264484fc46691146d292a38e2faddd439b5d635e8"
+    },
+    {
+      "path": "backend/scripts/train_research_rain.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/train_research_rain.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "b157cd720ab56a33c45c1cf23aa34c388d15adddc1be6185a5ee8769829b296c"
+    },
+    {
+      "path": "backend/scripts/build_data_block.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "scripts/build_data_block.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "c051799843b6aa88fb47e257bb8f0da83f2114198e42453f5ca097cd4893a582"
+    },
+    {
+      "path": "backend/config/data-block-v1.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/data-block-v1.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "2c31c5a4afa93d2ca5500cddc4ed3b3b9de5d582b1a839c26e52add2fef4b7c4"
+    },
+    {
+      "path": "backend/config/farm-scenarios.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/farm-scenarios.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "3a2c5dac55bde827a39397246c4b8d421e4370b52f2aca076042b8122f52afd6"
+    },
+    {
+      "path": "backend/config/rag-cards.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/rag-cards.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "162a232a58c09c473de8c440f2fadf5eeece7103c3815e55c4efa3a455132a8b"
+    },
+    {
+      "path": "backend/config/rag-evaluation.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/rag-evaluation.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "75372a5b3806b50b268630da5b2762d2f679dd54d61010d009c9ef6d13eace88"
+    },
+    {
+      "path": "backend/config/resource-eda.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/resource-eda.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "24d2374b9ac466a81bf8c533fdbb4c46148b437dc3be628ebf5dc3b68988e4ae"
+    },
+    {
+      "path": "backend/config/selected-system.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/selected-system.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c3d191deebd4ad2bf527d3c396d1cd30009ab75e433e4e8e550f1ef0e303790f"
+    },
+    {
+      "path": "backend/config/source.example.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/source.example.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "34847c4133077ebe9664a04d2f17f56e240302d6fcb22b42cd630332fcf19246"
+    },
+    {
+      "path": "backend/config/v2-protocol.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/v2-protocol.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "fa45b800e70314807db343bfcd113f4977c53fda986fe561d12e0d700f5fc15b"
+    },
+    {
+      "path": "backend/config/v2-rag.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/v2-rag.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "12d5e5ecd24a824e58a1ff1b0cb82eb13c3d0148286f9ff6ef5e1e77e1cdf7ff"
+    },
+    {
+      "path": "backend/config/v3-protocol.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/v3-protocol.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "b0357d58c025bf7ade9d480b11ef21497d743fd73e93ea0cc54d651a3af9de81"
+    },
+    {
+      "path": "backend/config/v4-rag-evaluation.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "config/v4-rag-evaluation.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "64a0ca17f7368edc937f1eb5b51fa445ba2a3d75a00a22fd9d5135085936a6e2"
+    },
+    {
+      "path": "backend/reports/v3/ARCHITECTURE.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/ARCHITECTURE.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "21d82e0912d4c41d5f976e2b3e0471f0a4b9cc0e405ca0e9d6c495c0b2863529"
+    },
+    {
+      "path": "backend/reports/v3/DATA_PROCESSING.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/DATA_PROCESSING.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "e4969dcc85e642fef492e169d41d2292f81910c541c088851c8db40958fa18fc"
+    },
+    {
+      "path": "backend/reports/v3/EXPERIMENTS.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/EXPERIMENTS.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "82113f1fd7e74880b31aaf308a950c23933c4ac463dbf394b9b6bb6bc623e304"
+    },
+    {
+      "path": "backend/reports/v3/VALIDATION.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/VALIDATION.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "f2cf632ac0f24d1093f33974840250d19fbde28453dc28017bdb4fcecb55a198"
+    },
+    {
+      "path": "backend/reports/v3/evidence/air_rh_mean_pct-h1-development.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/air_rh_mean_pct-h1-development.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "e98ce8312053f1649fe841f1836434740fb8f6d1fbf2928f4013a96801048075"
+    },
+    {
+      "path": "backend/reports/v3/evidence/air_rh_mean_pct-h3-development.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/air_rh_mean_pct-h3-development.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "f1fa07a65725ab837d4c1b4b9c0f29a914ebeab5a8ced92572f41505f3f47c16"
+    },
+    {
+      "path": "backend/reports/v3/evidence/air_temp_mean_c-h1-development.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/air_temp_mean_c-h1-development.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c443bb06fd7b2d38217c906e119736a38f0ce5d2e7c3a28c308121fbf5c8538a"
+    },
+    {
+      "path": "backend/reports/v3/evidence/air_temp_mean_c-h3-development.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/air_temp_mean_c-h3-development.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "ad999060a2af72674fe2c0f4f1f4f6fd472539a8718a7a8e5605fa05b698819f"
+    },
+    {
+      "path": "backend/reports/v3/evidence/bands-frozen.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/bands-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "6f391b23e9f8759b3832d7b502d1db5a8a045fdcbb0bbd91fd1dcd4a90efdff4"
+    },
+    {
+      "path": "backend/reports/v3/evidence/corpus-frozen.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/corpus-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "61b4e29b86150d10f65f83c48165eb56eb65ce82b22906e4c2e654bcadf66390"
+    },
+    {
+      "path": "backend/reports/v3/evidence/data-manifest.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/data-manifest.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "e22531b38e4a64c9478adf36c72b4b6b910251663802ac35ac1772ced07d4c40"
+    },
+    {
+      "path": "backend/reports/v3/evidence/development-summary.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/development-summary.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "7ef9aa2a5ddfa8bf9efc1daa783af867f962167135a5c2452744d788d8aedb82"
+    },
+    {
+      "path": "backend/reports/v3/evidence/environment.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/environment.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "5a273f40b9da1647589b32f8fe349eda2153b49955a7355b42c14f8d97626dc7"
+    },
+    {
+      "path": "backend/reports/v3/evidence/final-diagnostic.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/final-diagnostic.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "17d45113099952a204a8840c9cc7e29c8f477220743f3e410cd75b2ba1817a00"
+    },
+    {
+      "path": "backend/reports/v3/evidence/historical-reproduction.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/historical-reproduction.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "12ee65895d4c193b0de9dab7cd899e8c833466080fc90e0841b191493816972a"
+    },
+    {
+      "path": "backend/reports/v3/evidence/precip_sum_mm-h1-development.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/precip_sum_mm-h1-development.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "e6a64624162d2bfb9a1d0bc91acbcc224a0b1543ff55ffc586f28923621569cf"
+    },
+    {
+      "path": "backend/reports/v3/evidence/precip_sum_mm-h3-development.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/precip_sum_mm-h3-development.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "20dcca7952eb81b246c1aa747dddc0af818100005cba3ccf8ca6b06a43db2caa"
+    },
+    {
+      "path": "backend/reports/v3/evidence/selection-frozen.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/selection-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c94396cf86beb0746d29ae7b45a56bd00cce3b0151f564ba5b08d4975bbe502b"
+    },
+    {
+      "path": "backend/reports/v3/evidence/verification.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v3/evidence/verification.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "3c37212e9fe419a7730ea0e848960ef198d6b73462242926cda760e48467af44"
+    },
+    {
+      "path": "backend/reports/v4/ARCHITECTURE.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/ARCHITECTURE.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "5c909bced3d995371265a5a37a25698fd4b5ce676545ea9b6406e9398511b09a"
+    },
+    {
+      "path": "backend/reports/v4/DATA_PROCESSING.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/DATA_PROCESSING.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "fcba6d64e7614e08ef41979d14d58ce65819e74277f065d7afbef809531a98c0"
+    },
+    {
+      "path": "backend/reports/v4/EXPERIMENTS.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/EXPERIMENTS.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "d6f1a3dc7659b67a5a9c64dc8670555f9b084007d377a5712d823d433e277ed4"
+    },
+    {
+      "path": "backend/reports/v4/VALIDATION.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/VALIDATION.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "c4d7dfb566e6fb0d1d27909428ab1ff47d98a493e9380c6c23c58faa35a31313"
+    },
+    {
+      "path": "backend/reports/v4/evidence/ablation.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/ablation.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "839d2f0b7bf47d7f88560b5a05acf32c2608d482e0b9378280a14f412e139c19"
+    },
+    {
+      "path": "backend/reports/v4/evidence/baseline-development.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/baseline-development.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c90c4ee0c280666093dcc387253ef12f9e9664a91e2bf0f89359074ae9778427"
+    },
+    {
+      "path": "backend/reports/v4/evidence/development-0.4.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/development-0.4.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "1b4c6bb1969dd56af062c3ae6867dbd85c6473d868b7d7915f0aa801a05a14b4"
+    },
+    {
+      "path": "backend/reports/v4/evidence/development-0.55.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/development-0.55.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "451ce5fbd1616eae4e3a8802eed382be93f0bb666e6b12c8858c1ffc3a1586f4"
+    },
+    {
+      "path": "backend/reports/v4/evidence/development-0.7.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/development-0.7.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "192cec65ccdd5f29a7be1c702ce95fb49c890b9440ec4b7188fd191776a1d39e"
+    },
+    {
+      "path": "backend/reports/v4/evidence/exposed-regression-0.4.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/exposed-regression-0.4.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "efb0661bc0fd746f81d8e5c48ab83948e7331d85cda0cebcd28171325f725620"
+    },
+    {
+      "path": "backend/reports/v4/evidence/exposed-regression-0.55.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/exposed-regression-0.55.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "15cf36468837208f3b2da7aee0ddc363847d95c118f7c75f5b7583c63e36f367"
+    },
+    {
+      "path": "backend/reports/v4/evidence/exposed-regression-0.7.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/exposed-regression-0.7.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "d9ef1a8c791557afab3f4d25c2b04d0184c9c6a473658a5f22127559d71b4462"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/ablation.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/ablation.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "3b1c5d25dbb5bbdac8b0168a6fba54b39bbae69c0c616d4cbd7c0c2720eef4f2"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/baseline-development.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/baseline-development.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c90c4ee0c280666093dcc387253ef12f9e9664a91e2bf0f89359074ae9778427"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/development-0.4.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/development-0.4.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "a371f3bb854f17a9cdc02d1e122e7e2d6f914862f7d56ff396b4a1d88a960ef0"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/development-0.55.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/development-0.55.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "b3503f065b001fae89285d02323ec5041f3c9b8fe9f236c96ac791a2d5b3c48c"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/development-0.7.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/development-0.7.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "5072602e6b3a49522c14c6a67c3e108e2545d24dcc02e3a184d4171b8dbfe1b6"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/exposed-regression-0.4.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/exposed-regression-0.4.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "00c1d71daf7bcad3223c2d3c0f26e1d6d6d833f0b9e5cf42432e2551d3ab36f3"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/exposed-regression-0.55.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/exposed-regression-0.55.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "1f49670041735f5010e18c258a0bef649e68173d598c1b4b909f098e33cb27dc"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/exposed-regression-0.7.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/exposed-regression-0.7.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c6edf6efa98b888248a120457961e5dd844ef11d33569fa609bee3f970915680"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/final.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/final.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "f0fbfbd1b856ae5b28daf4d7e35f07b51f6909cab859d974f116b0b98913232c"
+    },
+    {
+      "path": "backend/reports/v4/evidence/refined/selection-frozen.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/refined/selection-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "6422b57aabaeabb097023c9111e8c5cd2548d70b9facd14d382f4e7454c058fc"
+    },
+    {
+      "path": "backend/reports/v4/evidence/selection-frozen.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "reports/v4/evidence/selection-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "0a4f7efb5729ff33fa287b586090fd4c895f812877b27b1977d6c30af70ac439"
+    },
+    {
+      "path": "backend/tests/test_selected_v4.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "tests/test_selected_v4.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "b68be723faa3a5e184677488648e02a65f372c9479cfa970aeba6057db8d27f8"
+    },
+    {
+      "path": "backend/tests/test_v4_dashboard_integration.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "tests/test_v4_dashboard_integration.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "4c73d1745328849650966f1cc34bc3390bce2d0ffc6c5326c7fa6aa744c8a9bf"
+    },
+    {
+      "path": "backend/tests/test_research_v3.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "tests/test_research_v3.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "d801067daeab6fae99a2d298d96bbf5c9063989834c653c862642b3a14191e13"
+    },
+    {
+      "path": "backend/tests/test_research_v4.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "tests/test_research_v4.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "1c4729ebf531550afa6b545c097af203449de1a97e90f22a1f98e22d0961eb31"
+    },
+    {
+      "path": "a1/neurax/__init__.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/__init__.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "454c9f6f39dce017d2f27f943947dfaff12dc1aed6018ecab38f3330531c2ad3"
+    },
+    {
+      "path": "a1/neurax/__main__.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/__main__.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "12bfc794011fe89f66389388c22b0edf88b892a957c1603f462455ad2af2c981"
+    },
+    {
+      "path": "a1/neurax/agrotwin/__init__.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/agrotwin/__init__.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "5daacff1ccd89e7ddeffff2a63fb8360dc1a474ba599c99d6edb6c99af813f30"
+    },
+    {
+      "path": "a1/neurax/agrotwin/data.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/agrotwin/data.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "3a5415197c743b1d79d7560f220ad30c597897aa4acddb3aa8364f92a2f466f2"
+    },
+    {
+      "path": "a1/neurax/agrotwin/engine.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/agrotwin/engine.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "4d79d310263ba6c9474ac3da2d57d4e6fc11cc7905a791f93d880e04c7fe40ea"
+    },
+    {
+      "path": "a1/neurax/agrotwin/h1.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/agrotwin/h1.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "67f31c1df9e4a15e6d39c7c99fc6570e95045423910ace17096ec0297a86d29d"
+    },
+    {
+      "path": "a1/neurax/agrotwin/inputs.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/agrotwin/inputs.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "92b060451d63f813fb3965a972891404771b0f6a938c7fb650191c026384484c"
+    },
+    {
+      "path": "a1/neurax/agrotwin/inventory.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/agrotwin/inventory.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "c24da7cb884dbb77214e70ca14bea759ea7120ed626ee42cd67154fc4df77610"
+    },
+    {
+      "path": "a1/neurax/agrotwin/research.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/agrotwin/research.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "e65c43abf427ed8884bba82d5b6da64925c045bb763b7c72d9c28fd33d7a60ee"
+    },
+    {
+      "path": "a1/neurax/agrotwin/service.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/agrotwin/service.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "09310b49f6c145f5ba79e8469b80fb81166df8d1cb0839941feaf4085f9e8285"
+    },
+    {
+      "path": "a1/neurax/ai_agent.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/ai_agent.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "d903dc552a8364294e8d9f358a2eed0ca6a54211b4e4f90d9ad24b082595b947"
+    },
+    {
+      "path": "a1/neurax/analysis_tools.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/analysis_tools.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "6b5bee49ccdc7f1704e72683dfa34ba3f81c48a051bff368be56aae3dcbc9f41"
+    },
+    {
+      "path": "a1/neurax/api.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/api.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "52b57c78c01238ad8cca13a9094ddeb1cf8b48a5dd71e8fa6d025bf822ef1d46"
+    },
+    {
+      "path": "a1/neurax/core.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/core.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "b85ffda46a8d22cb0fd8e1f13164c4b19e4397f7f9eb3f5789bd29cc8e1ca497"
+    },
+    {
+      "path": "a1/neurax/decision.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/decision.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "4e5d00375c626821ccf4949a93e06efa6beb0cc250bc06200a781c05549b1fa9"
+    },
+    {
+      "path": "a1/neurax/evidence_bundle.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/evidence_bundle.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "ad4fa36a567df790370c055187e3fe2d2a0b0063632bbb710245114120bbc23c"
+    },
+    {
+      "path": "a1/neurax/inspect.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/inspect.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "5d055588b5c50aa30e3b7878744244e460e98a56bb6b09cd1d2d485e853b22c9"
+    },
+    {
+      "path": "a1/neurax/native_review.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/native_review.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "57492b041a80df7c5d8100101e6fb791c9b9617a71c8fb556ceb3c76ef505925"
+    },
+    {
+      "path": "a1/neurax/normalize.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/normalize.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "2a3856e7d72088858c32380de2b3fe7c0fc2b5f9284d8f8cbd8f3a4d90103eca"
+    },
+    {
+      "path": "a1/neurax/project_context.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/project_context.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "8e7347a8b4ff5a7d38f4fbe00c2658cc07d2d0d7cf41935fe827c82b1c60c4a7"
+    },
+    {
+      "path": "a1/neurax/recommend.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/recommend.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "28f74f2c829821a4175d20f32b8956bc74ec09846a24bb08cd0d58d855e483aa"
+    },
+    {
+      "path": "a1/neurax/report.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/report.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "50698ee258f3c765802bb6357e56fa76552dee13308d28c7ad3fee80ca3ebb6c"
+    },
+    {
+      "path": "a1/neurax/research.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/research.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "ef7ff36d976fd0b001c99a320949d104e0b478336076b995fcacd2102da683c8"
+    },
+    {
+      "path": "a1/neurax/research_sources.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/research_sources.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "f2e091dc7c49c05e746371f56c3848402821487152034395da2e8763ac21561f"
+    },
+    {
+      "path": "a1/neurax/resources/agrotwin/case.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/resources/agrotwin/case.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "9a0a5a224268dbc11a59b040e1603f00beca13e618343f933c0f39e10c3a4a71"
+    },
+    {
+      "path": "a1/neurax/resources/agrotwin/catalog.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/resources/agrotwin/catalog.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "df5d0ff09ef52782505b1cad575be8cc87c73d0baa7a0cec2876fc461c1eb111"
+    },
+    {
+      "path": "a1/neurax/resources/agrotwin/climate.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/resources/agrotwin/climate.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "1684a13ddd7b6ee9e23cf5bad486a4c6ac44a95d508c53a8d7c0411de61ced5c"
+    },
+    {
+      "path": "a1/neurax/resources/agrotwin/sources.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/resources/agrotwin/sources.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "0e2481f70cc8a64685b8620ace6a94a9d93478b4b99af0becc2164b4e3a26c49"
+    },
+    {
+      "path": "a1/neurax/train.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "neurax/train.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "cbd30eab120e370cdd3f4d2172d121b714d9cf4fdc8642d31de26d8a7babd9d1"
+    },
+    {
+      "path": "a1/tests/test_agrotwin.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "tests/test_agrotwin.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "d8277dee63869b5f24a64d01e4283bfca08542bfdff2f27beaeb6eaf366d31ce"
+    },
+    {
+      "path": "a1/tests/test_v41.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "54bce495514fb3235fe7bd2d0df4ab001f74cca0",
+      "source_path": "tests/test_v41.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "3e006b3dac90641bf33f73cb040aa156f1c8a0ccaa38b7342c0e28e39f9a6b57"
+    },
+    {
+      "path": "backend/resources/runtime/b666cf3773dc7018fe070c79602cfab3b69d7e60ef0bf083d7a2e2e428f6c9a8.csv",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/processed/data-block-v1/context/sentinel2-scenes.csv",
+      "source_worktree_changed": false,
+      "imported_sha256": "b666cf3773dc7018fe070c79602cfab3b69d7e60ef0bf083d7a2e2e428f6c9a8"
+    },
+    {
+      "path": "backend/resources/runtime/7862389744afa1a060502c674b020e8375f0a4cb81771de10ae1152e611832b6.csv",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/processed/data-block-v1/monthly/environment.csv",
+      "source_worktree_changed": false,
+      "imported_sha256": "7862389744afa1a060502c674b020e8375f0a4cb81771de10ae1152e611832b6"
+    },
+    {
+      "path": "backend/resources/runtime/db9223b74a14fdef76fc50a0e580d92f72b45c8e9e091f53f42084b4ca10eef2.csv",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/processed/v2/monthly.csv",
+      "source_worktree_changed": false,
+      "imported_sha256": "db9223b74a14fdef76fc50a0e580d92f72b45c8e9e091f53f42084b4ca10eef2"
+    },
+    {
+      "path": "backend/resources/runtime/cdbba036c0a47687e229c6805e9d76a8f38515ceec71dfa9dd99747298f96e6b.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/raw/local/my-thanh-v1/source-register.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "cdbba036c0a47687e229c6805e9d76a8f38515ceec71dfa9dd99747298f96e6b"
+    },
+    {
+      "path": "backend/resources/runtime/adad30ecee91f017acd42c46ed1d65579a8f4dc4877bc76b940225c0de9ca407.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/raw/local/my-thanh-v1/sources/soilgrids/point-properties.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "adad30ecee91f017acd42c46ed1d65579a8f4dc4877bc76b940225c0de9ca407"
+    },
+    {
+      "path": "backend/resources/runtime/9b8c4a73fe039a704ca9a921c6cc5368d9c4a11c7f1e898bb4e308c6db9b458b.csv",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/raw/local/my-thanh-v1/tables/soilgrids-soc-n-cec-physical.csv",
+      "source_worktree_changed": false,
+      "imported_sha256": "9b8c4a73fe039a704ca9a921c6cc5368d9c4a11c7f1e898bb4e308c6db9b458b"
+    },
+    {
+      "path": "backend/resources/runtime/5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/raw/resource-eda/power-dashboard-20261114/daily.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b"
+    },
+    {
+      "path": "backend/resources/runtime/a4c18d679d6b3f93d8b5789f274e4d7ad82a6b6d1376143a90a9f93e2039b321.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/raw/satellite-context-2026-11-14/modis/bands.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "a4c18d679d6b3f93d8b5789f274e4d7ad82a6b6d1376143a90a9f93e2039b321"
+    },
+    {
+      "path": "backend/resources/runtime/9953c3f58fe9d056fecdf47eec61bf3da804e3ff9dec1f9fdf933479ae3dd1f5.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/raw/satellite-context-2026-11-14/smap-l4/manifest.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "9953c3f58fe9d056fecdf47eec61bf3da804e3ff9dec1f9fdf933479ae3dd1f5"
+    },
+    {
+      "path": "backend/resources/runtime/8569073391489781262edaed7f30ec04b333a9fa04028e084e0788b9888dec98.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "data/raw/v2/agronomy/sources.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "8569073391489781262edaed7f30ec04b333a9fa04028e084e0788b9888dec98"
+    },
+    {
+      "path": "backend/resources/runtime/782002c8892cae964a46704d4a1db9cf5be8090714ec12771b6365bc5c9988ea.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/ai-baseline-v1/rag-selection-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "782002c8892cae964a46704d4a1db9cf5be8090714ec12771b6365bc5c9988ea"
+    },
+    {
+      "path": "backend/resources/runtime/665c06280c9cb8e5e41cfb8fa56f59350f917f264f6e2cff594cb6b8f12cd0e3.csv",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/local-evidence-2026-11-14/bilingual-source-register.csv",
+      "source_worktree_changed": false,
+      "imported_sha256": "665c06280c9cb8e5e41cfb8fa56f59350f917f264f6e2cff594cb6b8f12cd0e3"
+    },
+    {
+      "path": "backend/resources/runtime/c995da98f092dbc2ddd43810646fa0853aa68299d6836725fb5fa25fc1c56f46.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-selected/artifact-manifest.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c995da98f092dbc2ddd43810646fa0853aa68299d6836725fb5fa25fc1c56f46"
+    },
+    {
+      "path": "backend/resources/runtime/da626447d1e120ab03369b18abbd61119152697ba6bce6b1ec34ead1d3dc6086.joblib",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/air_rh_mean_pct-h1/model.joblib",
+      "source_worktree_changed": false,
+      "imported_sha256": "da626447d1e120ab03369b18abbd61119152697ba6bce6b1ec34ead1d3dc6086"
+    },
+    {
+      "path": "backend/resources/runtime/b2ea9a1b53cfb5058d4c31cc4faa4d544d7709c7d64b3be54cd90f633eb7388b.joblib",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/air_rh_mean_pct-h3/model.joblib",
+      "source_worktree_changed": false,
+      "imported_sha256": "b2ea9a1b53cfb5058d4c31cc4faa4d544d7709c7d64b3be54cd90f633eb7388b"
+    },
+    {
+      "path": "backend/resources/runtime/f5955ba0581e4087a83e94f890e6c816f6d17a9ed32b5203b57f0b01afd4f3a2.joblib",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/air_temp_mean_c-h1/model.joblib",
+      "source_worktree_changed": false,
+      "imported_sha256": "f5955ba0581e4087a83e94f890e6c816f6d17a9ed32b5203b57f0b01afd4f3a2"
+    },
+    {
+      "path": "backend/resources/runtime/6e002b1bfc290daf21de44f2284f4927dd0b7a43d08d76048daaddf2ebc3a27f.joblib",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/air_temp_mean_c-h3/model.joblib",
+      "source_worktree_changed": false,
+      "imported_sha256": "6e002b1bfc290daf21de44f2284f4927dd0b7a43d08d76048daaddf2ebc3a27f"
+    },
+    {
+      "path": "backend/resources/runtime/6f391b23e9f8759b3832d7b502d1db5a8a045fdcbb0bbd91fd1dcd4a90efdff4.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/bands-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "6f391b23e9f8759b3832d7b502d1db5a8a045fdcbb0bbd91fd1dcd4a90efdff4"
+    },
+    {
+      "path": "backend/resources/runtime/61b4e29b86150d10f65f83c48165eb56eb65ce82b22906e4c2e654bcadf66390.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/corpus-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "61b4e29b86150d10f65f83c48165eb56eb65ce82b22906e4c2e654bcadf66390"
+    },
+    {
+      "path": "backend/resources/runtime/e22531b38e4a64c9478adf36c72b4b6b910251663802ac35ac1772ced07d4c40.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/data-manifest.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "e22531b38e4a64c9478adf36c72b4b6b910251663802ac35ac1772ced07d4c40"
+    },
+    {
+      "path": "backend/resources/runtime/5eab71f5f627e2f707099984570d6f74b3b2a78c5adce69a45090997d5d68fba.joblib",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/precip_sum_mm-h1/model.joblib",
+      "source_worktree_changed": false,
+      "imported_sha256": "5eab71f5f627e2f707099984570d6f74b3b2a78c5adce69a45090997d5d68fba"
+    },
+    {
+      "path": "backend/resources/runtime/147cd378239cd7e9d60eb66eba0ffc7051ea33c64dea84308f7769a043f8f534.joblib",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/precip_sum_mm-h3/model.joblib",
+      "source_worktree_changed": false,
+      "imported_sha256": "147cd378239cd7e9d60eb66eba0ffc7051ea33c64dea84308f7769a043f8f534"
+    },
+    {
+      "path": "backend/resources/runtime/c94396cf86beb0746d29ae7b45a56bd00cce3b0151f564ba5b08d4975bbe502b.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v3/selection-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "c94396cf86beb0746d29ae7b45a56bd00cce3b0151f564ba5b08d4975bbe502b"
+    },
+    {
+      "path": "backend/resources/runtime/6422b57aabaeabb097023c9111e8c5cd2548d70b9facd14d382f4e7454c058fc.json",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-fieldshift-lab.git",
+      "source_commit": "c01519e6257a0788c453964f8dfe12c754c7cfed",
+      "source_path": "runs/research-v4-refined/selection-frozen.json",
+      "source_worktree_changed": false,
+      "imported_sha256": "6422b57aabaeabb097023c9111e8c5cd2548d70b9facd14d382f4e7454c058fc"
+    },
+    {
+      "path": "presentation/06-VIET-SLIDES-4-5-EN-VI.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/06-VIET-SLIDES-4-5-EN-VI.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "d3488462e39d3f9d74ee7969f13ad8494b878219650c3a70a616fe131cbf1a16"
+    },
+    {
+      "path": "presentation/ArgoTwin-Pitch.html",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/ArgoTwin-Pitch.html",
+      "source_worktree_changed": true,
+      "imported_sha256": "4dad9d0e39bf951d0bf105296204e52a924d2a1c4dc84b20ba79c05414242814"
+    },
+    {
+      "path": "presentation/ArgoTwin-Pitch.pdf",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/ArgoTwin-Pitch.pdf",
+      "source_worktree_changed": true,
+      "imported_sha256": "60e52169b6f3eebffb8ba2bbeafb66d223f4f6c99213432bd33502d994118a75"
+    },
+    {
+      "path": "presentation/README.md",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/README.md",
+      "source_worktree_changed": true,
+      "imported_sha256": "144633d3162df7c6ff6ac17fabbbf316441e35045f2fc2da9b9c44b1205883d8"
+    },
+    {
+      "path": "presentation/build.py",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/build.py",
+      "source_worktree_changed": false,
+      "imported_sha256": "e916bd9b362d99aa9827db7c21076755264e61d6d3e4601839af7a79ad07d38e"
+    },
+    {
+      "path": "presentation/slides/assets/architecture-v4.svg",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/slides/assets/architecture-v4.svg",
+      "source_worktree_changed": false,
+      "imported_sha256": "5350736dd4c0ce2b48e0a04636ebe2c681058827344eda1dc933d79af05a664a"
+    },
+    {
+      "path": "presentation/slides/assets/field-evidence.svg",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/slides/assets/field-evidence.svg",
+      "source_worktree_changed": false,
+      "imported_sha256": "8c1695c880ff6bd4f17dee9b4668fe135f96562feecebd8f62e3035c73bf2653"
+    },
+    {
+      "path": "presentation/slides/assets/neurax-transparent.png",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/slides/assets/neurax-transparent.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "e10ed55fd3347c7ea0460fe89b603a9259d111fadc276f81eadee867c35d6bb4"
+    },
+    {
+      "path": "presentation/slides/assets/spaceapps-logo.png",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/slides/assets/spaceapps-logo.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "07239c79e7036bef690b4ef59605a0ec03af4ad740465b10147eacdec0d20219"
+    },
+    {
+      "path": "presentation/slides/index.html",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/slides/index.html",
+      "source_worktree_changed": true,
+      "imported_sha256": "451de729e6b24dba3b6cb8c549412a99c14a9f16e9993562f098f7e36b5c86c2"
+    },
+    {
+      "path": "presentation/slides/static.css",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/slides/static.css",
+      "source_worktree_changed": true,
+      "imported_sha256": "b1c9613f7841a5fe0f8367b9d4d29534e994e104da0c4d8d8f976340880e2c70"
+    },
+    {
+      "path": "presentation/slides/assets/dashboard-hung-v4.png",
+      "source_repository": "https://github.com/NeuraX-Lab/neurax-docs.git",
+      "source_commit": "8d81cc54a67b1e46772e6baa589760ae511debaa",
+      "source_path": "nasa-space-apps-2026/pitch/argotwin/slides/assets/dashboard-hung-v4.png",
+      "source_worktree_changed": true,
+      "imported_sha256": "052f7353a84971aee1a592621b1c48885d033082b1782193ddc1b9a463f1e5b7"
+    },
+    {
+      "path": "presentation/07-FULL-PITCH-EN.md",
+      "source": "Reviewed local presentation deliverable, 2026-11-15",
+      "imported_sha256": "e670cc64effe53d857a7308eec34e2c2d1bb1d62ae531939f612e7003ffb330c"
+    },
+    {
+      "path": "presentation/02-DEEP-QA-EN-VI.md",
+      "source": "Reviewed local presentation deliverable, 2026-11-15",
+      "imported_sha256": "83c2931aa767cf2c17dbdb58b4022c0e98ef821cf550b871c68b57f25daf666a"
+    },
+    {
+      "path": "docs/ArgoTwin-V4-Architecture.md",
+      "source": "Reviewed local presentation deliverable, 2026-11-15",
+      "imported_sha256": "89d9a2021b2593624babdb475b8c7f426528d40a07d81f6e662d6d4445be25ad"
+    },
+    {
+      "path": "docs/ArgoTwin-V4-Validation.md",
+      "source": "Reviewed local presentation deliverable, 2026-11-15",
+      "imported_sha256": "f9e434f0a4c58917e5ce80b0cd77f0ea9f8bfdb042e517c622ca7652121593f2"
+    },
+    {
+      "path": "docs/hardware-integration.md",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "docs/integration/V4_ESP32_INTEGRATION_REPORT.md",
+      "source_worktree_changed": false,
+      "imported_sha256": "1c291e1f2bcdb19b8a1b5b7560eb1178ee69b995f866ca3f7625b010ec26ce27"
+    },
+    {
+      "path": "docs/images/dashboard.png",
+      "source_repository": "https://github.com/NeuraX-Lab/nasasac26-neurax.git",
+      "source_commit": "273c1fd509ceac0ab4acbf236b55b2e40cd9e8c1",
+      "source_path": "docs/integration/evidence/after-desktop-observe.png",
+      "source_worktree_changed": false,
+      "imported_sha256": "ebbb6f895c800928567dd1fff716e451f30125c206f20979af2ec991b11f7877"
+    }
+  ]
+}

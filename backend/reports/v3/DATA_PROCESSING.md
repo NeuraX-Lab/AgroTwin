@@ -1,0 +1,11 @@
+# Frozen NASA + LOCAL data
+
+See `evidence/data-manifest.json`: byte hashes for 380 files, schema, units, source product metadata/URLs, retained AOI and monthly period 1984-01 to 2026-10 (514 months). `evidence/corpus-frozen.json` pins all 17 v2 bilingual cards and source hashes. Raw files remain untouched and ignored by Git. The manifest includes existing satellite context and LOCAL references; it does not add them as weather labels.
+
+Raw POWER daily UTC data are reaggregated independently in `scripts/audit_research.py`: rain sum, temperature/RH mean, complete calendar-day counts, fill values as missing. Zero rain is preserved. Original v2 monthly coverage/one-to-one joins are verified. No critical preprocessing error in existing v2 aggregation or feature lags has been demonstrated. No spatial generalization is measured; LOCAL station/soil references do not become site-aligned weather or crop outcome labels. Sparse early SMAP stays missing. No fill, outlier deletion or retrospective interpolation is introduced.
+
+For target month t and horizon h, origin=t-h and latest allowed observation=t-h-1. All methods use the same quarterly expanding refits, monthly feature updates and evaluation samples. Scaler and seasonal feature centering fit only available training rows. Changing any observations after the allowed cutoff cannot change a fitted model's prediction for that target. This is explicitly a rolling hindcast with updated observations, not a multi-year forecast issued once.
+
+Historical v1 uses previous-month features without the extra v2 latency buffer. V1/v2 train history length and test years differ; their published MAEs are not directly ranked. New shared-protocol comparator results are separate from exact historical reproduction.
+
+Data availability/release vintage is not archived. Results describe retrospective regional gridded estimates, not independently measured field rain or verified operational forecast skill. Manifest source retrieval timestamps are inherited metadata, not independently authenticated original download times. `runs/latest` did not exist; it is not claimed as evidence. Authoritative evidence is the frozen v2 manifest, actual raw files and new audit artifacts.

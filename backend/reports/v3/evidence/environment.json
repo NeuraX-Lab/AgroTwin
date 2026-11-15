@@ -1,0 +1,9 @@
+{
+  "python": "3.12.7",
+  "sklearn": "1.5.1",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "git_source": "c6fad2b9959694ce645f02a8be09c03c216692d3",
+  "branch": "research/ai-v3-causal-validation",
+  "protocol_sha256": "b0357d58c025bf7ade9d480b11ef21497d743fd73e93ea0cc54d651a3af9de81"
+}

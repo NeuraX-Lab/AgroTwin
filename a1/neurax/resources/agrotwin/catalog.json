@@ -1,0 +1,479 @@
+{
+  "version": "2026-11-13.2",
+  "evidence_class": "REGIONAL_HISTORICAL",
+  "scope": "Historical reference sequences only; applicability to the illustrative block is unapproved",
+  "rotations": [
+    {
+      "id": "R0",
+      "crops": [
+        "rice",
+        "rice",
+        "rice"
+      ],
+      "is_current": null,
+      "status": "historical_reference"
+    },
+    {
+      "id": "R1",
+      "crops": [
+        "rice",
+        "baby_corn",
+        "rice"
+      ],
+      "is_current": null,
+      "status": "historical_reference"
+    },
+    {
+      "id": "R2",
+      "crops": [
+        "rice",
+        "mung_bean",
+        "rice"
+      ],
+      "is_current": null,
+      "status": "historical_reference"
+    }
+  ],
+  "rules": [
+    {
+      "id": "K1-DRAFT-DRAINAGE",
+      "applies_to": [
+        "R1",
+        "R2"
+      ],
+      "kind": "qualitative_constraint_candidate",
+      "statement": "Review drainage and waterlogging conditions before introducing an upland crop into the paddy sequence",
+      "source_ids": [
+        "S4",
+        "EXT-MUNG-2018",
+        "AGRO-BABY-2008"
+      ],
+      "required_inputs": [
+        "drainage_condition",
+        "waterlogging_history",
+        "management_plan"
+      ],
+      "threshold": null,
+      "status": "needs_domain_review",
+      "missing_input_behavior": "needs_review",
+      "auto_exclusion_allowed": false,
+      "reconciliation_claim_ids": [
+        "R1-SOIL",
+        "R1-WATER",
+        "R2-WATER"
+      ],
+      "bich_submission_reconciled": true,
+      "unsupported_submission_claims": [
+        {
+          "value": "24-48 hours",
+          "adopted_threshold_hours": null,
+          "status": "unknown",
+          "cell": "CJ11"
+        },
+        {
+          "claim": "poor drainage necessarily kills baby corn",
+          "status": "unknown_as_unconditional_rule",
+          "cell": "CJ7"
+        }
+      ],
+      "approval_state": "draft",
+      "reviewer": null,
+      "numeric_reviewer": null,
+      "scope_aoi_ids": [
+        "MT-BLOCK-01"
+      ],
+      "year": "source_specific_historical",
+      "season": "not_approved_for_current_field",
+      "unit_method": "See cited source; no adopted numeric threshold",
+      "crop_variety": {
+        "crop_ids": [
+          "baby_corn",
+          "mung_bean",
+          "rice"
+        ],
+        "variety": null,
+        "local_applicability": "unknown"
+      },
+      "condition": "Review drainage and waterlogging conditions before introducing an upland crop into the paddy sequence",
+      "source_refs": [
+        {
+          "id": "S4",
+          "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/605/3214/3214",
+          "year": null,
+          "year_status": "source-specific; not adopted as a pooled rule year",
+          "region_scope": "Long Khanh and Vinh My historical experiments",
+          "page_locator": "PDF p2 methods; p4-5 discussion/Table4"
+        },
+        {
+          "id": "EXT-MUNG-2018",
+          "url": "https://khuyennongvn.gov.vn/hoat-dong-khuyen-nong/chuyen-giao-tbkt/quang-tri-hieu-qua-mo-hinh-chuyen-doi-cay-dau-xanh-tren-dat-lua-thieu-nuoc-17502.html",
+          "year": null,
+          "year_status": "source-specific; not adopted as a pooled rule year",
+          "region_scope": "Cam Lo, Quang Tri; DX208 demonstration",
+          "page_locator": "Drainage and irrigation discussion"
+        },
+        {
+          "id": "AGRO-BABY-2008",
+          "url": "https://agro.gov.vn/vn/tID11656_Ky-thuat-trong-ngo-bao-tu.html",
+          "year": null,
+          "year_status": "source-specific; not adopted as a pooled rule year",
+          "region_scope": "Archived cultivation guidance with spring/winter calendar; not a My Thanh study",
+          "page_locator": "Sections 1, 3 and 6"
+        }
+      ]
+    },
+    {
+      "id": "K1-DRAFT-IRRIGATION",
+      "applies_to": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "kind": "qualitative_constraint_candidate",
+      "statement": "Rainfall alone does not establish available water; review irrigation supply and crop-stage demand",
+      "source_ids": [
+        "EXT-MUNG-2018",
+        "AGRO-BABY-2008"
+      ],
+      "required_inputs": [
+        "irrigation_access",
+        "supply_calendar",
+        "water_quality",
+        "crop_stage_requirements"
+      ],
+      "threshold": null,
+      "status": "needs_domain_review",
+      "missing_input_behavior": "needs_review",
+      "auto_exclusion_allowed": false,
+      "reconciliation_claim_ids": [
+        "R0-WATER",
+        "R1-WATER",
+        "R2-WATER"
+      ],
+      "bich_submission_reconciled": true,
+      "approval_state": "draft",
+      "reviewer": null,
+      "numeric_reviewer": null,
+      "scope_aoi_ids": [
+        "MT-BLOCK-01"
+      ],
+      "year": "source_specific_historical",
+      "season": "not_approved_for_current_field",
+      "unit_method": "See cited source; no adopted numeric threshold",
+      "crop_variety": {
+        "crop_ids": [
+          "baby_corn",
+          "mung_bean",
+          "rice"
+        ],
+        "variety": null,
+        "local_applicability": "unknown"
+      },
+      "condition": "Rainfall alone does not establish available water; review irrigation supply and crop-stage demand",
+      "source_refs": [
+        {
+          "id": "EXT-MUNG-2018",
+          "url": "https://khuyennongvn.gov.vn/hoat-dong-khuyen-nong/chuyen-giao-tbkt/quang-tri-hieu-qua-mo-hinh-chuyen-doi-cay-dau-xanh-tren-dat-lua-thieu-nuoc-17502.html",
+          "year": null,
+          "year_status": "source-specific; not adopted as a pooled rule year",
+          "region_scope": "Cam Lo, Quang Tri; DX208 demonstration",
+          "page_locator": "Drainage and irrigation discussion"
+        },
+        {
+          "id": "AGRO-BABY-2008",
+          "url": "https://agro.gov.vn/vn/tID11656_Ky-thuat-trong-ngo-bao-tu.html",
+          "year": null,
+          "year_status": "source-specific; not adopted as a pooled rule year",
+          "region_scope": "Archived cultivation guidance with spring/winter calendar; not a My Thanh study",
+          "page_locator": "Sections 1, 3 and 6"
+        }
+      ]
+    },
+    {
+      "id": "K1-DRAFT-BABY-TIMING",
+      "applies_to": [
+        "R1"
+      ],
+      "kind": "timing_evidence_candidate",
+      "statement": "Published baby-corn guidance reports an approximate crop cycle; transferability and cultivar must be reviewed before testing a planting window",
+      "source_ids": [
+        "AGRO-BABY-2008"
+      ],
+      "reported_observation": {
+        "minimum": 70,
+        "maximum": 80,
+        "unit": "days",
+        "meaning": "cycle stated in this archived guidance; not adopted as a My Thanh requirement"
+      },
+      "required_inputs": [
+        "baby_corn_cultivar",
+        "sowing_date",
+        "harvest_completion_date",
+        "transition_days",
+        "next_rice_sowing_date",
+        "applicable_duration_evidence"
+      ],
+      "adopted_duration_days": null,
+      "status": "needs_domain_review",
+      "missing_input_behavior": "needs_review",
+      "auto_exclusion_allowed": false,
+      "reconciliation_claim_ids": [
+        "R1-CROP",
+        "R1-SEASON"
+      ],
+      "bich_submission_reconciled": true,
+      "submission_duration_claim": {
+        "minimum": 50,
+        "maximum": 60,
+        "unit": "days",
+        "cell": "P8",
+        "status": "unknown",
+        "relationship_to_reported_observation": "Not established as comparable; no pooled or substituted duration"
+      },
+      "approval_state": "draft",
+      "reviewer": null,
+      "numeric_reviewer": null,
+      "scope_aoi_ids": [
+        "MT-BLOCK-01"
+      ],
+      "year": "source_specific_historical",
+      "season": "not_approved_for_current_field",
+      "unit_method": "See cited source; no adopted numeric threshold",
+      "crop_variety": {
+        "crop_ids": [
+          "baby_corn",
+          "rice"
+        ],
+        "variety": null,
+        "local_applicability": "unknown"
+      },
+      "condition": "Published baby-corn guidance reports an approximate crop cycle; transferability and cultivar must be reviewed before testing a planting window",
+      "source_refs": [
+        {
+          "id": "AGRO-BABY-2008",
+          "url": "https://agro.gov.vn/vn/tID11656_Ky-thuat-trong-ngo-bao-tu.html",
+          "year": null,
+          "year_status": "source-specific; not adopted as a pooled rule year",
+          "region_scope": "Archived cultivation guidance with spring/winter calendar; not a My Thanh study",
+          "page_locator": "Sections 1, 3 and 6"
+        }
+      ]
+    },
+    {
+      "id": "K1-DRAFT-MUNG-TIMING",
+      "applies_to": [
+        "R2"
+      ],
+      "kind": "cultivar_specific_timing_evidence",
+      "statement": "DX208 duration was reported in a specific Ha Tinh trial; it is not a generic mung-bean duration or evidence that this cultivar is used at My Thanh",
+      "source_ids": [
+        "VAAS-MUNG-2014"
+      ],
+      "reported_observation": {
+        "value": 65,
+        "unit": "days",
+        "cultivar": "DX208",
+        "location": "Huong Son, Ha Tinh",
+        "seasons": "summer 2010 and 2011",
+        "locator": "Table2"
+      },
+      "required_inputs": [
+        "mung_bean_cultivar",
+        "applicable_duration_evidence",
+        "sowing_date",
+        "harvest_completion_date",
+        "transition_days",
+        "next_rice_sowing_date"
+      ],
+      "adopted_duration_days": null,
+      "status": "needs_domain_review",
+      "missing_input_behavior": "needs_review",
+      "auto_exclusion_allowed": false,
+      "reconciliation_claim_ids": [
+        "R2-CROP",
+        "R2-SEASON"
+      ],
+      "bich_submission_reconciled": true,
+      "submission_duration_claim": {
+        "minimum": 60,
+        "maximum": 70,
+        "unit": "days",
+        "cell": "P12",
+        "status": "unknown",
+        "relationship_to_reported_observation": "Range overlap with the DX208 trial is not validation"
+      },
+      "approval_state": "draft",
+      "reviewer": null,
+      "numeric_reviewer": null,
+      "scope_aoi_ids": [
+        "MT-BLOCK-01"
+      ],
+      "year": "source_specific_historical",
+      "season": "not_approved_for_current_field",
+      "unit_method": "See cited source; no adopted numeric threshold",
+      "crop_variety": {
+        "crop_ids": [
+          "mung_bean",
+          "rice"
+        ],
+        "variety": null,
+        "local_applicability": "unknown"
+      },
+      "condition": "DX208 duration was reported in a specific Ha Tinh trial; it is not a generic mung-bean duration or evidence that this cultivar is used at My Thanh",
+      "source_refs": [
+        {
+          "id": "VAAS-MUNG-2014",
+          "url": "https://tapchi.vaas.vn/sites/tapchi.vaas.vn/files/tapchi/2021-09/tc14_14.pdf",
+          "year": null,
+          "year_status": "source-specific; not adopted as a pooled rule year",
+          "region_scope": "Huong Son, Ha Tinh; summer trials 2010 and 2011",
+          "page_locator": "PDF p2 methods; p3 Table2; p4 conclusion"
+        }
+      ]
+    },
+    {
+      "id": "K1-DRAFT-SOIL-STRUCTURE",
+      "applies_to": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "kind": "outcome_interpretation_constraint",
+      "statement": "Do not infer a superior rotation from the reported nonsignificant Long Khanh aggregate-stability comparisons at the reported depths; this does not generalize to every physical soil property.",
+      "source_ids": [
+        "S4"
+      ],
+      "required_inputs": [
+        "chosen_outcome",
+        "applicable_soil_evidence",
+        "reviewed_comparison_method"
+      ],
+      "numeric_weight": null,
+      "status": "needs_domain_review",
+      "missing_input_behavior": "score_null",
+      "auto_exclusion_allowed": false,
+      "reconciliation_claim_ids": [
+        "R0-SOIL",
+        "R1-SOIL",
+        "R2-SOIL"
+      ],
+      "bich_submission_reconciled": true,
+      "approval_state": "draft",
+      "reviewer": null,
+      "numeric_reviewer": null,
+      "scope_aoi_ids": [
+        "MT-BLOCK-01"
+      ],
+      "year": "source_specific_historical",
+      "season": "not_approved_for_current_field",
+      "unit_method": "See cited source; no adopted numeric threshold",
+      "crop_variety": {
+        "crop_ids": [
+          "baby_corn",
+          "mung_bean",
+          "rice"
+        ],
+        "variety": null,
+        "local_applicability": "unknown"
+      },
+      "condition": "Do not infer a superior rotation from the reported nonsignificant Long Khanh aggregate-stability comparisons at the reported depths; this does not generalize to every physical soil property.",
+      "source_refs": [
+        {
+          "id": "S4",
+          "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/605/3214/3214",
+          "year": null,
+          "year_status": "source-specific; not adopted as a pooled rule year",
+          "region_scope": "Long Khanh and Vinh My historical experiments",
+          "page_locator": "PDF p2 methods; p4-5 discussion/Table4"
+        }
+      ]
+    },
+    {
+      "id": "K1-DRAFT-CLIMATE-RESPONSE",
+      "applies_to": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "kind": "missing_method",
+      "statement": "Climate features may contextualize the references; no reviewed numeric feature-to-crop response function is available yet",
+      "source_ids": [],
+      "required_inputs": [
+        "crop_specific_response_rule",
+        "appropriate_feature_units",
+        "temporal_alignment",
+        "water_management_inputs",
+        "review_approval"
+      ],
+      "formula": null,
+      "status": "blocked_missing_method",
+      "missing_input_behavior": "score_null_and_scenario_unavailable",
+      "auto_exclusion_allowed": false,
+      "reconciliation_claim_ids": [
+        "R0-SEASON",
+        "R2-SEASON"
+      ],
+      "bich_submission_reconciled": true,
+      "approval_state": "draft",
+      "reviewer": null,
+      "numeric_reviewer": null,
+      "scope_aoi_ids": [
+        "MT-BLOCK-01"
+      ],
+      "year": "source_specific_historical",
+      "season": "not_approved_for_current_field",
+      "unit_method": "See cited source; no adopted numeric threshold",
+      "crop_variety": {
+        "crop_ids": [
+          "baby_corn",
+          "mung_bean",
+          "rice"
+        ],
+        "variety": null,
+        "local_applicability": "unknown"
+      },
+      "condition": "Climate features may contextualize the references; no reviewed numeric feature-to-crop response function is available yet",
+      "source_refs": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "S4",
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/605/3214/3214",
+      "scope": "Long Khanh and Vinh My historical experiments",
+      "locator": "PDF p2 methods; p4-5 discussion/Table4",
+      "reading_status": "read_in_prior_feasibility_pass"
+    },
+    {
+      "id": "S5",
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/597/3222/3222",
+      "scope": "Diked Cai Lay experimental field; 2005 measurements on experiment continuing from 2001",
+      "locator": "PDF p2-3 methods/Table1",
+      "reading_status": "read_in_prior_feasibility_pass"
+    },
+    {
+      "id": "EXT-MUNG-2018",
+      "url": "https://khuyennongvn.gov.vn/hoat-dong-khuyen-nong/chuyen-giao-tbkt/quang-tri-hieu-qua-mo-hinh-chuyen-doi-cay-dau-xanh-tren-dat-lua-thieu-nuoc-17502.html",
+      "scope": "Cam Lo, Quang Tri; DX208 demonstration",
+      "locator": "Drainage and irrigation discussion",
+      "reading_status": "read_in_prior_feasibility_pass"
+    },
+    {
+      "id": "AGRO-BABY-2008",
+      "url": "https://agro.gov.vn/vn/tID11656_Ky-thuat-trong-ngo-bao-tu.html",
+      "scope": "Archived cultivation guidance with spring/winter calendar; not a My Thanh study",
+      "locator": "Sections 1, 3 and 6",
+      "reading_status": "page_read_2026-11-13",
+      "evidence_limit": "Archived guidance, not a locally validated response function"
+    },
+    {
+      "id": "VAAS-MUNG-2014",
+      "url": "https://tapchi.vaas.vn/sites/tapchi.vaas.vn/files/tapchi/2021-09/tc14_14.pdf",
+      "scope": "Huong Son, Ha Tinh; summer trials 2010 and 2011",
+      "locator": "PDF p2 methods; p3 Table2; p4 conclusion",
+      "reading_status": "PDF_read_2026-11-13",
+      "evidence_limit": "Source abstract text has OCR/inconsistency issues; Table2 and methods were used for the specific duration observation"
+    }
+  ],
+  "metadata_note": "Source-specific locators retained. Null year/variety/local approval require review; no pooled agronomic rule asserted."
+}

@@ -1,0 +1,25 @@
+# Local environments, credentials and generated work
+.venv*/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+dist/
+build/
+*.log
+*.tsbuildinfo
+test-results/
+playwright-report/
+artifacts/
+# Runtime is restored from the checked manifest; never commit raw publications.
+backend/data/
+backend/runs/
+a1/runs/
+runs/
+.DS_Store
+Thumbs.db

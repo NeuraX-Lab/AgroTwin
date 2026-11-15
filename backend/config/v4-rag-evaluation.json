@@ -1,0 +1,36 @@
+{
+ "scope":"Authored deterministic evidence-sufficiency cases. Final is sealed during development, not independently expert-labeled. Original v2 cases are exposed regressions.",
+ "development":[
+  {"q":"Rice protein content per 100 grams?","abstain":true},
+  {"q":"Wheat irrigation requirements?","abstain":true},
+  {"q":"Does rice grow on Mars?","abstain":true},
+  {"q":"How much arsenic is safe in rice?","abstain":true},
+  {"q":"pH electrode calibration procedure?","abstain":true},
+  {"q":"Rice export tariff and market contract?","abstain":true},
+  {"q":"Mungbean vitamin content?","abstain":true},
+  {"q":"Current water level at my field?","abstain":true},
+  {"q":"How does mungbean drainage prevent waterlogging?","id":"mungbean-water"},
+  {"q":"Is baby corn first harvest the field release date?","id":"babycorn-duration"},
+  {"q":"Can NDVI directly measure soil NPK?","id":"optical-limits"},
+  {"q":"Why preserve the pH measurement method and depth?","id":"soil-ph-method"},
+  {"q":"Does the rotation trial use sesame and soybean?","id":"rotation-counterexample"}
+ ],
+ "final":[
+  {"q":"Does mungbean contain allergens?","abstain":true},
+  {"q":"Rice futures trading margin requirements?","abstain":true},
+  {"q":"Can POWER diagnose malaria?","abstain":true},
+  {"q":"Baby corn genetic modification safety?","abstain":true},
+  {"q":"Soil pH electrode voltage calibration steps?","abstain":true},
+  {"q":"SFMC value measured by my sensor now?","abstain":true},
+  {"q":"How much rice arsenic may a child eat?","abstain":true},
+  {"q":"Can SMAP predict tomorrow's electricity price?","abstain":true},
+  {"q":"Bắp non thu lần đầu có khác ngày giải phóng đất?","id":"babycorn-duration"},
+  {"q":"Đậu xanh có tránh đất úng, phèn và mặn?","id":"mungbean-water"},
+  {"q":"SoilGrids quantiles versus replicate soil samples?","id":"soilgrid-limits"},
+  {"q":"RZMC is root-zone volumetric moisture, right?","id":"smap-moisture"},
+  {"q":"Can an inland field copy a coastal rice shrimp calendar?","id":"salinity-scope-2026"},
+  {"q":"Does rice AWD require field water level monitoring?","id":"rice-awd-2024"},
+  {"q":"How are ETc Kc and ET0 related?","id":"crop-water-formula"},
+  {"q":"T2M air temperature and RH2M humidity are not soil moisture?","id":"power-temperature"}
+ ]
+}

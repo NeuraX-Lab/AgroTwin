@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "task": "precip_sum_mm-h1",
+      "forecast": 33.67952380952381,
+      "target_month": "2026-12-01",
+      "artifact_bytes": 1411
+    },
+    {
+      "task": "precip_sum_mm-h3",
+      "forecast": 7.0167441860465125,
+      "target_month": "2027-02-01",
+      "artifact_bytes": 1411
+    },
+    {
+      "task": "air_temp_mean_c-h1",
+      "forecast": 26.032250384024582,
+      "target_month": "2026-12-01",
+      "artifact_bytes": 1409
+    },
+    {
+      "task": "air_temp_mean_c-h3",
+      "forecast": 28.380205636384463,
+      "target_month": "2027-02-01",
+      "artifact_bytes": 1409
+    },
+    {
+      "task": "air_rh_mean_pct-h1",
+      "forecast": 78.04268817204301,
+      "target_month": "2026-12-01",
+      "artifact_bytes": 1412
+    },
+    {
+      "task": "air_rh_mean_pct-h3",
+      "forecast": 62.49958471760798,
+      "target_month": "2027-02-01",
+      "artifact_bytes": 1412
+    }
+  ],
+  "dataset_hashes_valid": true
+}

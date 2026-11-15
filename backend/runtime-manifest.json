@@ -1,0 +1,214 @@
+{
+  "selected_system": "v4",
+  "source_archive_sha256": "762e92fe91182b3228d93599088fa54afce5d8e91edfec8622e1d162b6ace872",
+  "notes": "Exact frozen bytes; six tiny trusted climatology artifacts, no retraining. External publications excluded.",
+  "files": [
+    {
+      "path": "data/processed/data-block-v1/context/sentinel2-scenes.csv",
+      "bytes": 2384,
+      "sha256": "b666cf3773dc7018fe070c79602cfab3b69d7e60ef0bf083d7a2e2e428f6c9a8",
+      "resource": "resources/runtime/b666cf3773dc7018fe070c79602cfab3b69d7e60ef0bf083d7a2e2e428f6c9a8.csv"
+    },
+    {
+      "path": "data/processed/data-block-v1/monthly/environment.csv",
+      "bytes": 70496,
+      "sha256": "7862389744afa1a060502c674b020e8375f0a4cb81771de10ae1152e611832b6",
+      "resource": "resources/runtime/7862389744afa1a060502c674b020e8375f0a4cb81771de10ae1152e611832b6.csv"
+    },
+    {
+      "path": "data/processed/v2/monthly.csv",
+      "bytes": 51181,
+      "sha256": "db9223b74a14fdef76fc50a0e580d92f72b45c8e9e091f53f42084b4ca10eef2",
+      "resource": "resources/runtime/db9223b74a14fdef76fc50a0e580d92f72b45c8e9e091f53f42084b4ca10eef2.csv"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/0c113ad96105d68e1722e7dc1aebc4c01abd41e6ec57867cab29b225290895a2",
+      "bytes": 32886,
+      "sha256": "be0705a639ed81a9be2d2674c1b0bc218582f52b8f4207eedd66ca9c7c98ffd9",
+      "url": "https://nongsanhaugiang.com.vn/vn/seed/NSHG1505885",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/152e9e9a4debda37201d1dd7f22c2031cbfd09799c95794f4f3370daa56f0a6a",
+      "bytes": 622922,
+      "sha256": "75a7dfb90f14019b121c84816834d5318415f98a1955e2da2ae7b5620970c2fa",
+      "url": "https://harc-ias.vn/storage/uploads/files/QTKT%20SX%20dau%20xanh%20DBSCL_%20Final%281%29.pdf",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/_http/http/1815f4b93132355fc813e9428864dd336384f3448561469aafec495b226e9782",
+      "bytes": 1983120,
+      "sha256": "69f3a97b03b3fc232b120ed73c4c7fa574d349d7266f80434d66b275ef8b3e46",
+      "url": "https://elib.vnuf.edu.vn/bitstream/123456789/9570/1/Tai%20lieu%20huong%20dan%20thuc%20hanh%20cay%20luong%20thuc.pdf",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/source-register.json",
+      "bytes": 11971,
+      "sha256": "cdbba036c0a47687e229c6805e9d76a8f38515ceec71dfa9dd99747298f96e6b",
+      "resource": "resources/runtime/cdbba036c0a47687e229c6805e9d76a8f38515ceec71dfa9dd99747298f96e6b.json"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/fao-crop-water.html",
+      "bytes": 36717,
+      "sha256": "2fd4400aa432d1341032a602f2bcf2bb5eff068bac99a5cb9cc09c29875f057a",
+      "url": "https://www.fao.org/4/x0490e/x0490e0a.htm",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/rotation-2017-2020-published2024.pdf",
+      "bytes": 1742973,
+      "sha256": "29b883cb53ab099658f6792f9917d7bc446eb3aca00f9442747bf7802f12a401",
+      "url": "https://www.mdpi.com/2073-4395/14/6/1185/pdf",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/rotation-carbon-n-2009.pdf",
+      "bytes": 406859,
+      "sha256": "316c7b190c8db3959b2b54096ce9434fe38d21aa0f8373a31a29157d69995155",
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/597/3222",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/previous-evidence/rotation-physical-2009.pdf",
+      "bytes": 354215,
+      "sha256": "ecc93a21a7b965dbc62a1d5722c001d9f2058edb0555708ba85108bb0eee1ccf",
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/605/3214/3214",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/sources/soilgrids/point-properties.json",
+      "bytes": 1652,
+      "sha256": "adad30ecee91f017acd42c46ed1d65579a8f4dc4877bc76b940225c0de9ca407",
+      "resource": "resources/runtime/adad30ecee91f017acd42c46ed1d65579a8f4dc4877bc76b940225c0de9ca407.json"
+    },
+    {
+      "path": "data/raw/local/my-thanh-v1/tables/soilgrids-soc-n-cec-physical.csv",
+      "bytes": 3169,
+      "sha256": "9b8c4a73fe039a704ca9a921c6cc5368d9c4a11c7f1e898bb4e308c6db9b458b",
+      "resource": "resources/runtime/9b8c4a73fe039a704ca9a921c6cc5368d9c4a11c7f1e898bb4e308c6db9b458b.csv"
+    },
+    {
+      "path": "data/raw/resource-eda/power-dashboard-20261114/daily.json",
+      "bytes": 361624,
+      "sha256": "5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b",
+      "resource": "resources/runtime/5f79322e3e361766b22de0c9f3c04b2a2d6410a616caee580e6676883c75750b.json"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/modis/bands.json",
+      "bytes": 3066,
+      "sha256": "a4c18d679d6b3f93d8b5789f274e4d7ad82a6b6d1376143a90a9f93e2039b321",
+      "resource": "resources/runtime/a4c18d679d6b3f93d8b5789f274e4d7ad82a6b6d1376143a90a9f93e2039b321.json"
+    },
+    {
+      "path": "data/raw/satellite-context-2026-11-14/smap-l4/manifest.json",
+      "bytes": 5492,
+      "sha256": "9953c3f58fe9d056fecdf47eec61bf3da804e3ff9dec1f9fdf933479ae3dd1f5",
+      "resource": "resources/runtime/9953c3f58fe9d056fecdf47eec61bf3da804e3ff9dec1f9fdf933479ae3dd1f5.json"
+    },
+    {
+      "path": "data/raw/v2/agronomy/DROUGHT2026.pdf",
+      "bytes": 45182048,
+      "sha256": "51efa2c3d33436b579667c65441705299fda5c1472799e326823772fbf930fa2",
+      "url": "https://khuyennongvn.gov.vn/data/documents/0/2026/10/06/hangweb/st-hanhan-muakho-2026-2027-full.pdf",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/v2/agronomy/MARD2024.pdf",
+      "bytes": 26059098,
+      "sha256": "1dd8cd4859ea0695011c47a306e9a264bc995110751c5ae5ee4215fa5c0c1b9a",
+      "url": "https://khuyennongvn.gov.vn/data/documents/0/2024/03/29/hangweb/so-tay-huong-dan-quy-trinh-1-trieu-ha-dbscl-ngay-27-3-2024.pdf",
+      "redistribution": "Not included; obtain from original publisher and verify checksum."
+    },
+    {
+      "path": "data/raw/v2/agronomy/sources.json",
+      "bytes": 2146,
+      "sha256": "8569073391489781262edaed7f30ec04b333a9fa04028e084e0788b9888dec98",
+      "resource": "resources/runtime/8569073391489781262edaed7f30ec04b333a9fa04028e084e0788b9888dec98.json"
+    },
+    {
+      "path": "runs/ai-baseline-v1/rag-selection-frozen.json",
+      "bytes": 407,
+      "sha256": "782002c8892cae964a46704d4a1db9cf5be8090714ec12771b6365bc5c9988ea",
+      "resource": "resources/runtime/782002c8892cae964a46704d4a1db9cf5be8090714ec12771b6365bc5c9988ea.json"
+    },
+    {
+      "path": "runs/local-evidence-2026-11-14/bilingual-source-register.csv",
+      "bytes": 6046,
+      "sha256": "665c06280c9cb8e5e41cfb8fa56f59350f917f264f6e2cff594cb6b8f12cd0e3",
+      "resource": "resources/runtime/665c06280c9cb8e5e41cfb8fa56f59350f917f264f6e2cff594cb6b8f12cd0e3.csv"
+    },
+    {
+      "path": "runs/research-selected/artifact-manifest.json",
+      "bytes": 1631,
+      "sha256": "c995da98f092dbc2ddd43810646fa0853aa68299d6836725fb5fa25fc1c56f46",
+      "resource": "resources/runtime/c995da98f092dbc2ddd43810646fa0853aa68299d6836725fb5fa25fc1c56f46.json"
+    },
+    {
+      "path": "runs/research-v3/air_rh_mean_pct-h1/model.joblib",
+      "bytes": 1412,
+      "sha256": "da626447d1e120ab03369b18abbd61119152697ba6bce6b1ec34ead1d3dc6086",
+      "resource": "resources/runtime/da626447d1e120ab03369b18abbd61119152697ba6bce6b1ec34ead1d3dc6086.joblib"
+    },
+    {
+      "path": "runs/research-v3/air_rh_mean_pct-h3/model.joblib",
+      "bytes": 1412,
+      "sha256": "b2ea9a1b53cfb5058d4c31cc4faa4d544d7709c7d64b3be54cd90f633eb7388b",
+      "resource": "resources/runtime/b2ea9a1b53cfb5058d4c31cc4faa4d544d7709c7d64b3be54cd90f633eb7388b.joblib"
+    },
+    {
+      "path": "runs/research-v3/air_temp_mean_c-h1/model.joblib",
+      "bytes": 1409,
+      "sha256": "f5955ba0581e4087a83e94f890e6c816f6d17a9ed32b5203b57f0b01afd4f3a2",
+      "resource": "resources/runtime/f5955ba0581e4087a83e94f890e6c816f6d17a9ed32b5203b57f0b01afd4f3a2.joblib"
+    },
+    {
+      "path": "runs/research-v3/air_temp_mean_c-h3/model.joblib",
+      "bytes": 1409,
+      "sha256": "6e002b1bfc290daf21de44f2284f4927dd0b7a43d08d76048daaddf2ebc3a27f",
+      "resource": "resources/runtime/6e002b1bfc290daf21de44f2284f4927dd0b7a43d08d76048daaddf2ebc3a27f.joblib"
+    },
+    {
+      "path": "runs/research-v3/bands-frozen.json",
+      "bytes": 979,
+      "sha256": "6f391b23e9f8759b3832d7b502d1db5a8a045fdcbb0bbd91fd1dcd4a90efdff4",
+      "resource": "resources/runtime/6f391b23e9f8759b3832d7b502d1db5a8a045fdcbb0bbd91fd1dcd4a90efdff4.json"
+    },
+    {
+      "path": "runs/research-v3/corpus-frozen.json",
+      "bytes": 17122,
+      "sha256": "61b4e29b86150d10f65f83c48165eb56eb65ce82b22906e4c2e654bcadf66390",
+      "resource": "resources/runtime/61b4e29b86150d10f65f83c48165eb56eb65ce82b22906e4c2e654bcadf66390.json"
+    },
+    {
+      "path": "runs/research-v3/data-manifest.json",
+      "bytes": 85729,
+      "sha256": "e22531b38e4a64c9478adf36c72b4b6b910251663802ac35ac1772ced07d4c40",
+      "resource": "resources/runtime/e22531b38e4a64c9478adf36c72b4b6b910251663802ac35ac1772ced07d4c40.json"
+    },
+    {
+      "path": "runs/research-v3/precip_sum_mm-h1/model.joblib",
+      "bytes": 1411,
+      "sha256": "5eab71f5f627e2f707099984570d6f74b3b2a78c5adce69a45090997d5d68fba",
+      "resource": "resources/runtime/5eab71f5f627e2f707099984570d6f74b3b2a78c5adce69a45090997d5d68fba.joblib"
+    },
+    {
+      "path": "runs/research-v3/precip_sum_mm-h3/model.joblib",
+      "bytes": 1411,
+      "sha256": "147cd378239cd7e9d60eb66eba0ffc7051ea33c64dea84308f7769a043f8f534",
+      "resource": "resources/runtime/147cd378239cd7e9d60eb66eba0ffc7051ea33c64dea84308f7769a043f8f534.joblib"
+    },
+    {
+      "path": "runs/research-v3/selection-frozen.json",
+      "bytes": 5689,
+      "sha256": "c94396cf86beb0746d29ae7b45a56bd00cce3b0151f564ba5b08d4975bbe502b",
+      "resource": "resources/runtime/c94396cf86beb0746d29ae7b45a56bd00cce3b0151f564ba5b08d4975bbe502b.json"
+    },
+    {
+      "path": "runs/research-v4-refined/selection-frozen.json",
+      "bytes": 3428,
+      "sha256": "6422b57aabaeabb097023c9111e8c5cd2548d70b9facd14d382f4e7454c058fc",
+      "resource": "resources/runtime/6422b57aabaeabb097023c9111e8c5cd2548d70b9facd14d382f4e7454c058fc.json"
+    }
+  ]
+}
