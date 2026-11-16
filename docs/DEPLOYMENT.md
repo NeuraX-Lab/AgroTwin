@@ -2,9 +2,9 @@
 
 The public demo combines the production frontend and the **same selected v4 Python engine** in one Vercel Hobby project. The build restores the frozen runtime and verifies source hashes; it does not fit or promote a model.
 
-**Live dashboard:** https://agrotwin-six.vercel.app/w/my-thanh/farmer
+**Live dashboard:** https://agrotwin-fieldshift.vercel.app/
 
-**Health:** https://agrotwin-six.vercel.app/api/health
+**Health:** https://agrotwin-fieldshift.vercel.app/api/health
 
 ```powershell
 npx vercel@65.16.0 login
