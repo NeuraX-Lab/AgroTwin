@@ -243,7 +243,7 @@ Trả lời câu đầu trong khoảng 10–20 giây; chỉ mở phần giải t
 
 **EN:** First verify local field conditions and obtain agronomic review. Then lock a prospective evaluation and test whether farmers can understand and use the workflow correctly.
 
-**VI:** Bích review domain/K1; Quang Luật kiểm metric/Q1 độc lập; kiểm tọa độ, drainage, EC/pH theo protocol; freeze model/bands và thu actual mới. Hưng/Hiếu ghép UI mới sau khi source được cập nhật. Mỗi bước có owner, acceptance và fallback; không hứa thời hạn hay farmer access chưa xác nhận.
+**VI:** Bích review domain/K1; Quang Luật kiểm metric/Q1 độc lập; kiểm tọa độ, drainage, EC/pH theo protocol; freeze model/bands và thu actual mới. Nhóm tích hợp UI mới sau khi source được cập nhật. Mỗi bước có owner, acceptance và fallback; không hứa thời hạn hay farmer access chưa xác nhận.
 
 ### 38. How would you scale beyond this region?
 

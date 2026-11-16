@@ -4,7 +4,7 @@
 
 AgroTwin helps farmers explore crop rotation questions using NASA climate data, local agricultural references and explicit farm constraints. The dashboard compares three reference rotations, shows monthly climate estimates and their uncertainty, and answers supported questions with traceable citations. When evidence is missing, it asks for more information or abstains.
 
-**[Open the live v4 demo](https://agrotwin-six.vercel.app/w/my-thanh/farmer)** · Hosted on Vercel Hobby. [Deployment notes](docs/DEPLOYMENT.md).
+**[Open the live v4 demo](https://agrotwin-fieldshift.vercel.app/)** · Hosted on Vercel Hobby. [Deployment notes](docs/DEPLOYMENT.md).
 
 ![AgroTwin dashboard](docs/images/dashboard.png)
 
@@ -88,7 +88,11 @@ Additional source-integrity tests require the full source set: from `backend/`, 
 
 ## Team
 
-Lê Nguyễn Gia Hưng · Huỳnh Quốc Việt · Nguyễn Thanh Hằng · Võ Thị Ngọc Bích · Nguyễn Hoàng Quang Luật.
+Participated in NASA International Space Apps Challenge on **14–15 November 2026**, addressing **Field Shift**.
+
+**Team lead: Lê Nguyễn Gia Hưng.** Led product scope, the rotation-comparison workflow, explanation requirements and acceptance criteria, and contributed to core data/AI integration.
+
+**Team:** Lê Nguyễn Gia Hưng · Huỳnh Quốc Việt · Nguyễn Thanh Hằng · Võ Thị Ngọc Bích · Nguyễn Hoàng Quang Luật.
 
 ## License and attribution
 
